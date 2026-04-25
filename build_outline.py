@@ -10,36 +10,28 @@ import json
 import re
 from pathlib import Path
 from dotenv import load_dotenv
+from llm_client import call_llm
 
 BASE_DIR = Path(__file__).parent
 load_dotenv(BASE_DIR / ".env")
 
 JUDGE_MODEL = os.environ.get("AUTONOVEL_JUDGE_MODEL", "claude-sonnet-4-6")
-API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
-API_BASE = os.environ.get("AUTONOVEL_API_BASE_URL", "https://api.anthropic.com")
 CHAPTERS_DIR = BASE_DIR / "chapters"
 
 def call_model(prompt, max_tokens=1500):
-    import httpx
-    headers = {
-        "x-api-key": API_KEY,
-        "anthropic-version": "2023-06-01",
-        "content-type": "application/json",
-    }
-    payload = {
-        "model": JUDGE_MODEL,
-        "max_tokens": max_tokens,
-        "temperature": 0.1,
-        "system": (
+    text = call_llm(
+        prompt,
+        system=(
             "You produce structured outline entries for novel chapters. "
             "Be precise about what HAPPENS, what CHANGES, and what threads are planted/harvested. "
             "Output valid JSON only."
         ),
-        "messages": [{"role": "user", "content": prompt}],
-    }
-    resp = httpx.post(f"{API_BASE}/v1/messages", headers=headers, json=payload, timeout=120)
-    resp.raise_for_status()
-    text = resp.json()["content"][0]["text"]
+        max_tokens=max_tokens,
+        temperature=0.1,
+        role="judge",
+        model=JUDGE_MODEL,
+        timeout=120,
+    )
     # Extract JSON from response
     text = text.strip()
     if text.startswith("```"):

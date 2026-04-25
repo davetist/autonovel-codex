@@ -7,26 +7,17 @@ import os
 import sys
 from pathlib import Path
 from dotenv import load_dotenv
+from llm_client import call_llm
 
 BASE_DIR = Path(__file__).parent
 load_dotenv(BASE_DIR / ".env")
 
 WRITER_MODEL = os.environ.get("AUTONOVEL_WRITER_MODEL", "claude-sonnet-4-6")
-API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
-API_BASE = os.environ.get("AUTONOVEL_API_BASE_URL", "https://api.anthropic.com")
 
 def call_writer(prompt, max_tokens=16000):
-    import httpx
-    headers = {
-        "x-api-key": API_KEY,
-        "anthropic-version": "2023-06-01",
-        "content-type": "application/json",
-    }
-    payload = {
-        "model": WRITER_MODEL,
-        "max_tokens": max_tokens,
-        "temperature": 0.7,
-        "system": (
+    return call_llm(
+        prompt,
+        system=(
             "You are a fantasy worldbuilder with deep knowledge of Sanderson's Laws, "
             "Le Guin's prose philosophy, and TTRPG-quality lore design. "
             "You write world bibles that are specific, interconnected, and imply depth "
@@ -34,11 +25,12 @@ def call_writer(prompt, max_tokens=16000):
             "You write in clean, direct prose. Every rule has a cost. Every cultural detail "
             "implies a history. Every location has a sensory signature."
         ),
-        "messages": [{"role": "user", "content": prompt}],
-    }
-    resp = httpx.post(f"{API_BASE}/v1/messages", headers=headers, json=payload, timeout=300)
-    resp.raise_for_status()
-    return resp.json()["content"][0]["text"]
+        max_tokens=max_tokens,
+        temperature=0.7,
+        role="writer",
+        model=WRITER_MODEL,
+        timeout=300,
+    )
 
 seed = (BASE_DIR / "seed.txt").read_text()
 voice = (BASE_DIR / "voice.md").read_text()

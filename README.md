@@ -18,7 +18,10 @@ See the `autonovel/bells` branch.
 ```bash
 # Clone and setup
 git clone <repo-url> && cd autonovel
-cp .env.example .env    # Add your API keys
+cp .env.example .env
+
+# Default backend in this fork: Codex CLI via your local ChatGPT/Codex auth.
+# To use Anthropic instead, set AUTONOVEL_LLM_PROVIDER=anthropic and add ANTHROPIC_API_KEY.
 
 # Install dependencies
 uv sync
@@ -193,18 +196,35 @@ loop continues until the reviewer's items are mostly qualified hedges rather tha
 
 ---
 
-## API Keys
+## LLM Backend and API Keys
 
-The pipeline uses three external services:
+The core writing/evaluation pipeline now supports two LLM backends through
+`llm_client.py`:
+
+| Backend | Setting | Requires | Used for |
+|---------|---------|----------|----------|
+| Codex CLI | `AUTONOVEL_LLM_PROVIDER=codex` | Local Codex/ChatGPT auth | Writing, evaluation, review |
+| Anthropic API | `AUTONOVEL_LLM_PROVIDER=anthropic` | `ANTHROPIC_API_KEY` | Writing, evaluation, review |
+
+For David's local setup, `.env.example` defaults to Codex:
+
+```bash
+AUTONOVEL_LLM_PROVIDER=codex
+AUTONOVEL_CODEX_COMMAND=npx -y @openai/codex@latest
+AUTONOVEL_CODEX_SANDBOX=read-only
+```
+
+`npx -y @openai/codex@latest` is intentional: the globally installed Codex
+CLI may lag the model configured in `~/.codex/config.toml`.
+
+Optional production services remain separate:
 
 | Service | Key | Used for |
 |---------|-----|----------|
-| Anthropic | `ANTHROPIC_API_KEY` | Writing, evaluation, review (Sonnet + Opus) |
-| fal.ai | `FAL_KEY` | Cover art and ornament generation (Nano Banana 2) |
+| fal.ai | `FAL_KEY` | Cover art and ornament generation |
 | ElevenLabs | `ELEVENLABS_API_KEY` | Multi-voice audiobook generation |
 
-Copy `.env.example` to `.env` and fill in your keys. Only the Anthropic
-key is required for the core pipeline. Art and audiobook are optional.
+Art and audiobook are optional. The core text pipeline can run with Codex only.
 
 ---
 
