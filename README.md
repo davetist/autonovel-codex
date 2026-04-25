@@ -39,15 +39,21 @@ uv run python run_pipeline.py --from-scratch
 
 ### Phase 1: Foundation
 Build the world, characters, outline, voice, and canon from a seed concept.
-Loop until `foundation_score > 7.5`.
+Loop until `foundation_score >= FOUNDATION_THRESHOLD`. Foundation iteration is
+hybrid: weak candidates below `FOUNDATION_THRESHOLD - 0.5` are thrown out and
+regenerated; near-miss candidates are surgically repaired from the prior eval
+JSON with `repair_foundation.py`.
 
 ### Phase 2: First Draft
-Write chapters sequentially. Evaluate each one. Keep if `score > 6.0`,
-retry if not. Forward progress over perfection.
+Write chapters sequentially. Evaluate each one. Keep if `score >=
+CHAPTER_THRESHOLD`; if not, generate an eval-derived brief and revise the
+current draft before falling back to a fresh redraft. Forward progress over
+perfection, but failed attempts feed the next attempt instead of disappearing.
 
 ### Phase 3a: Automated Revision
-Adversarial editing → apply cuts → reader panel → generate briefs →
-rewrite chapters. Plateau detection stops the loop when scores stabilize.
+Adversarial editing → apply cuts → reader panel → generate combined briefs →
+rewrite chapters. Combined briefs merge chapter evals, panel feedback, and
+adversarial cuts. Plateau detection stops the loop when scores stabilize.
 
 ### Phase 3b: Opus Review Loop
 Send the full manuscript to Claude Opus for dual-persona review
@@ -73,6 +79,7 @@ See [PIPELINE.md](PIPELINE.md) for the full technical specification.
 | `gen_outline.py` | Outline with beats and foreshadowing |
 | `gen_outline_part2.py` | Foreshadowing ledger |
 | `gen_canon.py` | Cross-reference hard facts |
+| `repair_foundation.py` | Surgical repair from a foundation eval JSON |
 | `voice_fingerprint.py` | Voice analysis and discovery |
 
 ### Drafting
@@ -93,7 +100,7 @@ See [PIPELINE.md](PIPELINE.md) for the full technical specification.
 ### Revision
 | Tool | Purpose |
 |------|---------|
-| `gen_brief.py` | Auto-generate revision briefs from feedback |
+| `gen_brief.py` | Auto-generate eval, panel, cuts, combined, or auto briefs |
 | `gen_revision.py` | Rewrite a chapter from a revision brief |
 | `apply_cuts.py` | Batch adversarial cut applicator |
 

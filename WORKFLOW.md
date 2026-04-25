@@ -64,7 +64,9 @@ uv run python adversarial_edit.py all           # Find cuts in all chapters
 uv run python apply_cuts.py all --types OVER-EXPLAIN REDUNDANT
 uv run python reader_panel.py                   # 4-persona evaluation
 uv run python review.py                         # Opus dual-persona review
-uv run python gen_brief.py --auto               # Auto-generate revision brief
+uv run python gen_brief.py --eval 5             # Brief from chapter eval
+uv run python gen_brief.py --combined 5         # Eval + panel + cuts brief
+uv run python gen_brief.py --auto               # Auto-detect weakest chapter
 uv run python gen_revision.py 5 briefs/ch05.md  # Rewrite chapter from brief
 ```
 
@@ -101,6 +103,20 @@ python3 typeset/build_tex.py && cd typeset && tectonic novel.tex  # PDF
 ```
 INNER LOOP (agent, runs overnight):
   modify → evaluate → keep/discard → repeat
+
+FOUNDATION LOOP:
+  score < threshold - 0.5 → discard and regenerate full foundation
+  threshold - 0.5 <= score < threshold → repair from eval JSON
+  score >= threshold → advance to drafting
+
+DRAFTING LOOP:
+  draft → chapter eval → keep if pass
+  if fail: eval brief → revise current draft → re-evaluate
+  if repair machinery fails: fall back to fresh redraft
+
+REVISION LOOP:
+  adversarial cuts + reader panel + chapter/full evals
+  → combined brief → revise → keep/revert by score
 
 OUTER LOOP (you, when you check in):
   read results → steer program.md / evaluate.py / layer files

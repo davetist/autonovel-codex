@@ -428,19 +428,19 @@ PHASE 3b: OPUS REVIEW LOOP (deep, prose-level refinement)
   - voice_fingerprint.py
   - typeset/novel.tex + build_tex.py
 
-### Needs building:
+### Current implementation notes:
   1. run_pipeline.py — Orchestrator that runs all phases
-     - Phase 1: loop foundation generation + evaluation
-     - Phase 2: sequential drafting with retry logic
-     - Phase 3: revision cycles with automated brief generation
+     - Phase 1: hybrid foundation loop: reroll weak candidates, repair near misses from eval JSON
+     - Phase 2: sequential drafting with eval-guided repair before blind redraft
+     - Phase 3: revision cycles with combined brief generation
      - Phase 4: export
      - Score plateau detection (stop when Δ < 0.5 across 2 cycles)
-     - Automated brief writing from panel feedback + eval callouts
+     - Automated brief writing from panel feedback + eval callouts + adversarial cuts
 
   2. gen_brief.py — Auto-generate revision briefs from structured feedback
-     Input: panel JSON + eval JSON + chapter text
+     Input: panel JSON + eval JSON + adversarial cuts + chapter text
      Output: a revision brief (.md) suitable for gen_revision.py
-     This is the key automation gap — currently briefs are hand-written.
+     Supports source-specific briefs plus `--combined CH` and `--auto`.
 
   3. apply_cuts.py — Batch cut applicator
      Input: edit_logs/chNN_cuts.json
@@ -466,28 +466,39 @@ def run_pipeline(seed_path, tag="run1"):
     setup(tag, seed_path)
     
     # Phase 1
-    while state.foundation_score < 7.5 or state.lore_score < 7.0:
-        weakest = evaluate_foundation()
-        improve_layer(weakest)
+    while state.foundation_score < FOUNDATION_THRESHOLD or state.lore_score < 7.0:
+        if state.foundation_score < FOUNDATION_THRESHOLD - 0.5:
+            generate_full_foundation_candidate()
+        else:
+            repair_foundation_from_eval(state.foundation_eval_log)
+
         score = evaluate_foundation()
         if score > state.foundation_score:
-            commit(f"foundation: improve {weakest}")
+            commit(f"foundation: improve to {score}")
             state.foundation_score = score
+            state.foundation_eval_log = latest_eval_log()
         else:
             reset()
-    
+
     state.phase = "drafting"
-    
+
     # Phase 2
     for ch in range(1, state.chapters_total + 1):
+        needs_fresh_draft = True
         for attempt in range(5):
-            draft_chapter(ch)
+            if needs_fresh_draft:
+                draft_chapter(ch)
             score = evaluate_chapter(ch)
             if score > 6.0:
                 commit(f"drafting: ch {ch} score {score}")
                 break
+            if can_build_eval_brief(ch):
+                brief = generate_eval_brief(ch)
+                revise_chapter(ch, brief)
+                needs_fresh_draft = False
             else:
                 reset()
+                needs_fresh_draft = True
         mechanical_slop_pass(ch)
     
     state.phase = "revision"
@@ -502,7 +513,12 @@ def run_pipeline(seed_path, tag="run1"):
         
         # Structural fixes
         for item in panel.consensus_items():
-            brief = generate_brief(item, panel, cuts)
+            brief = generate_combined_brief(
+                item.chapter,
+                panel=panel,
+                cuts=cuts,
+                chapter_eval=latest_chapter_eval(item.chapter),
+            )
             revise_chapter(item.chapter, brief)
             if evaluate_chapter(item.chapter) > previous:
                 commit(f"cycle {cycle}: {item.type}")
