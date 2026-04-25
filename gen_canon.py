@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate canon.md by extracting all hard facts from world.md + characters.md.
+Generate canon.md by extracting all hard facts from seed.txt + world.md + characters.md.
 """
 import os
 import sys
@@ -13,14 +13,14 @@ load_dotenv(BASE_DIR / ".env")
 
 WRITER_MODEL = os.environ.get("AUTONOVEL_WRITER_MODEL", "claude-sonnet-4-6")
 
+
 def call_writer(prompt, max_tokens=16000):
     return call_llm(
         prompt,
         system=(
-            "You are a continuity editor extracting hard facts from fantasy novel "
-            "planning documents. You are precise, exhaustive, and never invent facts "
-            "that aren't in the source material. Every entry must be traceable to a "
-            "specific statement in the source documents."
+            "You are a continuity editor extracting hard facts from novel planning documents. "
+            "You are precise, exhaustive, and never invent facts that are not in the source "
+            "material. Every entry must be traceable to a specific statement in the sources."
         ),
         max_tokens=max_tokens,
         temperature=0.2,
@@ -29,13 +29,15 @@ def call_writer(prompt, max_tokens=16000):
         timeout=300,
     )
 
+
 world = (BASE_DIR / "world.md").read_text()
 characters = (BASE_DIR / "characters.md").read_text()
 seed = (BASE_DIR / "seed.txt").read_text()
 
-prompt = f"""Extract EVERY hard fact from these planning documents into a structured canon database.
-A "hard fact" is anything a writer must not contradict: names, ages, dates, physical descriptions,
-rules of the magic system, geography, relationships, established events.
+prompt = f"""Extract EVERY hard fact from these planning documents into CANON.MD.
+A hard fact is anything a writer must not contradict: names, ages, dates, locations, physical
+rules, technical limits, social facts, relationships, established events, records, public claims,
+unknowns, and explicit uncertainties.
 
 SOURCE DOCUMENTS:
 
@@ -50,36 +52,37 @@ SOURCE DOCUMENTS:
 
 FORMAT THE OUTPUT AS CANON.MD with these categories:
 
-## Geography
-- Specific facts about locations, distances, physical properties
+## Locations and Physical Facts
+- Specific facts about places, distances, objects, artifacts, vehicles, environments, and sensory details
 
 ## Timeline
-- Dated events, ages, durations
+- Dated events, ages, durations, mission phases, historical periods, and sequence constraints
 
-## Magic System Rules
-- Hard rules of Tonal Law (intervals, costs, limitations)
-- Cass's gift specifics
+## Speculative Rules and Unknowns
+- Confirmed rules, observed anomalies, costs, limits, contradictions, and things the story must not prove too cleanly
 
 ## Character Facts
-- Ages, physical descriptions, habits, relationships
-- One entry per fact (not paragraphs)
+- Ages or life stages, physical descriptions, habits, occupations, training, relationships, wounds, wants, secrets
+- One entry per fact, not paragraphs
 
-## Political / Factional
-- Who controls what, alliances, conflicts, contracts
+## Institutions, Factions, and Public Response
+- Who controls what, who opposes whom, incentives, policies, markets, movements, beliefs, media narratives
 
-## Cultural
-- Customs, taboos, laws, festivals, food, clothing
+## Cultural / Social Details
+- Customs, rituals, taboos, slang, public images, economic changes, school or family effects, ordinary life
 
-## Established In-Story
-- Events that have already happened in the story's past
-- The Perin contract, the Expansion Wars, etc.
+## Established Backstory
+- Events that happened before chapter one and must remain consistent
+
+## Open Questions to Preserve
+- Ambiguities explicitly required by the seed or planning documents
 
 RULES:
 - One fact per bullet point. Short. Specific. Checkable.
-- Include the source (world.md or characters.md) in parentheses after each fact.
+- Include the source (seed.txt, world.md, or characters.md) in parentheses after each fact.
 - Aim for 80-120 entries minimum. Be exhaustive.
 - If two documents give slightly different details, note the discrepancy.
-- DO NOT invent facts. Only record what's explicitly stated.
+- Do not invent facts. Only record what is explicitly stated or directly entailed.
 """
 
 print("Calling writer model...", file=sys.stderr)

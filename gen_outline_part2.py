@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate remaining chapters + foreshadowing ledger."""
+"""Generate an appendable outline continuation, repair pass, and foreshadowing ledger."""
 import os
 import sys
 from pathlib import Path
@@ -11,14 +11,15 @@ load_dotenv(BASE_DIR / ".env")
 
 WRITER_MODEL = os.environ.get("AUTONOVEL_WRITER_MODEL", "claude-sonnet-4-6")
 
+
 def call_writer(prompt, max_tokens=16000):
     return call_llm(
         prompt,
         system=(
-            "You are a novel architect continuing an outline. Write in the same format "
-            "as the preceding chapters. Every chapter needs: POV, Location, Save the Cat beat, "
-            "% mark, Emotional arc, Try-fail cycle, Beats, Plants, Payoffs, Character movement, "
-            "The lie, Word count target."
+            "You are a novel architect doing a second pass on an existing outline. Produce "
+            "markdown that can be appended to outline.md: continue only if the outline is cut "
+            "off, then add repair notes, continuity constraints, and a foreshadowing ledger. "
+            "Adapt to the seed and never reuse another book's plot."
         ),
         max_tokens=max_tokens,
         temperature=0.5,
@@ -27,46 +28,60 @@ def call_writer(prompt, max_tokens=16000):
         timeout=600,
     )
 
-part1 = open('/tmp/outline_output.md').read()
+
+outline_path = BASE_DIR / "outline.md"
+part1 = outline_path.read_text() if outline_path.exists() else ""
+seed = (BASE_DIR / "seed.txt").read_text()
 mystery = (BASE_DIR / "MYSTERY.md").read_text()
+world = (BASE_DIR / "world.md").read_text()
+characters = (BASE_DIR / "characters.md").read_text()
 
-prompt = f"""Here are the first 17 chapters of a 24-chapter outline for "The Second Son of the House of Bells."
-The outline was cut off mid-chapter-17. Continue from where it left off, then complete chapters 18-24,
-then write the Foreshadowing Ledger.
+prompt = f"""Review the existing OUTLINE.MD for this novel and produce a second-pass appendix.
+Your output will be appended to outline.md by the pipeline.
 
-THE OUTLINE SO FAR:
+If the existing outline is visibly cut off, start by continuing from the last complete chapter
+until the planned ending is complete. If it is already complete, do NOT rewrite every chapter;
+instead add a compact repair pass that strengthens continuity, plant/payoff logic, and the final
+movement.
+
+SEED CONCEPT:
+{seed}
+
+EXISTING OUTLINE.MD:
 {part1}
 
-THE CENTRAL MYSTERY (for reference):
+WORLD BIBLE EXCERPT:
+{world[:12000]}
+
+CHARACTER REGISTRY EXCERPT:
+{characters[:12000]}
+
+CENTRAL MYSTERY / AUTHOR NOTES:
 {mystery}
 
-REMAINING STRUCTURE NEEDED:
+OUTPUT FORMAT:
 
-Ch 17 (complete it): Maret confrontation -- she reveals the truth about the void
-Ch 18: Dark Night of the Soul -- Cass processes what he's learned
-Ch 19: Break Into Three -- new information or perspective changes everything  
-Ch 20-21: Gathering forces, making a plan
-Ch 22: The climax at the Bell Tower -- Cass answers the question
-Ch 23: Aftermath and resolution
-Ch 24: Final Image (mirror of Opening Image)
+## Outline Second Pass
+State whether the existing outline appears complete or cut off. If cut off, continue with the
+missing chapters in the same chapter format. If complete, list the highest-priority structural
+repairs instead of duplicating chapters.
 
-Then write:
+## Continuity and Causality Repairs
+- Identify any weak or missing causal links.
+- Identify any places where public-scale events need private-scale consequences.
+- Identify any places where the protagonist's interior turn needs a sharper external cost.
+- Identify any places where the speculative uncertainty is over-explained or under-supported.
 
 ## Foreshadowing Ledger
-
 | # | Thread | Planted (Ch) | Reinforced (Ch) | Payoff (Ch) | Type |
-|---|--------|-------------|-----------------|-------------|------|
+|---|--------|--------------|-----------------|-------------|------|
 
-Include at LEAST 15 threads. Types: object, dialogue, action, symbolic, structural.
-Plant-to-payoff distance must be at least 3 chapters.
+Include at least 15 threads. Plant-to-payoff distance should usually span at least 3 chapters.
+Use threads that fit this seed: recurring images, records, anomalies, public rituals, private
+habits, lines of dialogue, institutional actions, relationship beats, and structural echoes.
 
-REMEMBER:
-- The climax uses the fourth option: Cass amplifies the question into audible range
-  so the city can hear and answer for themselves
-- This doesn't free Perin directly (Stability Trap -- not everything resolves cleanly)
-- Cass's lie must be fully shattered by the climax
-- Final Image should mirror Ch 1's Opening Image but show transformation
-- At least one quiet chapter in the back half
+## Drafting Constraints
+List the hard constraints a chapter drafter must honor so the outline does not drift.
 """
 
 print("Calling writer model...", file=sys.stderr)
