@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 One-shot world.md generator for foundation phase.
-Reads seed.txt + voice.md, calls the writer model, outputs world.md content.
+Reads seed.txt + voice.md + CRAFT.md, calls the writer model, outputs world.md content.
 """
 import os
 import sys
@@ -14,16 +14,15 @@ load_dotenv(BASE_DIR / ".env")
 
 WRITER_MODEL = os.environ.get("AUTONOVEL_WRITER_MODEL", "claude-sonnet-4-6")
 
+
 def call_writer(prompt, max_tokens=16000):
     return call_llm(
         prompt,
         system=(
-            "You are a fantasy worldbuilder with deep knowledge of Sanderson's Laws, "
-            "Le Guin's prose philosophy, and TTRPG-quality lore design. "
-            "You write world bibles that are specific, interconnected, and imply depth "
-            "beyond what's stated. You never use AI slop words (delve, tapestry, myriad, etc). "
-            "You write in clean, direct prose. Every rule has a cost. Every cultural detail "
-            "implies a history. Every location has a sensory signature."
+            "You are a speculative-fiction worldbuilder and continuity architect. "
+            "You adapt to the seed instead of imposing a genre template. Build specific, "
+            "interconnected settings where every speculative rule has costs, social effects, "
+            "and sensory consequences. Write clean, direct prose and avoid AI slop words."
         ),
         max_tokens=max_tokens,
         temperature=0.7,
@@ -32,85 +31,81 @@ def call_writer(prompt, max_tokens=16000):
         timeout=300,
     )
 
+
+def voice_identity(text: str) -> str:
+    lines = text.split("\n")
+    for i, line in enumerate(lines):
+        if "Part 2" in line:
+            return "\n".join(lines[i:])
+    return text
+
+
 seed = (BASE_DIR / "seed.txt").read_text()
 voice = (BASE_DIR / "voice.md").read_text()
 craft = (BASE_DIR / "CRAFT.md").read_text()
+voice_part2 = voice_identity(voice)
 
-# Extract voice Part 2 only (the novel-specific voice)
-voice_lines = voice.split('\n')
-part2_start = next(i for i, l in enumerate(voice_lines) if 'Part 2' in l)
-voice_part2 = '\n'.join(voice_lines[part2_start:])
+prompt = f"""Build WORLD.MD for this novel from the seed below.
 
-prompt = f"""Build a complete world bible for this fantasy novel. This is the WORLD.MD file -- 
-the definitive reference for everything that EXISTS in this world. A writer should be able 
-to resolve any worldbuilding question from this document alone.
+The document is the definitive reference for what exists, what is known, what is uncertain,
+and what pressures shape the story. Do not impose a genre template. If the seed is science
+fiction, treat the speculative engine as science, technology, culture, institutions, physics,
+media, belief, and human cost. Do not invent supernatural systems unless the seed asks for them.
 
 SEED CONCEPT:
 {seed}
 
-VOICE IDENTITY (the tone and register of this novel):
+VOICE IDENTITY:
 {voice_part2}
 
-CRAFT REQUIREMENTS (from CRAFT.md -- follow these):
-- Magic system needs HARD RULES with COSTS and LIMITATIONS per Sanderson's Second Law
-- Limitations >= powers in narrative prominence
-- Trace implications of magic through society, economy, law, religion
-- At least 2-3 societal implications of magic explored in depth
-- History must create PRESENT-DAY TENSIONS that drive the plot (not just backdrop)
-- Geography must be specific and sensory (not generic fantasy)
-- Iceberg principle: imply more than you state
-- Interconnection: pulling one thread should move everything
+CRAFT REFERENCE:
+{craft}
 
 STRUCTURE THE DOCUMENT WITH THESE SECTIONS:
 
-## Cosmology & History
-A timeline of major events. Focus on events that create PRESENT-DAY tensions.
-Include the founding myth, key turning points, and recent events that matter to the plot.
+## Core Premise and Ontology
+State the central speculative claim, what evidence exists, what remains unproved, and why
+uncertainty matters dramatically.
 
-## Magic System
-### Hard Rules (Tonal Law)
-Specific, testable rules. What intervals do what. What progressions bind.
-What happens when you break the rules. Include COSTS and LIMITATIONS prominently.
+## Timeline and Present-Day Pressure
+A timeline of major public and private events. Focus on events that create current tensions,
+not decorative backstory.
 
-### Soft Magic (Cass's Gift)
-What he perceives, how it works, what it costs HIM specifically.
-This should be mysterious but have consistent internal logic.
+## Physical / Scientific Rules
+List the testable rules, limits, costs, unknowns, failure modes, and contradictions in the
+speculative engine. Every rule should create narrative pressure.
 
-### Societal Implications
-How does tonal law shape: governance, commerce, education, class structure,
-crime, family life, childhood, aging, disability?
+## Places and Sensory Signatures
+Name and describe the key locations, including ordinary human spaces. Give each place a
+specific sensory signature and a role in the plot.
 
-## Geography
-Cantamura's physical layout, districts, the natural amphitheater's acoustic properties.
-Neighboring places (at least 2-3). Sensory signatures for each location.
+## Institutions, Factions, and Public Response
+Map who has power, who wants it, who is harmed, and how governments, markets, media,
+religions, families, and fringe groups respond.
 
-## Factions & Politics
-Who holds power, who wants it, who's being crushed by it.
-At least 3-4 factions with opposing interests.
+## Daily Life Under the Premise
+Show how the premise changes work, school, grief, ambition, love, money, ritual, language,
+and childhood.
 
-## Bestiary / Flora / Natural World
-What's unique about the natural world in and around Cantamura?
+## Technology, Media, and Evidence
+Describe the tools, records, data channels, artifacts, and public images the story depends on.
+Separate confirmed facts from rumors and propaganda.
 
-## Cultural Details
-Customs, taboos, festivals, food, clothing, coming-of-age rituals.
-Things that make daily life feel SPECIFIC.
+## Cultural and Philosophical Fault Lines
+Identify the arguments people are having and the embodied costs of those arguments.
+Keep the ideas attached to actions, losses, policies, and relationships.
 
 ## Internal Consistency Rules
-Hard constraints a writer must not violate. The physics of sound in this world.
-What's possible and what's not.
+Hard constraints a writer must not violate. Include what cannot happen, what cannot be known,
+and what would cheapen the premise.
 
 IMPORTANT:
-- Be SPECIFIC. Not "the city has districts" but name them, describe them, 
-  give them sensory signatures.
-- Every rule should have a COST or LIMITATION stated alongside it.
-- Include 2-3 facts per section that are unexplained, hinting at deeper systems 
-  (iceberg depth).
-- Facts should INTERCONNECT: the magic should shape the politics, the geography 
-  should shape the culture, the history should explain current faction conflicts.
-- Write in clean, direct prose. No AI slop. No "rich tapestry." No "delving."
-- The world should feel grounded and LIVED-IN, not imagined. Think: what does 
-  breakfast smell like? What do children play? How do old people complain?
-- Target ~3000-4000 words. Dense, not padded.
+- Be specific. Use names, dates, procedures, rituals, images, and concrete consequences.
+- Facts should interconnect: the speculative engine should shape politics, culture, economy,
+  family life, and the protagonist's choices.
+- Preserve the seed's uncertainty. Do not solve the metaphysics cleanly.
+- Write in clean, direct prose. No filler, no generic uplift, no puzzle-box cleverness.
+- Target roughly 3000-4000 dense words.
 """
 
 print("Calling writer model...", file=sys.stderr)

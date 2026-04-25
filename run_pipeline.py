@@ -146,6 +146,43 @@ def uv_run(script: str, timeout: int = 600) -> subprocess.CompletedProcess:
     return run_tool(f"uv run python {script}", timeout=timeout)
 
 
+def write_stdout_to_file(result: subprocess.CompletedProcess, output_path: Path,
+                         *, append: bool = False) -> bool:
+    """
+    Persist a generation script's stdout to its target planning document.
+
+    Foundation generators print their final markdown to stdout. The pipeline
+    captures that stdout, so it must explicitly write it to disk; otherwise the
+    placeholder planning files survive and evaluation keeps scoring placeholders.
+    Returns True when content was written.
+    """
+    if result.returncode != 0:
+        step(f"Skipping write to {output_path.name}; generator exited {result.returncode}")
+        return False
+
+    content = result.stdout or ""
+    if not content.strip():
+        step(f"Skipping write to {output_path.name}; generator produced no stdout")
+        return False
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    if append and output_path.exists() and output_path.read_text().strip():
+        existing = output_path.read_text().rstrip()
+        output_path.write_text(existing + "\n\n" + content.lstrip())
+    else:
+        output_path.write_text(content)
+    step(f"Wrote {output_path.name} from generator stdout")
+    return True
+
+
+def run_foundation_generator(script: str, output_name: str, *, append: bool = False,
+                             timeout: int = 300) -> subprocess.CompletedProcess:
+    """Run a foundation generator and write its stdout to the named layer file."""
+    result = uv_run(script, timeout=timeout)
+    write_stdout_to_file(result, BASE_DIR / output_name, append=append)
+    return result
+
+
 # ---------------------------------------------------------------------------
 # Helpers: git operations
 # ---------------------------------------------------------------------------
@@ -251,22 +288,21 @@ def run_foundation(state: dict) -> dict:
 
         # 1. Generate planning documents
         step("Generating world bible...")
-        uv_run("gen_world.py", timeout=300)
+        run_foundation_generator("gen_world.py", "world.md", timeout=300)
 
         step("Generating characters...")
-        uv_run("gen_characters.py", timeout=300)
+        run_foundation_generator("gen_characters.py", "characters.md", timeout=300)
 
         step("Generating outline (part 1)...")
-        uv_run("gen_outline.py", timeout=300)
+        run_foundation_generator("gen_outline.py", "outline.md", timeout=300)
 
         step("Generating outline (part 2 — foreshadowing)...")
-        uv_run("gen_outline_part2.py", timeout=300)
+        run_foundation_generator("gen_outline_part2.py", "outline.md", append=True, timeout=300)
 
         step("Generating canon...")
-        uv_run("gen_canon.py", timeout=300)
+        run_foundation_generator("gen_canon.py", "canon.md", timeout=300)
 
-        step("Running voice fingerprint...")
-        uv_run("voice_fingerprint.py", timeout=300)
+        step("Skipping voice fingerprint during foundation; no chapter prose exists yet")
 
         # 2. Evaluate
         step("Evaluating foundation...")
