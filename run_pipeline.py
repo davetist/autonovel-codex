@@ -19,6 +19,7 @@ import argparse
 import json
 import os
 import re
+import shlex
 import subprocess
 import sys
 from datetime import datetime
@@ -238,6 +239,56 @@ def parse_lore_score(stdout: str) -> float:
     return parse_score(stdout, "lore_score")
 
 
+def parse_eval_log_path(stdout: str) -> Path | None:
+    """Parse evaluate.py's 'eval_log: <path>' line, if present."""
+    for line in stdout.splitlines():
+        line = line.strip()
+        if line.startswith("eval_log:"):
+            raw = line.split(":", 1)[1].strip()
+            path = Path(raw)
+            return path if path.is_absolute() else BASE_DIR / path
+    return None
+
+
+def score_from_eval_log(path: Path) -> tuple[float, float]:
+    """Return (overall_score, lore_score) from a foundation eval JSON file."""
+    try:
+        data = json.loads(path.read_text())
+    except (OSError, json.JSONDecodeError):
+        return -1.0, -1.0
+    try:
+        overall = float(data.get("overall_score", -1.0))
+    except (TypeError, ValueError):
+        overall = -1.0
+    try:
+        lore = float(data.get("lore_score", -1.0))
+    except (TypeError, ValueError):
+        lore = -1.0
+    return overall, lore
+
+
+def best_foundation_eval_log() -> tuple[Path | None, float, float]:
+    """Find the best existing foundation eval log by overall_score."""
+    best_path: Path | None = None
+    best_score = -1.0
+    best_lore = -1.0
+    if not EVAL_LOGS_DIR.exists():
+        return None, best_score, best_lore
+    for path in sorted(EVAL_LOGS_DIR.glob("*_foundation.json")):
+        score, lore = score_from_eval_log(path)
+        if score > best_score:
+            best_path = path
+            best_score = score
+            best_lore = lore
+    return best_path, best_score, best_lore
+
+
+def run_foundation_repair(eval_log: Path) -> subprocess.CompletedProcess:
+    """Repair current foundation docs using eval guidance from a prior run."""
+    eval_arg = shlex.quote(str(eval_log))
+    return uv_run(f"repair_foundation.py --eval-log {eval_arg}", timeout=1800)
+
+
 def count_words_in_chapters() -> int:
     """Sum word count across all chapter files."""
     total = 0
@@ -275,40 +326,70 @@ def get_total_chapters(state: dict) -> int:
 def run_foundation(state: dict) -> dict:
     """
     Build planning documents (world, characters, outline, voice, canon).
-    Loop until foundation_score > threshold or max iterations reached.
+    First pass generates from seed; later passes repair the best known run using
+    its eval log instead of brute-force rerolling the whole foundation.
     """
     banner("PHASE 1: FOUNDATION", "=")
 
     best_score = state.get("foundation_score", 0.0)
+    best_eval_log = None
+    state_eval_log = state.get("foundation_eval_log")
+    if state_eval_log:
+        candidate = Path(state_eval_log)
+        if not candidate.is_absolute():
+            candidate = BASE_DIR / candidate
+        if candidate.exists():
+            best_eval_log = candidate
+
+    recovered_log, recovered_score, recovered_lore = best_foundation_eval_log()
+    if recovered_log is not None and recovered_score > best_score:
+        step(
+            f"Recovered best foundation eval log {recovered_log.name}: "
+            f"score {recovered_score} (lore {recovered_lore})"
+        )
+        best_eval_log = recovered_log
+        best_score = recovered_score
+        state["foundation_score"] = recovered_score
+        state["lore_score"] = recovered_lore
+        state["foundation_eval_log"] = str(recovered_log)
+
     iteration = state.get("iteration", 0)
 
     for i in range(iteration + 1, MAX_FOUNDATION_ITERS + 1):
         banner(f"Foundation Iteration {i}", "-")
         state["iteration"] = i
 
-        # 1. Generate planning documents
-        step("Generating world bible...")
-        run_foundation_generator("gen_world.py", "world.md", timeout=300)
+        # 1. Generate or repair planning documents.
+        if best_score > 0 and best_eval_log is not None:
+            step(f"Repairing foundation from eval log: {best_eval_log.name}")
+            repair_result = run_foundation_repair(best_eval_log)
+            if repair_result.returncode != 0:
+                step(f"Foundation repair failed (exit {repair_result.returncode}), stopping")
+                break
+        else:
+            step("Generating world bible...")
+            run_foundation_generator("gen_world.py", "world.md", timeout=300)
 
-        step("Generating characters...")
-        run_foundation_generator("gen_characters.py", "characters.md", timeout=300)
+            step("Generating characters...")
+            run_foundation_generator("gen_characters.py", "characters.md", timeout=300)
 
-        step("Generating outline (part 1)...")
-        run_foundation_generator("gen_outline.py", "outline.md", timeout=300)
+            step("Generating outline (part 1)...")
+            run_foundation_generator("gen_outline.py", "outline.md", timeout=300)
 
-        step("Generating outline (part 2 — foreshadowing)...")
-        run_foundation_generator("gen_outline_part2.py", "outline.md", append=True, timeout=300)
+            step("Generating outline (part 2 — foreshadowing)...")
+            run_foundation_generator("gen_outline_part2.py", "outline.md", append=True, timeout=300)
 
-        step("Generating canon...")
-        run_foundation_generator("gen_canon.py", "canon.md", timeout=300)
+            step("Generating canon...")
+            run_foundation_generator("gen_canon.py", "canon.md", timeout=300)
 
-        step("Skipping voice fingerprint during foundation; no chapter prose exists yet")
+            step("Skipping voice fingerprint during foundation; no chapter prose exists yet")
 
         # 2. Evaluate
         step("Evaluating foundation...")
         eval_result = uv_run("evaluate.py --phase=foundation", timeout=300)
         score = parse_score(eval_result.stdout, "overall_score")
         lore = parse_lore_score(eval_result.stdout)
+        eval_log = parse_eval_log_path(eval_result.stdout)
 
         step(f"Foundation score: {score}  (lore: {lore}, prev best: {best_score})")
 
@@ -319,14 +400,21 @@ def run_foundation(state: dict) -> dict:
             log_result(commit_hash, "foundation", score, 0, "keep",
                        f"Iteration {i}: score improved {best_score} -> {score}")
             best_score = score
+            best_eval_log = eval_log or best_eval_log
             state["foundation_score"] = score
             state["lore_score"] = lore
+            if best_eval_log is not None:
+                state["foundation_eval_log"] = str(best_eval_log)
             save_state(state)
         else:
             step(f"Score did not improve ({score} <= {best_score}), discarding")
             git_reset_hard("HEAD")
             log_result("discarded", "foundation", score, 0, "discard",
                        f"Iteration {i}: no improvement ({score} <= {best_score})")
+            state["foundation_score"] = best_score
+            if best_eval_log is not None:
+                state["foundation_eval_log"] = str(best_eval_log)
+            save_state(state)
 
         # 4. Check exit condition
         if best_score >= FOUNDATION_THRESHOLD:
