@@ -12,25 +12,26 @@ What is known:
 
 - Asterion disappeared halfway to Mars during the largest live human broadcast ever attempted.
 - The rescue vessel Orpheus found the ship twenty-seven months later, not drifting, but crushed against an unseen limit.
+- The iconic public image is the **paused Asterion wreck frame**, recovered by Orpheus. Orpheus is the recovery platform, not the crushed vessel.
 - The wreckage pattern cannot be explained by micrometeoroids, sabotage, fuel explosion, known radiation events, collision with ordinary matter, or software failure.
 - Probe tests near the coordinate produce repeated star fields, discontinuous trajectories, delayed light returns, and partial sensor duplication.
-- Physical objects that penetrate too far into the boundary zone either deform, vanish, or return with mutually impossible records.
-- The boundary does not move like a conventional object, but it is not fixed in ordinary heliocentric coordinates either. Its position must be calculated from a failing model.
+- Physical objects that penetrate too far into the Boundary zone either deform, vanish, or return with mutually impossible records.
+- The Boundary does not move like a conventional object, but it is not fixed in ordinary heliocentric coordinates either. Its position must be calculated from a failing model.
 
 What remains unproved:
 
 - Whether the universe is artificial.
-- Whether the boundary is local, solar, galactic, or perceptual.
+- Whether the Boundary is local, solar, galactic, or perceptual.
 - Whether Mars exists as physical terrain beyond the limit or as observable output without reachable depth.
 - Whether Asterion’s crew perceived anything meaningful before impact.
-- Whether consciousness has any special status at the boundary.
+- Whether consciousness has any special status at the Boundary.
 - Whether the contradictory data comes from external manipulation, instrument failure under unknown physics, or the breakdown of causality itself.
 
-The central dramatic uncertainty is not “are we in a simulation?” The central uncertainty is whether people can keep acting when the background assumption of an open cosmos has been damaged beyond repair. The boundary is enough to kill old metaphysical confidence but not enough to replace it. It produces evidence without doctrine, terror without explanation, and grief without a stable object.
+The central dramatic uncertainty is not “are we in a simulation?” The central uncertainty is whether people can keep acting when the background assumption of an open cosmos has been damaged beyond repair. The Boundary is enough to kill old metaphysical confidence but not enough to replace it. It produces evidence without doctrine, terror without explanation, and grief without a stable object.
 
 This uncertainty must remain alive. Every institution tries to close it. Governments call it a navigational hazard. Cults call it an exit. Markets call it a pricing event. Churches call it trial, veil, fraud, or judgment. Physicists call it an unresolved domain. Children call it the glass.
 
-Mara Venn’s personal ontology is broken before the world’s is. She helped prepare the Asterion crew, including her brother Elias, to treat fear as material that could be converted into purpose. She taught them that the long horizon made their suffering part of a human ascent. The boundary turns that teaching into an accusation. If the horizon was false, did she help send them into a symbol? Her lie is that scale confers worth: that a life matters more if it participates in infinity. Her arc requires the world to remain uncertain because certainty would spare her the actual choice.
+Mara Venn’s personal ontology is broken before the world’s is. She helped prepare the Asterion crew, including her brother Elias, to treat fear as material that could be converted into purpose. She taught them that the long horizon made their suffering part of a human ascent. The Boundary turns that teaching into an accusation. If the horizon was false, did she help send them into a symbol? Her lie is that scale confers worth: that a life matters more if it participates in infinity. Her arc requires the world to remain uncertain because certainty would spare her the actual choice.
 
 The novel’s answer cannot be cosmic. It must be human-sized: pain counts because someone suffers it; courage counts because someone chooses it under pressure; love counts because it binds one vulnerable mind to another in time. These are not proofs against artificiality. They are obligations that survive it.
 
@@ -41,6 +42,10 @@ The novel’s answer cannot be cosmic. It must be human-sized: pain counts becau
 Mars has carried public imagination for a hundred years: flags in schoolbooks, rover selfies, settlement architecture, retirement colonies drawn by children, politicians promising “the generation that walks red soil.” The planet functions as secular heaven. The promise is not paradise after death, but continuation after Earth’s failures.
 
 The International Interplanetary Accord forms after climate migration crises make national space prestige politically unstable. Its public face is cooperation. Its private engine is competition: orbital industry, helium contracts, sovereign prestige, military logistics, and the fear that China, the United States, India, or the Pan-African Launch Compact might own the first human footprint alone.
+
+**The Accord bargain:** the United States and China contribute launch mass and military tracking; the European Space Directorate contributes life-support architecture and diplomatic cover; India contributes guidance systems and lunar logistics; the Pan-African Launch Compact contributes equatorial infrastructure and extraction rights oversight; the Pacific Coalition contributes gantry jurisdiction; Brazil and the São Paulo Night Mesh later become politically unavoidable because independent sky data keeps beating official releases. No bloc trusts any other bloc with Mars alone, so the IIA exists because suspicion needs a table.
+
+The IIA is funded through member-state assessments, orbital-industry levies, private research bonds, and restricted sponsor packages attached to mission hardware. After the Break, those private packages become politically radioactive but financially load-bearing.
 
 **2039: Asterion Crew Selection**
 
@@ -77,7 +82,7 @@ Orpheus is launched as an uncrewed high-velocity rescue and recovery platform. I
 
 Twenty-seven months after loss, Orpheus returns the first images of Asterion. The vessel appears flattened, twisted, and cratered along one side. Internal decks are folded through each other. Some exterior panels are impressed with shapes matching no known debris. The wreck holds position against nothing.
 
-The image leaks six days before the official briefing. Earth sees the paused frame before any institution can narrate it. It shows a human ship pressed into a non-surface, with Mars bright behind it.
+The image leaks six days before the official briefing. Earth sees the paused Asterion wreck frame before any institution can narrate it. It shows a human ship pressed into a non-surface, with Mars bright behind it.
 
 This week becomes the Break.
 
@@ -91,15 +96,17 @@ The term “bounded simulation” enters ordinary speech. It is not scientific c
 
 Hospitals begin recording a new syndrome: patients who cannot initiate ordinary action after prolonged exposure to Boundary media. They stop going to work, stop answering children, stop eating without prompts. They describe tasks as “unrendered,” promises as “decorations,” pain as “local weather.” The clinical term is ontological collapse. The street term is going flat.
 
-Suicide clusters occur around groups claiming death is an exit protocol. Markets create instruments tied to Boundary disclosure, Mars claims, deep-space insurance, and consciousness-continuity products. Religious schisms accelerate. Some congregations remove all stars from sanctuaries. Others project the Asterion wreck above the altar.
+Suicide clusters occur around groups claiming death is an exit protocol. Markets create instruments tied to Boundary disclosure, Mars claims, deep-space insurance, and consciousness-continuity products. Religious schisms accelerate. Some congregations remove all stars from sanctuaries. Others project the paused Asterion wreck frame above the altar.
 
 **2046: Witness Mission Approved**
 
-Witness is approved under emergency scientific authority and public pressure. Its declared goal is observation. Its undeclared goals differ by sponsor: recover Asterion logs, map the boundary, prove continuity of physics, disprove simulation panic, produce a unifying civic image, and keep deep-space capital from collapsing.
+Witness is approved under emergency scientific authority and public pressure. Its declared goal is observation. Its undeclared goals differ by sponsor: recover Asterion logs, map the Boundary, prove continuity of physics, disprove simulation panic, produce a unifying civic image, and keep deep-space capital from collapsing.
 
-Mara joins as mission psychologist and authorized interpretive officer. Her official role is crew stability and public translation. Her private goal is to recover Elias’s final truth.
+The political bargain is ugly and specific. Denial blocs accept Witness because the official language calls the Boundary an unresolved navigational domain, not a metaphysical rupture. Finite Earth legislators accept it because a fixed share of IIA levies is diverted to collapse wards and climate repair sites. Orbital industry accepts it because insurance markets need new data. Asterion families accept nothing unanimously, but their lawsuits make total secrecy impossible. The Continuity Office accepts it because a mission with delay protocols is safer than another leak war.
 
-Witness carries a smaller recognition craft, Candle, designed to approach the boundary under remote and semi-autonomous control. Everyone knows Candle may be a probe, a coffin, a sacrament, or bait.
+Mara joins as mission psychologist and authorized interpretive officer. Her official role is crew stability and public translation. Her private goal is to recover Elias’s final truth. The IIA knows she is compromised. That is part of why she is useful: no publicly trusted neutral interpreter exists, and Mara can read crew psychology, religious language, mass panic, and Elias’s records at once.
+
+Witness carries a smaller recognition craft, Candle, designed to approach the Boundary under remote and semi-autonomous control. Everyone knows Candle may be a probe, a coffin, a sacrament, or bait.
 
 The present-day pressure is tripled:
 
@@ -184,6 +191,121 @@ Narrative pressure: the mission psychologist is inside the experiment.
 
 No instrument detects purpose. No test confirms whether love, fear, or sacrifice have external validation. This absence is not proof of meaninglessness. It is the condition under which the story operates.
 
+## Candle / Boundary Operational Rule Sheet
+
+This sheet is private author canon. It exists so the climax can be drafted without inventing rules mid-scene.
+
+### Approach Bands
+
+**Band Zero: Safe Calibration**
+- Outside modeled transition influence.
+- Routine telemetry checks, public delay buffer, archive integrity verification.
+- Any anomaly here is presumed software, stress, fraud, or ordinary failure until proven otherwise.
+- Public release requires standard Continuity Office review.
+
+**Band One: Outer Degradation**
+- First measurable confidence loss in optical, clock, or position systems.
+- Expected effects: timestamp drift, weak repeated star fields, nonfatal packet duplication, crew compulsion to rewatch Asterion material.
+- Candle may continue if two of three primary navigation systems agree within pre-briefed margins.
+- Nadine can halt. Sera can recommend halt on evidence grounds. Tomas can recommend halt on hardware grounds. Mara cannot halt for interpretive discomfort alone.
+
+**Band Two: Material Cost**
+- Matter begins paying: micro-pitting, polymer crazing, tissue sample distress, unexplained mass variance below lethal thresholds.
+- Candle may continue only if unmanned, antenna geometry holds, and life-support systems remain electrically isolated.
+- A human-occupied burn is legally possible only under sealed order but morally rejected by the intended climax.
+- Any proposal to occupy Candle requires Nadine’s command assent, IIA emergency concurrence, medical clearance, and Continuity Office release-risk review. In practice, this chain cannot complete in time without breaking protocol.
+
+**Band Three: Evidence Failure**
+- Sensor systems contradict one another in ways that cannot be ranked by known reliability.
+- Known signs: radar returns Witness interior geometry, timestamps duplicate with different content, archive index appears altered, biological trays show missing mass without radiation signature.
+- Candle must shift to burst transmission and retreat or passive drift depending on antenna state.
+- Sera can classify data as scientifically contaminated without calling it useless.
+- Mara can classify a fragment as interpretively lethal if it is likely to trigger death clusters when stripped of context.
+
+**Band Four: Abort / Loss**
+- Any of the following triggers mandatory abort if mechanically possible:
+  - Antenna geometry below minimum transmission angle for more than nine seconds.
+  - Candle guidance reports smooth approach while independent tracking reports lateral displacement above abort margin.
+  - Biological payload containment breach.
+  - Interior radar return includes live Witness crew compartments in real time.
+  - Voice channel produces a personal address to a living crew member from restricted Asterion material.
+  - Manual life-support linkage is found reenabled or occupied-couch protocol is initiated.
+- If abort fails, Candle continues burst archive transmission until failure. No rescue burn from Witness crosses into Band Three.
+
+### Transmission Trust Protocols
+
+Data is sorted into four release classes.
+
+**Class A: Instrumentally stable**
+- Multiple independent systems agree.
+- Can be used for public scientific summary after delay.
+
+**Class B: Scientifically contaminated but narratively necessary**
+- Data contradicts or duplicates but matches known Boundary behavior.
+- Can be released only with context, uncertainty labels, and mental health guidance.
+
+**Class C: Interpretively lethal**
+- Fragments likely to be converted into suicide proof, operator contact, proof of fake Mars, divine message, or personal resurrection.
+- Raw release prohibited. Existence may be acknowledged if hiding it would falsify the record.
+- Examples: isolated porch-light sentence, decontextualized post-impact laughter, apparent personal address from the dead, voice fragments that seem to promise exit.
+
+**Class D: Corrupted evidence**
+- Integrity cannot be established; chain of custody broken; checksum failure combined with content that invites doctrine.
+- Cannot support claims. May be described as corrupted if needed to explain withholding.
+
+### Authority Chain
+
+**Mission operations**
+1. Nadine Qureshi, Witness commander: final onboard authority over crew safety, burn continuation, and abort execution.
+2. Flight Dynamics Ground, Quito/Houston relay: advisory authority over trajectory and abort windows, delayed by communication lag.
+3. Tomas Vale, Candle systems architect: hardware integrity authority; can flag a no-go on Candle systems but cannot command the mission.
+4. Sera Imani, boundary physicist: scientific validity authority; can classify evidence and recommend halt or continuation.
+5. Witness medical officer plus Mara as mission psychologist: crew cognitive safety authority; can remove a crew member from duty.
+6. Mara Venn, interpretive officer: public-context authority; can recommend release class and contextual framing but cannot override Nadine’s safety command.
+
+**Release decisions**
+1. IIA Emergency Science Council authorizes mission-data release categories.
+2. Continuity Office assigns collapse-risk class and public delay requirements.
+3. Asterion Families’ Circle receives restricted notification for family-specific fragments when legally required.
+4. Mara drafts interpretive context when approved or ordered.
+5. Pavel can delay release under emergency continuity powers for a fixed window, but cannot permanently bury mission-critical evidence without council vote.
+6. Nadine can transmit a shipboard emergency statement if Earth command is unreachable and withholding creates immediate operational or public harm.
+7. Mara’s final action is costly because she signs a release package that names withheld material without publishing lethal fragments.
+
+### Release Thresholds for Lethal Fragments
+
+A fragment is considered lethal when at least two of these apply:
+
+- It contains a dead crew member addressing a living person by name outside verified context.
+- It includes laughter, calm, prayer, or invitation after a timestamp where life should be impossible.
+- It can be edited into a sentence that sounds like exit permission.
+- It resembles operator contact, divine judgment, or proof that pain is unreal.
+- It is already circulating in cult, denial, or market channels without context.
+- Prior similar releases correlate with collapse spikes or suicide clusters.
+
+Lethal does not mean false. It means raw publication would be an action with foreseeable casualties.
+
+## Boundary Anomaly Matrix
+
+Private author matrix. Use it to preserve mystery without accidental escalation.
+
+| Anomaly | Seen in | Allowed interpretations | Forbidden interpretations | Maximum escalation |
+|---|---|---|---|---|
+| Repeated star fields | São Paulo composites, Asterion cockpit, Candle optics | Optical failure, unknown lensing, rendered-sky hypothesis, data corruption, causal duplication | Definitive proof the universe is simulated | Candle returns stronger repeats with slight differences, never readable code |
+| Mars remains visible beyond wreck | Orpheus image, Witness approach | Reachability failure, observable-but-unreachable terrain, optical output, ordinary Mars beyond inaccessible domain | Mars is simply fake or painted on | Mars stays measurable but unreachable; no landing, no proof |
+| Radar returns interior geometry | probes, Candle | Boundary reflecting transmitter geometry, spatial self-reference, instrument hallucination | Usable map of hidden reality or outside world | Candle briefly returns Witness interior, triggering abort debate |
+| Duplicated timestamps | Asterion logs, Candle packet | Sensor duplication, causality shear, archive corruption, simultaneous incompatible records | Time travel that can be used | Contradictions sharpen; no one sends messages backward |
+| Fourteen post-failure seconds | Asterion cluster | Mis-timed structural data, survivable pocket, corrupt overlay, causality breakdown | Confirmed afterlife or consciousness upload | Candle data makes it newly plausible and newly impossible |
+| Elias porch-light sentence | restricted fragment | Memory contamination, impossible preservation, corrupted private transcript, coincidence, bait, unknown physics | Elias proving survival or giving doctrine | Raw fragment stays restricted; existence acknowledged under seal |
+| Jun cockpit laugh | public feed and duplicate cockpit record | Nervous laugh before impact, duplicated audio after impact, cult misuse, human terror under compression | Proof of release or joy beyond death | Final release includes “That’s not sky” context and still leaves doubt |
+| Elias off-screen laugh | last clean public feed | Ordinary crew intimacy before signal loss, later edited as false proof by some groups | Same thing as Jun’s duplicated cockpit laugh | Kept distinct from Jun’s cult-famous duplicated cockpit laugh |
+| Leila checklist/prayer split | Asterion audio | Parallel channels, record corruption, a human doing both, timestamp failure | Science and faith reconciled by the Boundary | Context released; no doctrine validated |
+| Hull remembering shapes | Amara note, structural scans | Failed engineering language, impossible stress pattern, matter record error | Mystic memory in metal | Phrase becomes public but is framed as engineer’s distress language |
+| Biological missing mass | animal probes, Candle tissues | unknown material stress, scan artifact, containment loss without trace | Soul measurement or consciousness extraction | Tissue data worsens but never maps to personhood |
+| Voice fragments from old recordings | Witness proximity, Candle | archive bleed, stress-triggered playback, Boundary audio duplication | reliable communication with the dead | Personal address triggers lethal-fragment protocol |
+| Pattern hunger and dreams | Witness crew | stress, confinement, media saturation, unknown proximity effect | mind control by operators | Crew safety risk escalates, but no possessed behavior |
+| Error-correcting code resembles edits | probes, Candle | statistical artifact, adversarial-looking corruption, causality shear | intentional message from creators | Looks meaningful once, fails to repeat |
+
 ## Places and Sensory Signatures
 
 **Pacific Gantry**
@@ -218,7 +340,9 @@ Role: Mara’s pressure chamber. Witness is part laboratory, part monastery, par
 
 **Candle**
 
-The recognition craft carried by Witness. It is small, white, and ugly, built around redundancy rather than elegance. Inside are sensor bundles, impact gels, archival drives, a radiation-hardened voice recorder, biological tissue samples, and one empty human-rated couch left in place because removing it became politically impossible.
+The recognition craft carried by Witness. It is small, white, and ugly, built around redundancy rather than elegance. Inside are sensor bundles, impact gels, archival drives, a radiation-hardened voice recorder, biological tissue samples, nonliving neural organoid analogues, a sealed archive of human artifacts, and one empty human-rated couch left in place because removing it became politically impossible.
+
+The couch survived design review because four forces locked it in place: a human-rating sponsor had insured the couch assembly as proof that Candle remained a rescue-capable craft; Asterion families sued to preserve the option of human recovery or human witness; orbital manufacturers threatened to withdraw funding if the craft was downgraded to a “mere probe”; and IIA legislators needed the ambiguity to keep both rescue romantics and hard-science factions voting yes. Removing the couch would trigger sponsor default clauses, family injunctions, insurance reclassification, and a public admission that no rescue was ever intended.
 
 Role: The object of final choice. Sending Candle unmanned is science. Sending it with a human aboard is martyrdom. Leaving the couch empty becomes its own argument.
 
@@ -258,6 +382,12 @@ Role: Public ritual without agreement. Everyone looks in the same direction for 
 
 The IIA owns the official mission architecture. Its strength is coordination; its weakness is political compromise. It must maintain public trust while hiding enough data to prevent panic and enough failure to prevent funding collapse. It is not evil, but it is institutionally allergic to ambiguity.
 
+Member blocs include the United States, China, India, the European Space Directorate, the Pan-African Launch Compact, the Pacific Coalition, Brazil’s civilian astronomy bloc, and rotating observer seats for nonlaunch states whose populations host Glass Rooms, collapse wards, or major orbital labor.
+
+Emergency powers include restricted telemetry classification, delayed public release, temporary override of national launch law, mental-health release advisories, and compelled data-sharing from member observatories. These powers expire unless renewed every 180 days, which turns every renewal into theater.
+
+Funding comes from member assessments, orbital-industry levies, mission bonds, insurance pools, and sponsor packages. This creates the central rot: the same system charged with public truth depends on markets that panic when truth arrives too raw.
+
 Goal: Preserve spaceflight as a human project.
 
 Harm caused: Delayed truth, selective leaks, suppression of dissenting crew-family testimony.
@@ -281,6 +411,8 @@ Harm caused: Families of collapse patients are accused of ideological weakness. 
 **The Exit Congregations**
 
 Loose networks believing death exits the artificial world. They range from quiet philosophical circles to predatory suicide cults. Their symbol is a door drawn around Mars. They recruit among the bereaved, the imprisoned, the terminally ill, and teenagers who spend nights in loop-sky forums.
+
+They use two different laughs for two different purposes. Elias’s off-screen laugh from the last clean public feed is used as proof that the crew was calm before the clip. Jun’s duplicated cockpit laugh, especially when cut away from “That’s not sky,” is the cult-famous proof of release after death should have been impossible. Documents must keep these separate.
 
 Goal: Escape.
 
@@ -334,7 +466,7 @@ Schools become battlegrounds. Younger children ask direct questions adults canno
 
 Grief becomes unstable. Old phrases fail. “They are in a better place” can trigger rage. “They died for humanity” sounds fraudulent to some families. Funerals for Asterion become contested rituals: six empty coffins, one shared recording, no bodies, a red light lowered behind the altar or podium. Elias’s memorial is attended by astronauts, senators, and a cousin who whispers that Mara trained him too well.
 
-Ambition loses its old vertical grammar. “Reach for the stars” becomes a cruel joke in advertisements and is banned in some school districts. Career counselors replace space posters with ocean restoration, medicine, local engineering. Luxury brands sell finite-life aesthetics: watches engraved with boundary coordinates, black glass jewelry, Mars-red mourning clothes.
+Ambition loses its old vertical grammar. “Reach for the stars” becomes a cruel joke in advertisements and is banned in some school districts. Career counselors replace space posters with ocean restoration, medicine, local engineering. Luxury brands sell finite-life aesthetics: watches engraved with Boundary coordinates, black glass jewelry, Mars-red mourning clothes.
 
 Love acquires a sharper practical edge. Marriage vows change in some communities from “forever” to “while we are given time.” Dating profiles list Boundary stance: Denier, Finite, Open Question, Exit-unsafe, No Mars Talk. Some people rush into families; others refuse children until “reality is settled,” as if it ever could be.
 
@@ -343,6 +475,13 @@ Money feeds on dread. Boundary derivatives allow investors to bet on disclosure 
 Language changes. People say “before the glass” to mean innocent confidence. “Flat” means unable to care. “Rendered” means vivid or trustworthy, often ironically. “Marsing” means pursuing an unreachable goal after evidence says stop. “Don’t wall me” means do not answer a real fear with doctrine.
 
 Ritual becomes improvised. Families keep small red stones on tables during mission broadcasts. Some blow out candles before the feed starts, refusing old symbols. Prisoners in three countries organize synchronized silence for Asterion, then for their own dead. In Tokyo, commuters touch a tiled red circle in Shinjuku Station before work. In Lagos, schoolchildren recite names of local repair workers alongside astronaut names.
+
+Ordinary-life strata to recur:
+
+- **Orbital labor families:** twelve-hour maintenance rotations, deferred hazard pay, insurance exclusions for metaphysical events, union fights over reality-fitness screenings, children in Red Nurseries whose parents cannot afford to move them after murals become traumatic.
+- **Continuity ward households:** rent arrears after a parent goes flat, siblings trained to prompt meals, school absence forms that avoid saying collapse, family arguments over whether removing stars from a bedroom is care or surrender.
+- **Professional and sponsor class:** private screenings with clinicians on standby, investment hedges against mission failure, discreet dating filters for Boundary stance, funeral planners offering “finite rites,” lawyers turning grief into evidence custody.
+- **Repair-site communities:** floodwall shifts, pump queues, church basements used for tool storage, Finite Earth volunteers teaching children pipe repair beside old Mars posters, resentment when IIA funding votes pull engineers back toward space.
 
 Childhood is the deepest wound. The generation born after the Break does not remember infinity as promise. They inherit adults who flinch at stars. Some become practical and tender. Some become cruel. Some play Boundary games: one child is Mars, one is Earth, one is the wall, and the rule is that nobody wins unless someone changes the game.
 
@@ -354,9 +493,9 @@ A curated but live-delayed stream of crew life, science lessons, exercise, meal 
 
 Confirmed: The feed stopped at mission day 118 during a planned communication adjustment.
 
-Uncertain: Whether the final public seconds were already affected by boundary distortion.
+Uncertain: Whether the final public seconds were already affected by Boundary distortion.
 
-Propaganda use: Denial blocs edit the clip to imply sabotage. Exit groups loop Elias’s laugh as “proof” the crew saw release.
+Propaganda use: Denial blocs edit the clip to imply sabotage. Some Exit groups loop Elias’s off-screen laugh as “proof” the crew saw release, but the stronger cult object is Jun’s duplicated cockpit laugh from a later corrupted record.
 
 **Private Crew Logs**
 
@@ -368,6 +507,12 @@ Uncertain: Whether odd perceptions in the logs were stress, technical artifacts,
 
 Narrative use: Mara hunts for Elias inside records that may not preserve him cleanly.
 
+**Mara’s Porch-Light Access**
+
+Before Witness, Mara possesses an unofficial, partial transcript rumor of a restricted Elias fragment: the phrase “Mara, leave the porch light on,” without verified audio, full channel metadata, or custody. It came through a family-adjacent leak after the Break and is dangerous enough that she never reports it. She does not have the clean playable fragment.
+
+Chapter 18’s turn remains valid because Mara first isolates the verified audio-bearing fragment aboard Witness, hears the line in Elias’s voice, and hides that first playback. The earlier item is prior unauthorized knowledge, not prior verified evidence. This distinction matters: she is already compromised by desire, then becomes procedurally compromised by concealment.
+
 **Orpheus Forensic Suite**
 
 Uncrewed recovery platform with swarm drones, high-resolution imaging, residue capture, structural mapping, and relativistic telemetry verification. It discovered the wreck but failed to retrieve bodies or board safely.
@@ -376,7 +521,7 @@ Confirmed: Hull deformation patterns are physically impossible under known colli
 
 Uncertain: Whether bodies remain inside in any coherent form.
 
-Public image: Asterion crushed against nothing, Mars beyond. The defining icon of the age.
+Public image: the paused Asterion wreck frame, recovered by Orpheus, showing Asterion crushed against nothing with Mars beyond.
 
 **Loop-Sky Composites**
 
@@ -404,7 +549,7 @@ Confirmed: Candle can transmit until its antenna geometry fails.
 
 Uncertain: Whether any transmission from the transition zone can be trusted.
 
-Narrative use: The empty couch becomes the story’s most dangerous object because it invites sacrifice.
+Narrative use: The empty couch becomes the story’s most dangerous object because it invites sacrifice and because its removal would disturb sponsor contracts, family claims, insurance classes, and IIA funding votes at once.
 
 **Boundary Delay Protocols**
 
@@ -429,6 +574,25 @@ Cultural effect: The dead become editable.
 Mission audio is full of clipped breath, velcro, static, checklists, prayer under breath, jokes that do not land, and long silences after Earth updates. Audio matters more than visuals because the Boundary corrupts images first in public imagination.
 
 Narrative use: The human voice becomes the last trusted instrument, though even voice can be duplicated.
+
+## Witness and Ground Support Additions
+
+The operational crew needs enough named pressure points to keep scenes from thinning around Mara, Nadine, Sera, and Tomas.
+
+**Anika Rao, Flight Dynamics Ground**
+- Role: Quito/Houston trajectory lead for Witness-Candle handoff.
+- Wound/want/pressure: Her older brother works in a denial-bloc launch program that calls the Boundary sabotage; she needs the model to be wrong in a way that does not destroy her family.
+- Scene use: She catches abort-window drift before onboard systems agree. Communication delay makes her authority arrive late.
+
+**Malik Serrano, Witness Comms**
+- Role: Narrowband and release-packet routing specialist aboard Witness.
+- Wound/want/pressure: His mother went flat after an unfiltered leak; he hates raw dumps but hates Pavel’s smoothing more.
+- Scene use: He can physically queue, delay, or flag the final packet and feels the moral weight of transmission as action.
+
+**Dr. Yuna El-Amin, Mission Medical Monitor**
+- Role: Ground-linked neurophysiology and crew-health lead.
+- Wound/want/pressure: She cleared a candidate for Asterion who later developed prelaunch panic and was quietly replaced; she now sees every stable reading as possibly false comfort.
+- Scene use: She tracks pattern hunger, sleep loss, and Mara’s compromised cognitive state; she can remove Mara from duty after Ch 18.
 
 ## Cultural and Philosophical Fault Lines
 
@@ -464,7 +628,7 @@ Embodied cost: The same image can kill one person, free another from denial, and
 
 **Science Versus Consolation**
 
-The boundary does not make science wrong. Science is the only reason anyone knows the event is real. But scientific language cannot carry all the grief it uncovers. Religion, art, and ritual rush into the gap, sometimes healing, sometimes predatory.
+The Boundary does not make science wrong. Science is the only reason anyone knows the event is real. But scientific language cannot carry all the grief it uncovers. Religion, art, and ritual rush into the gap, sometimes healing, sometimes predatory.
 
 Embodied cost: Physicists are asked to answer children’s metaphysical questions on live feeds. Priests are asked to interpret telemetry. Both fail in public.
 
@@ -473,6 +637,61 @@ Embodied cost: Physicists are asked to answer children’s metaphysical question
 Asterion’s crew become symbols before they can be mourned. Every faction uses them. The living need the dead to mean something; the dead cannot consent.
 
 Embodied cost: Mara’s final choice about the logs is also a choice about whether Elias belongs to her, to history, to science, or to anyone who can survive the truth.
+
+## Public Fragment Consequence Grid
+
+Earth fragments must change later decisions, not merely illustrate theme.
+
+- **St. Odran’s Ch 4:** establishes that raw metaphysical language can interrupt eating and self-care. Later constraint: release packages require clinical framing and delay windows.
+- **Mumbai Futures Pit Ch 8:** shows market movement as a crude detector of insider belief. Later constraint: Mara and Pavel know leaks will move insurance, sponsor pressure, and collapse exposure before public context can catch up.
+- **Exit stream Ch 10:** turns decontextualized laughter into a death vector. Later constraint: Jun’s laugh and Elias’s laugh must be separated and contextualized in the final package.
+- **Finite Earth repair site Ch 13:** shows nearness as care and coercion. Later constraint: final public language cannot imply space-dreaming is moral failure.
+- **Release hearing Ch 16:** establishes incompatible family claims. Later constraint: final package must include Sofia, Mateo, and Elias material with different access rules.
+- **Ward Without Stars Ch 19:** shows that small choices are not sentimental; they are clinical stakes. Later constraint: Mara’s release must name practical care, not cosmic comfort.
+- **Mateo lesson Ch 21:** proves children were used as emotional collateral. Later constraint: final package must admit institutional compromise before the Boundary, not only mystery after it.
+- **Aftermath Ch 24:** harm continues. Later constraint: no ending language implying civilization is healed.
+
+## Secret Reveal Mechanisms
+
+Vary reveal shapes so the novel does not repeat the same disclosure scene.
+
+- Hardware failure: Tomas’s disabled Candle life-support linkage surfaces during static test and becomes operational crisis.
+- Family testimony: Ruth’s request and Tomás Ríos Sr.’s accusation force private grief into public release design.
+- Market behavior: Mumbai derivatives spike before official disclosure, exposing sponsor belief and leak pathways.
+- Clinical consequence: St. Odran’s relapse after an Exit phrase proves that language can be lethal without being false.
+- Corrupted log: Elias’s porch-light line appears in a verified but contaminated fragment, destroying Mara’s neutrality.
+- Legal document: Candle’s couch survives because sponsor insurance, family injunctions, and IIA funding clauses make removal politically explosive.
+- Protocol change: final release names withheld material and creates a restricted family/clinical seal rather than pretending the lethal fragment does not exist.
+
+## Continuity Cleanup Sheet
+
+Use this as authority when drafting.
+
+1. **Public wreck image name**
+   - Correct standard term: **paused Asterion wreck frame**.
+   - Full explanatory phrase: **the paused Asterion wreck frame recovered by Orpheus**.
+   - Avoid: “the frozen Orpheus image” if it makes Orpheus sound like the wrecked craft.
+
+2. **Porch-light fragment access**
+   - Before Witness, Mara has an unofficial partial transcript rumor, not verified audio and not a clean fragment.
+   - In Chapter 18, she first isolates the verified audio-bearing fragment and hides the first playback.
+   - This preserves both her prior compromise and the procedural turn.
+
+3. **Elias laugh versus Jun laugh**
+   - Elias’s laugh: off-screen in the last clean public feed, before signal clip, used by some groups to claim calm or hidden knowledge.
+   - Jun’s laugh: duplicated cockpit recording placed after impact should have killed him; this is the cult-famous Exit evidence, especially when stripped of “That’s not sky.”
+   - Final release must separate them.
+
+4. **Authority for release**
+   - Nadine controls onboard safety and burn decisions.
+   - Sera controls scientific validity classification.
+   - Tomas controls Candle hardware integrity recommendations.
+   - Mara controls interpretive framing and lethal-fragment classification recommendations.
+   - Pavel and the IIA/Continuity Office control public delay and release class until shipboard emergency authority is invoked.
+   - Mara’s final authority is not bureaucratic supremacy; it comes from signing and transmitting a contextual package under contested emergency conditions.
+
+5. **Genre frame**
+   - This is literary science fiction. Any scoring label such as “magic system” should be read as speculative-system rules: limits, costs, permissions, forbidden uses, and operational consequences.
 
 ## Internal Consistency Rules
 
@@ -505,3 +724,32 @@ Do not use the word “simulation” as a solved diagnosis. Characters may use i
 Do not make the climax a lecture. The final movement must force an operational choice: what to send, what to release, whether to risk Candle, whether to preserve or break a public narrative, whether Mara privileges proof of Elias’s meaning over the living world’s need.
 
 Do not let hope arrive clean. Hope in this world is not restored infinity. It is a smaller, harder practice: answering a child, touching cold metal, telling the truth with care, refusing to use the dead as furniture, choosing obligation without cosmic applause.
+
+## Chapter Check Before Drafting
+
+For each chapter, check the indexed risk most likely to break continuity:
+
+- Ch 1: Use “paused Asterion wreck frame recovered by Orpheus.” Do not call Orpheus the wreck.
+- Ch 2: Mara’s Elias recommendation is professional language with personal contamination, not villainy.
+- Ch 3: Mara is allowed in because her compromise is politically useful, not overlooked.
+- Ch 4: Collapse is bodily: food, clothes, names, weather.
+- Ch 5: Candle’s couch is already political: sponsor, lawsuit, insurance, family claim.
+- Ch 6: Elias’s public-feed laugh is ordinary and pre-clip; keep it distinct from Jun’s later duplicate laugh.
+- Ch 7: Sera’s “reach is failing” correction protects Mars ambiguity.
+- Ch 8: Market fragment must impose later release and insurance pressure.
+- Ch 9: Sofia’s manual correction is blame vector, not true cause.
+- Ch 10: Exit cults use both laughs differently; specify which one.
+- Ch 11: Amara’s “hull remembering” is failed engineering language, not mysticism.
+- Ch 12: Contradictory logs cannot become sequence.
+- Ch 13: Finite Earth is right about care and wrong when it punishes hope.
+- Ch 14: Tomas’s disabled linkage creates a real procedure problem.
+- Ch 15: Leila’s prayer does not prove doctrine.
+- Ch 16: Families are plural and adversarial.
+- Ch 17: Jun’s laugh plus “That’s not sky” complicates release cult evidence.
+- Ch 18: Mara had prior transcript rumor; this is first verified playback.
+- Ch 19: Small choices are clinical stakes, not cute symbolism.
+- Ch 20: Nadine’s sealed orders fracture command because they are real authority.
+- Ch 21: Mateo exposes children as moral collateral.
+- Ch 22: Candle stays unmanned. Abort rules matter.
+- Ch 23: Final package names withholding without raw lethal release.
+- Ch 24: Harm continues. Hope is practice, not cure.
