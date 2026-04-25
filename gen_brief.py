@@ -603,6 +603,108 @@ def build_cuts_brief(ch: int) -> str:
     return brief
 
 
+def build_combined_brief(ch: int) -> str:
+    """Build a specific-chapter brief from eval, panel, and cuts when available."""
+    text = chapter_text(ch)
+    title = chapter_title(text)
+    wc = word_count(text)
+    voice_rules = extract_voice_rules()
+
+    problem_parts: list[str] = []
+    keep_parts: list[str] = []
+    change_parts: list[str] = []
+    change_num = 1
+
+    # Per-chapter eval, if present.
+    ch_eval_path = latest_chapter_eval(ch)
+    if ch_eval_path:
+        ch_eval = load_json(ch_eval_path)
+        overall = ch_eval.get("overall_score", "?")
+        problem_parts.append(f"Per-chapter eval score: **{overall}/10**")
+        for dk in ["voice_adherence", "beat_coverage", "character_voice",
+                   "plants_seeded", "prose_quality", "engagement"]:
+            dim = ch_eval.get(dk)
+            if not dim or not isinstance(dim, dict):
+                continue
+            score = dim.get("score", "?")
+            fix = dim.get("fix", "")
+            try:
+                weak = float(score) <= 7
+            except (TypeError, ValueError):
+                weak = bool(fix)
+            if weak and fix:
+                change_parts.append(f"{change_num}. [eval/{dk}] {fix}")
+                change_num += 1
+        for rev in ch_eval.get("top_3_revisions", []):
+            change_parts.append(f"{change_num}. [eval] {rev}")
+            change_num += 1
+        for s in ch_eval.get("three_strongest_sentences", []):
+            keep_parts.append(f'- Eval strongest sentence: "{s}"')
+        for s in ch_eval.get("three_weakest_sentences", []):
+            problem_parts.append(f'- Eval weakest sentence: "{s}"')
+
+    # Reader panel, if present.
+    panel = load_panel()
+    if panel:
+        info = panel_mentions_for_chapter(panel, ch)
+        mentions = info["mentions"]
+        flagged = info["flagged_issues"]
+        for f in flagged:
+            problem_parts.append(f"Panel flag: {f}")
+        for key in ["worst_scene", "momentum_loss", "cut_candidate"]:
+            for m in mentions[key]:
+                snippet = m[:400] + "..." if len(m) > 400 else m
+                change_parts.append(f"{change_num}. [panel/{key}] {snippet}")
+                change_num += 1
+        for m in mentions["best_scene"]:
+            snippet = m[:400] + "..." if len(m) > 400 else m
+            keep_parts.append(f"Panel best scene mention: {snippet}")
+
+    # Adversarial cuts, if present.
+    cuts_data = load_cuts(ch)
+    if cuts_data:
+        total_cuttable = cuts_data.get("total_cuttable_words", 0)
+        fat_pct = cuts_data.get("overall_fat_percentage", 0)
+        verdict = cuts_data.get("one_sentence_verdict", "")
+        if total_cuttable or verdict:
+            problem_parts.append(
+                f"Adversarial edit: {total_cuttable} cuttable words ({fat_pct}% fat). {verdict}"
+            )
+        for c in cuts_data.get("cuts", [])[:6]:
+            quote = c.get("quote", "")[:150]
+            reason = c.get("reason", "")
+            action = c.get("action", "CUT")
+            rewrite = c.get("rewrite")
+            entry = f'{change_num}. [cuts/{c.get("type", "OTHER")}] `"{quote}..."` — {reason}'
+            if action == "REWRITE" and rewrite:
+                entry += f'\n   → Rewrite as: "{rewrite}"'
+            elif action == "CUT":
+                entry += "\n   → Cut entirely"
+            change_parts.append(entry)
+            change_num += 1
+
+    if not problem_parts and not change_parts and not keep_parts:
+        sys.exit(f"ERROR: no eval, panel, or cuts feedback available for chapter {ch}")
+
+    if not keep_parts:
+        keep_parts.append("Preserve the strongest emotional, causal, and image-bearing material in the current draft.")
+    if not change_parts:
+        change_parts.append("Use the available feedback to make a conservative clarity and voice pass.")
+
+    brief = f"# Revision Brief: Chapter {ch} — {title} (COMBINED)\n\n"
+    brief += "## PROBLEM\n"
+    brief += "\n".join(problem_parts or ["Combined feedback is light; revise conservatively."]) + "\n\n"
+    brief += "## WHAT TO KEEP\n"
+    brief += "\n".join(keep_parts) + "\n\n"
+    brief += "## WHAT TO CHANGE\n"
+    brief += "\n".join(change_parts) + "\n\n"
+    brief += "## VOICE RULES\n"
+    brief += "\n".join(f"- {r}" for r in voice_rules) + "\n\n"
+    brief += "## TARGET\n"
+    brief += f"~{wc} words (current: {wc}; adjust only if feedback requires it)\n"
+    return brief
+
+
 def build_auto_brief() -> tuple[int, str]:
     """Auto-detect weakest chapter and build a combined brief."""
     full_eval_path = latest_full_eval()
@@ -798,6 +900,8 @@ def main():
                         help="Generate brief from eval callouts for chapter CH")
     parser.add_argument("--cuts", type=int, metavar="CH",
                         help="Generate brief from adversarial cuts for chapter CH")
+    parser.add_argument("--combined", type=int, metavar="CH",
+                        help="Generate combined brief from eval, panel, and cuts for chapter CH")
     parser.add_argument("--auto", action="store_true",
                         help="Auto-detect weakest chapter and generate combined brief")
     parser.add_argument("--dry-run", action="store_true",
@@ -810,13 +914,14 @@ def main():
         args.panel is not None,
         args.eval is not None,
         args.cuts is not None,
+        args.combined is not None,
         args.auto,
     ])
     if modes == 0:
         parser.print_help()
         sys.exit(1)
     if modes > 1:
-        sys.exit("ERROR: specify exactly one of --panel, --eval, --cuts, --auto")
+        sys.exit("ERROR: specify exactly one of --panel, --eval, --cuts, --combined, --auto")
 
     # Generate
     if args.panel is not None:
@@ -831,6 +936,10 @@ def main():
         ch = args.cuts
         brief_text = build_cuts_brief(ch)
         suffix = "cuts"
+    elif args.combined is not None:
+        ch = args.combined
+        brief_text = build_combined_brief(ch)
+        suffix = "combined"
     else:  # --auto
         ch, brief_text = build_auto_brief()
         suffix = "auto"
