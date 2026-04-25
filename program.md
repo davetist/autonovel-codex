@@ -59,8 +59,14 @@ Cross-layer consistency checks on every iteration:
   - Canon.md is populated with all hard facts from world.md and
     characters.md
 
-Exit: When foundation_score > 7.5 AND lore_score > 7.0, update
-state.json phase to "drafting".
+Foundation iteration policy:
+  - If foundation_score < FOUNDATION_THRESHOLD - 0.5, discard the candidate
+    and regenerate the full foundation. This is cold exploration.
+  - If FOUNDATION_THRESHOLD - 0.5 <= foundation_score < FOUNDATION_THRESHOLD,
+    preserve the best candidate and run surgical repair using the best
+    foundation eval JSON.
+  - If foundation_score >= FOUNDATION_THRESHOLD and lore_score > 7.0, update
+    state.json phase to "drafting".
 
 ## Phase 2: First Draft (sequential chapter writing)
 
@@ -72,7 +78,9 @@ FOR each chapter in outline order:
        + next chapter's outline (for continuity)
     2. Write chapters/ch_NN.md
     3. Run `python evaluate.py --chapter=NN`
-    4. Keep/discard based on score
+    4. Keep if score passes. If score fails, generate an eval-derived brief
+       with `gen_brief.py --eval NN`, revise the current draft with
+       `gen_revision.py`, and evaluate again before attempting a blind redraft.
     5. If writing reveals a lore gap or inconsistency, log a debt
        in state.json
     6. After evaluation, check new_canon_entries in the eval output.
@@ -98,7 +106,7 @@ LOOP FOREVER:
      - Pacing problem
      - Pending debt from state.json
   3. Decide action:
-     a. Revise a weak chapter
+     a. Revise a weak chapter from a combined brief (`gen_brief.py --combined`)
      b. Fix a consistency violation (may touch lore + chapters)
      c. Strengthen a foreshadowing thread (plant + payoff chapters)
      d. Refine voice in the most-deviant chapter
