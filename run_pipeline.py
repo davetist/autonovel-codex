@@ -289,6 +289,48 @@ def run_foundation_repair(eval_log: Path) -> subprocess.CompletedProcess:
     return uv_run(f"repair_foundation.py --eval-log {eval_arg}", timeout=1800)
 
 
+def should_repair_foundation(score: float) -> bool:
+    """Use surgical repair only for near-threshold foundation candidates."""
+    return FOUNDATION_THRESHOLD - 0.5 <= score < FOUNDATION_THRESHOLD
+
+
+def latest_chapter_brief(chapter: int, suffix: str) -> Path | None:
+    """Return the newest generated brief for a chapter/suffix pair."""
+    if not BRIEFS_DIR.exists():
+        return None
+    candidates = sorted(
+        BRIEFS_DIR.glob(f"ch{chapter:02d}_{suffix}.md"),
+        key=lambda p: p.stat().st_mtime,
+        reverse=True,
+    )
+    if candidates:
+        return candidates[0]
+    broader = sorted(
+        BRIEFS_DIR.glob(f"ch{chapter:02d}*{suffix}*.md"),
+        key=lambda p: p.stat().st_mtime,
+        reverse=True,
+    )
+    return broader[0] if broader else None
+
+
+def run_chapter_eval_repair(chapter: int) -> subprocess.CompletedProcess:
+    """Generate an eval-derived chapter brief and revise the current draft."""
+    BRIEFS_DIR.mkdir(exist_ok=True)
+    brief_result = run_tool(f"uv run python gen_brief.py --eval {chapter}", timeout=300)
+    if brief_result.returncode != 0:
+        return brief_result
+    brief = latest_chapter_brief(chapter, "eval")
+    if brief is None:
+        return subprocess.CompletedProcess(
+            args=f"gen_brief.py --eval {chapter}",
+            returncode=1,
+            stdout="",
+            stderr="No eval brief generated",
+        )
+    brief_arg = shlex.quote(str(brief))
+    return uv_run(f"gen_revision.py {chapter} {brief_arg}", timeout=600)
+
+
 def count_words_in_chapters() -> int:
     """Sum word count across all chapter files."""
     total = 0
@@ -359,14 +401,23 @@ def run_foundation(state: dict) -> dict:
         banner(f"Foundation Iteration {i}", "-")
         state["iteration"] = i
 
+        if best_score >= FOUNDATION_THRESHOLD:
+            step(f"Foundation score {best_score} >= {FOUNDATION_THRESHOLD} — already passed")
+            break
+
         # 1. Generate or repair planning documents.
-        if best_score > 0 and best_eval_log is not None:
+        if best_eval_log is not None and should_repair_foundation(best_score):
             step(f"Repairing foundation from eval log: {best_eval_log.name}")
             repair_result = run_foundation_repair(best_eval_log)
             if repair_result.returncode != 0:
                 step(f"Foundation repair failed (exit {repair_result.returncode}), stopping")
                 break
         else:
+            if best_score > 0 and best_score < FOUNDATION_THRESHOLD - 0.5:
+                step(
+                    f"Foundation score {best_score} is below repair band "
+                    f"(< {FOUNDATION_THRESHOLD - 0.5}); generating a fresh candidate"
+                )
             step("Generating world bible...")
             run_foundation_generator("gen_world.py", "world.md", timeout=300)
 
@@ -454,23 +505,26 @@ def run_drafting(state: dict) -> dict:
         banner(f"Drafting Chapter {ch}/{total}", "-")
         drafted = False
 
+        ch_file = CHAPTERS_DIR / f"ch_{ch:02d}.md"
+        needs_fresh_draft = True
+
         for attempt in range(1, MAX_CHAPTER_ATTEMPTS + 1):
             step(f"Attempt {attempt}/{MAX_CHAPTER_ATTEMPTS}")
 
-            # Draft
-            draft_result = uv_run(f"draft_chapter.py {ch}", timeout=600)
-            if draft_result.returncode != 0:
-                step(f"Draft failed (exit {draft_result.returncode}), retrying...")
-                continue
+            if needs_fresh_draft:
+                draft_result = uv_run(f"draft_chapter.py {ch}", timeout=600)
+                if draft_result.returncode != 0:
+                    step(f"Draft failed (exit {draft_result.returncode}), retrying...")
+                    continue
 
             # Check the chapter file exists and has content
-            ch_file = CHAPTERS_DIR / f"ch_{ch:02d}.md"
             if not ch_file.exists() or ch_file.stat().st_size < 100:
                 step("Chapter file missing or too short, retrying...")
+                needs_fresh_draft = True
                 continue
 
             word_count = len(ch_file.read_text().split())
-            step(f"Drafted {word_count} words")
+            step(f"Chapter draft has {word_count} words")
 
             # Evaluate
             eval_result = uv_run(f"evaluate.py --chapter={ch}", timeout=300)
@@ -486,13 +540,27 @@ def run_drafting(state: dict) -> dict:
                 save_state(state)
                 drafted = True
                 break
-            else:
-                step(f"Score {score} < {CHAPTER_THRESHOLD}, discarding attempt")
-                log_result("discarded", f"ch{ch:02d}", score, word_count,
-                           "discard", f"Chapter {ch} attempt {attempt}")
-                # Remove the bad chapter file so next attempt starts fresh
-                if ch_file.exists():
-                    run_tool(f"git checkout -- chapters/ch_{ch:02d}.md 2>/dev/null || true")
+
+            step(f"Score {score} < {CHAPTER_THRESHOLD}, repairing from chapter eval")
+            log_result("repairing", f"ch{ch:02d}", score, word_count,
+                       "repair", f"Chapter {ch} attempt {attempt}: eval-guided repair")
+
+            if attempt == MAX_CHAPTER_ATTEMPTS:
+                break
+
+            repair_result = run_chapter_eval_repair(ch)
+            if repair_result.returncode == 0:
+                needs_fresh_draft = False
+                continue
+
+            step(f"Eval-guided repair failed (exit {repair_result.returncode}); next attempt will redraft")
+            run_tool(f"git checkout -- chapters/ch_{ch:02d}.md 2>/dev/null || true")
+            if ch_file.exists() and state.get("chapters_drafted", 0) < ch:
+                try:
+                    ch_file.unlink()
+                except OSError:
+                    pass
+            needs_fresh_draft = True
 
         if not drafted:
             step(f"WARNING: Chapter {ch} failed all {MAX_CHAPTER_ATTEMPTS} attempts, "
@@ -647,11 +715,12 @@ def run_revision(state: dict, max_cycles: int = MAX_REVISION_CYCLES) -> dict:
             brief_file = BRIEFS_DIR / f"ch{ch_num:02d}_cycle{cycle}_{question}.md"
             gen_brief = BASE_DIR / "gen_brief.py"
             if gen_brief.exists():
-                step(f"Generating brief for Ch {ch_num}...")
-                run_tool(f"uv run python gen_brief.py --panel {ch_num}", timeout=300)
-                # gen_brief.py may write to briefs/ — find the most recent brief
+                step(f"Generating combined brief for Ch {ch_num}...")
+                run_tool(f"uv run python gen_brief.py --combined {ch_num}", timeout=300)
+                # gen_brief.py may write to briefs/ — find the most recent combined brief
                 brief_candidates = sorted(
-                    BRIEFS_DIR.glob(f"ch{ch_num:02d}*.md"),
+                    list(BRIEFS_DIR.glob(f"ch{ch_num:02d}_combined.md"))
+                    or list(BRIEFS_DIR.glob(f"ch{ch_num:02d}*.md")),
                     key=lambda p: p.stat().st_mtime, reverse=True)
                 if brief_candidates:
                     brief_file = brief_candidates[0]
