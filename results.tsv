@@ -1,3 +1,4 @@
 timestamp	phase	score	words	keep_discard	description
 20260426_010000	foundation	8.0	0	keep	Eval-guided repair from run 1 improved foundation 7.4 -> 8.0 (lore 7.6 -> 8.2); repaired voice.md and world.md
 21904cf	ch01	8.0	4591	keep	Chapter 1 (attempt 1)
+ece6007	ch02	7.0	4386	keep	Chapter 2 (attempt 1)
