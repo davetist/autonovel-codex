@@ -60,3 +60,11 @@ warning: `VIRTUAL_ENV=/Users/david/.hermes/hermes-agent/venv` does not match the
   [12:31:44] RUN: uv run python evaluate.py --chapter=13
   [12:32:35] Ch 13: 8.0 -> 8.0
   [12:32:35] RUN: git add -A
+  [12:32:35] RUN: git commit -m "revision cycle 3: ch13 cut_candidate 8.0->8.0" --allow-empty
+  [12:32:35] RUN: git rev-parse --short HEAD
+  [12:32:35] GIT COMMIT: 4f35ead — revision cycle 3: ch13 cut_candidate 8.0->8.0
+  [12:32:35] Running full novel evaluation...
+  [12:32:35] RUN: uv run python evaluate.py --full
+  [12:33:02] Novel score: 9.2  (prev: 9.3, words: 110506)
+  [12:33:02] Surgical cycle gate: keep — Full score held within tolerance (9.30 -> 9.20).
+  [12:33:02] RUN: git add -A
