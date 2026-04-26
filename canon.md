@@ -1075,3 +1075,16 @@
 - Nadine records commander nonconcurrence: Candle will proceed unmanned or not at all. *(ch20 eval)*
 - The Witness command note adds the operational principle: no one dies for testimony. *(ch20 eval)*
 - Ground notices H-12 moving to active seal and asks why. *(ch20 eval)*
+
+### Chapter 21
+
+- Mateo recorded AST-PUB-EDU-MD115-RIOS-BASALT-SEGMENT for Red Nurseries using his personal Atacama comparative sample. *(ch21 eval)*
+- Public Learning supplied or approved the phrase "Mars is waiting for all of us, and we are coming carefully." *(ch21 eval)*
+- A child-question packet from Red Nursery Fourteen asked Mateo to say "Mars is waiting for us." *(ch21 eval)*
+- Mateo publicly refused the verb "waiting" and answered that Mars is there and Asterion is going carefully. *(ch21 eval)*
+- The edited Red Nursery version retained: "Mars is there. We are going carefully. When you study basalt, you are learning how to greet a place before you touch it." *(ch21 eval)*
+- Mateo recorded an unscheduled private MD115 log in payload storage later labeled the angry log. *(ch21 eval)*
+- Mateo's father warned him that the mission was buying witnesses before the accident. *(ch21 eval)*
+- Mateo's private log states that children were made witnesses, not merely audience, and that the mission gave that burden to them with crayons. *(ch21 eval)*
+- Mateo recorded AST-PUB-EDU-MD116-RIOS-BASALT-SEGMENT-REV2 as the replacement basalt lesson. *(ch21 eval)*
+- Sofia allowed Mateo's revised line to continue after he said not to let any adult make a planet so beautiful that it steals the room a child is in. *(ch21 eval)*
