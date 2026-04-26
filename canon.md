@@ -992,3 +992,14 @@
 - Nadine orders the Candle diagnostic display changed to show unmanned operation green and occupied Boundary approach invalid without hiding the hold under an amber subline. *(ch14 eval)*
 - Sera witnesses the Candle interface/status patch authentication. *(ch14 eval)*
 - Nadine reports to Quito/Houston relay that the exception class is occupied-mode invalidation and unmanned Candle remains green. *(ch14 eval)*
+
+### Chapter 15
+
+- Leila’s tray four file is family-restricted for prayer-track context hearing, with raw devotional audio sealed. *(ch15 eval)*
+- Tray four records cellular boundary failure, 0.02 to 0.027 gram unstable mass variance, and absence without assignable path. *(ch15 eval)*
+- Leila explicitly classifies tray-four imagery as high misuse risk requiring scale, lab sequence, and prior rupture context. *(ch15 eval)*
+- Leila’s lab record contains simultaneous or file-simultaneous checklist and prayer, without establishing whether simultaneity occurred in the world. *(ch15 eval)*
+- Leila’s MD116 private log states she prays so fear does not become sovereign and so procedure remains distinct from prayer. *(ch15 eval)*
+- Leila’s private log includes the belief that a made thing can suffer and that pain remains jurisdiction, not comfort. *(ch15 eval)*
+- During the tray four event, Elias’s apparent voice asks whether Leila can feel her hands, but source is unknown and not clean medical instruction. *(ch15 eval)*
+- Leila and Amara jointly preserve the record’s ambiguity: prayer outside argument, tissue death before symbol, and no proof of instruction. *(ch15 eval)*
