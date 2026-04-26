@@ -1050,3 +1050,14 @@
 - Yuna conducted a focused cognitive safety review and recommended removal from interpretive authority across all Elias-associated content for at least twenty-four ship hours, likely through Candle Band Two transition. *(ch18 eval)*
 - Sera's compression sleeve with biometric thread is logged as custody evidence because Mara used Sera's active token during the breach. *(ch18 eval)*
 - Mara will sleep or fail to sleep under observation in the medical alcove after reporting that she still hears the recited phrase in Elias's voice. *(ch18 eval)*
+
+### Chapter 19
+
+- Thomas Keane relapses after the restricted Elias-associated Witness advisory and verbalizes a refusal to "perform real." *(ch19 eval)*
+- Thomas Keane chooses strawberry jam over butter and eats most of a slice of toast after Ines removes doctrinal family argument from the room. *(ch19 eval)*
+- Nurse Brenna removes paper stars from Thomas Keane's ward ceiling under celestial-imagery policy. *(ch19 eval)*
+- A small paper Mars is found hidden by Thomas Keane's light fixture and retained in his bedside drawer by Ines's order. *(ch19 eval)*
+- St. Odran's receives both hospital-channel and public versions of the Continuity bulletin, with the public version delayed and softened. *(ch19 eval)*
+- Ines records CALDER_TO_VENN_STODRANS_CLINICAL_KEANE_JAM for Mara through the Continuity medical channel. *(ch19 eval)*
+- Mara accesses Ines's recording under observation in Witness ship medical with no reply recorded. *(ch19 eval)*
+- At 04:12 Dublin time, Thomas asks whether Finn has school, looks at the hidden paper Mars, closes the drawer himself, and chooses butter for breakfast. *(ch19 eval)*
