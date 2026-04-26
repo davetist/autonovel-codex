@@ -1061,3 +1061,17 @@
 - Ines records CALDER_TO_VENN_STODRANS_CLINICAL_KEANE_JAM for Mara through the Continuity medical channel. *(ch19 eval)*
 - Mara accesses Ines's recording under observation in Witness ship medical with no reply recorded. *(ch19 eval)*
 - At 04:12 Dublin time, Thomas asks whether Finn has school, looks at the hidden paper Mars, closes the drawer himself, and chooses butter for breakfast. *(ch19 eval)*
+
+### Chapter 20
+
+- At 11:08 ship time, Witness's local comms watchdog housekeeping loop COM-HK-2 is anomalously contaminated by a clipped human breath under static. *(ch20 eval)*
+- Nadine reveals the sealed IIA emergency order authorizing human-occupied Candle approach under exceptional interpretive necessity. *(ch20 eval)*
+- The sealed order requires mission commander concurrence, medical clearance, hardware readiness, interpretive officer recommendation, and emergency ground concurrence where communications allow. *(ch20 eval)*
+- Nadine had known about the occupied Candle authority since launch and had not intended to use or disclose it. *(ch20 eval)*
+- Mara reads the sealed occupied-Candle order while removed from Elias-associated release authority. *(ch20 eval)*
+- Sera learns that Tomas disabled one manual life-support linkage and that Nadine knew the broader occupied-mode authority existed. *(ch20 eval)*
+- Sera requires Tomas to document the disabled linkage as design interference and to include the exact mechanical path needed to reenable it. *(ch20 eval)*
+- Locker H-12 contains the retrofit bridge kit needed for occupied Candle reenablement and is placed under command seal. *(ch20 eval)*
+- Nadine records commander nonconcurrence: Candle will proceed unmanned or not at all. *(ch20 eval)*
+- The Witness command note adds the operational principle: no one dies for testimony. *(ch20 eval)*
+- Ground notices H-12 moving to active seal and asks why. *(ch20 eval)*
