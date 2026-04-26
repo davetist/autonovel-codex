@@ -45,3 +45,18 @@ warning: `VIRTUAL_ENV=/Users/david/.hermes/hermes-agent/venv` does not match the
   [12:07:32] RUN: uv run python evaluate.py --chapter=16
   [12:08:27] Ch 16: 7.8 -> 7.8
   [12:08:27] RUN: git add -A
+  [12:08:27] RUN: git commit -m "revision cycle 2: ch16 worst_scene 7.8->7.8" --allow-empty
+  [12:08:27] RUN: git rev-parse --short HEAD
+  [12:08:28] GIT COMMIT: 9866e44 — revision cycle 2: ch16 worst_scene 7.8->7.8
+
+............................................................
+    Revising Ch 13 (cut_candidate) [3/3]
+............................................................
+  [12:08:28] RUN: uv run python evaluate.py --chapter=13
+  [12:09:14] Generating combined brief for Ch 13...
+  [12:09:14] RUN: uv run python gen_brief.py --combined 13
+  [12:09:14] Revising Ch 13 with brief ch13_combined.md...
+  [12:09:14] RUN: uv run python gen_revision.py 13 /Users/david/Desktop/stuff/autonovel-codex/briefs/ch13_combined.md
+  [12:11:01] RUN: uv run python evaluate.py --chapter=13
+  [12:11:48] Ch 13: 8.0 -> 8.0
+  [12:11:48] RUN: git add -A
