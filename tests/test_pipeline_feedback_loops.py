@@ -281,6 +281,46 @@ class PipelineFeedbackLoopTests(unittest.TestCase):
         self.assertEqual(state["revision_cycle"], 1)
         self.assertFalse(any(str(c).startswith("review.py") for c in calls))
 
+    def test_export_runs_title_normalization_before_typesetting(self):
+        calls = []
+
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            chapters = root / "chapters"
+            typeset = root / "typeset"
+            chapters.mkdir()
+            typeset.mkdir()
+            (chapters / "ch_01.md").write_text("Chapter 1: Raw\n\nBody.\n")
+            (root / "normalize_chapter_titles.py").write_text("# normalizer stub\n")
+            (root / "build_outline.py").write_text("# outline stub\n")
+            (root / "build_arc_summary.py").write_text("# arc stub\n")
+            (typeset / "build_tex.py").write_text("# tex stub\n")
+
+            def fake_uv_run(script, timeout=600):
+                calls.append(script)
+                return subprocess.CompletedProcess(script, 0, "", "")
+
+            def fake_run_tool(command, timeout=600, check=False):
+                calls.append(command)
+                if command == "which tectonic":
+                    return subprocess.CompletedProcess(command, 1, "", "")
+                return subprocess.CompletedProcess(command, 0, "", "")
+
+            with patch.object(run_pipeline, "BASE_DIR", root), \
+                 patch.object(run_pipeline, "STATE_FILE", root / "state.json"), \
+                 patch.object(run_pipeline, "RESULTS_FILE", root / "results.tsv"), \
+                 patch.object(run_pipeline, "CHAPTERS_DIR", chapters), \
+                 patch.object(run_pipeline, "uv_run", side_effect=fake_uv_run), \
+                 patch.object(run_pipeline, "run_tool", side_effect=fake_run_tool), \
+                 patch.object(run_pipeline, "git_add_commit", return_value="export1"):
+                state = run_pipeline.default_state()
+                state["phase"] = "export"
+                run_pipeline.run_export(state)
+
+        normalize_index = calls.index("normalize_chapter_titles.py --write")
+        tex_index = calls.index("uv run python typeset/build_tex.py")
+        self.assertLess(normalize_index, tex_index)
+
 
 if __name__ == "__main__":
     unittest.main()

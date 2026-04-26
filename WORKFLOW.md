@@ -91,10 +91,18 @@ uv run python gen_audiobook.py --assemble       # Concatenate
 
 ### Export
 ```bash
+uv run python normalize_chapter_titles.py --check  # Verify post-revision heading hygiene
+uv run python normalize_chapter_titles.py --write  # Normalize headings before export artifacts
 uv run python build_outline.py                  # Rebuild outline
 uv run python build_arc_summary.py              # Rebuild summaries
 python3 typeset/build_tex.py && cd typeset && tectonic novel.tex  # PDF
 ```
+
+`normalize_chapter_titles.py` belongs after all drafting and story revision are
+done, immediately before export. It changes only the first heading line and the
+blank-line boundary after it; if a chapter starts directly with prose, it
+prepends `## Chapter N` so `typeset/build_tex.py` will not eat the first
+sentence as a printed title.
 
 ---
 

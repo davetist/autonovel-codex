@@ -920,13 +920,23 @@ def run_export(state: dict) -> dict:
     """
     banner("PHASE 4: EXPORT", "=")
 
-    # 1. Rebuild outline from chapters
+    # 1. Normalize chapter headings before any export artifact treats the
+    # first non-empty line as a title. This is intentionally post-draft and
+    # post-revision: presentation hygiene, not story surgery.
+    normalize_titles = BASE_DIR / "normalize_chapter_titles.py"
+    if normalize_titles.exists():
+        step("Normalizing chapter headings...")
+        uv_run("normalize_chapter_titles.py --write", timeout=120)
+    else:
+        step("normalize_chapter_titles.py not found, skipping title normalization")
+
+    # 2. Rebuild outline from chapters
     build_outline = BASE_DIR / "build_outline.py"
     if build_outline.exists():
         step("Rebuilding outline from chapters...")
         uv_run("build_outline.py", timeout=300)
 
-    # 2. Build arc summary
+    # 3. Build arc summary
     build_arc = BASE_DIR / "build_arc_summary.py"
     if build_arc.exists():
         step("Building arc summary...")
