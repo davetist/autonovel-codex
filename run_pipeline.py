@@ -25,6 +25,8 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+from canon_update import append_new_canon_entries_from_eval
+
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
@@ -534,9 +536,14 @@ def run_drafting(state: dict) -> dict:
             # Evaluate
             eval_result = uv_run(f"evaluate.py --chapter={ch}", timeout=300)
             score = parse_score(eval_result.stdout, "overall_score")
+            eval_log = parse_eval_log_path(eval_result.stdout)
             step(f"Chapter {ch} score: {score}")
 
             if score >= CHAPTER_THRESHOLD:
+                canon_added = append_new_canon_entries_from_eval(
+                    BASE_DIR, chapter=ch, eval_log=eval_log)
+                if canon_added:
+                    step(f"Appended {canon_added} new canon entries from Chapter {ch} eval")
                 commit_hash = git_add_commit(
                     f"ch{ch:02d}: score {score}, {word_count}w")
                 log_result(commit_hash, f"ch{ch:02d}", score, word_count,
