@@ -1,0 +1,33 @@
+warning: `VIRTUAL_ENV=/Users/david/.hermes/hermes-agent/venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead
+
+============================================================
+  AUTONOVEL PIPELINE — phases: revision
+============================================================
+  State: phase=revision, foundation_score=8.0, chapters=24/24, novel_score=0.0
+
+============================================================
+  PHASE 3: REVISION
+============================================================
+
+------------------------------------------------------------
+  Revision Cycle 1/1
+------------------------------------------------------------
+  [08:53:27] Running adversarial editing on all chapters...
+  [08:53:27] RUN: uv run python adversarial_edit.py all
+    ERROR: timed out after 900s
+  [09:08:27] Applying mechanical cuts (OVER-EXPLAIN, REDUNDANT)...
+  [09:08:27] RUN: uv run python apply_cuts.py all --types OVER-EXPLAIN REDUNDANT --min-fat 15
+  [09:08:27] Running reader panel evaluation...
+  [09:08:27] RUN: uv run python reader_panel.py
+    WARN: exit code 1
+    stderr: Traceback (most recent call last):
+  File "/Users/david/Desktop/stuff/autonovel-codex/reader_panel.py", line 235, in <module>
+    main()
+  File "/Users/david/Desktop/stuff/autonovel-codex/reader_panel.py", line 178, in main
+    arc_summary = (BASE_DIR / "arc_summary.md").read_text()
+                
+  [09:08:27] No strong consensus items found from panel
+  [09:08:27] Running full novel evaluation...
+  [09:08:27] RUN: uv run python evaluate.py --full
+  [09:08:53] Novel score: 9.1  (prev: 0.0, words: 107716)
+  [09:08:53] RUN: git add -A
