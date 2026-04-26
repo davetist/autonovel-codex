@@ -363,7 +363,9 @@ PHASE 3b: OPUS REVIEW LOOP (deep, prose-level refinement)
 ```
   1. normalize_chapter_titles.py --write
      - Run only after all drafting and story revision are done.
-     - Normalize to "## Chapter N: Title" or "## Chapter N".
+     - Use outline.md as the canonical source for chapter titles.
+     - Normalize to "## Chapter N: Title" or, if outline.md lacks a title,
+       "## Chapter N".
      - Rewrite only heading lines and heading/body spacing; never body prose.
      - If a chapter starts directly with prose, prepend a heading so export
        does not consume the first sentence as a title.

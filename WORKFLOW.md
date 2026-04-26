@@ -101,8 +101,8 @@ python3 typeset/build_tex.py && cd typeset && tectonic novel.tex  # PDF
 `normalize_chapter_titles.py` belongs after all drafting and story revision are
 done, immediately before export. It changes only the first heading line and the
 blank-line boundary after it; if a chapter starts directly with prose, it
-prepends `## Chapter N` so `typeset/build_tex.py` will not eat the first
-sentence as a printed title.
+prepends `## Chapter N: Title` using `outline.md` as the canonical title source
+so `typeset/build_tex.py` will not eat the first sentence as a printed title.
 
 ---
 

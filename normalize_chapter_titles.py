@@ -17,6 +17,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
 DEFAULT_CHAPTERS_DIR = BASE_DIR / "chapters"
+DEFAULT_OUTLINE_PATH = BASE_DIR / "outline.md"
 
 
 @dataclass
@@ -57,6 +58,10 @@ _HEADING_PATTERNS = [
 ]
 
 _MD_TITLE_WITHOUT_NUMBER = re.compile(r"^#{1,6}\s+(?P<title>.+)$")
+_OUTLINE_CHAPTER_TITLE = re.compile(
+    r"^#{2,6}\s+(?:Ch(?:apter)?\.?\s*)?(?P<num>\d+)\s*(?::|[-–—])\s*(?P<title>.+)$",
+    re.I,
+)
 
 _SMALL_WORDS = {
     "a",
@@ -88,6 +93,20 @@ def chapter_number_from_path(path: Path) -> int:
     if not match:
         raise ValueError(f"Cannot infer chapter number from {path.name!r}")
     return int(match.group(1))
+
+
+def load_outline_titles(outline_path: Path = DEFAULT_OUTLINE_PATH) -> dict[int, str]:
+    """Load canonical chapter titles from outline.md, if available."""
+    if not outline_path.exists():
+        return {}
+
+    titles: dict[int, str] = {}
+    for line in outline_path.read_text(encoding="utf-8").splitlines():
+        match = _OUTLINE_CHAPTER_TITLE.match(line.strip())
+        if not match:
+            continue
+        titles[int(match.group("num"))] = title_case(match.group("title"))
+    return titles
 
 
 def title_case(title: str) -> str:
@@ -147,14 +166,20 @@ def first_nonempty_line(lines: list[str]) -> tuple[int | None, str]:
     return None, ""
 
 
-def parse_existing_heading(line: str, expected_chapter: int) -> tuple[str | None, str]:
+def parse_existing_heading(
+    line: str,
+    expected_chapter: int,
+    *,
+    canonical_title: str | None = None,
+) -> tuple[str | None, str]:
     stripped = line.strip()
     for pattern in _HEADING_PATTERNS:
         match = pattern.match(stripped)
         if not match:
             continue
         parsed_number = int(match.group("num"))
-        title = title_case(match.group("title") or "")
+        parsed_title = title_case(match.group("title") or "")
+        title = title_case(canonical_title or parsed_title)
         if parsed_number != expected_chapter:
             # Keep the file's chapter number as the source of truth and flag it
             # by normalizing to the filename. The report still shows original.
@@ -162,12 +187,24 @@ def parse_existing_heading(line: str, expected_chapter: int) -> tuple[str | None
         heading = f"## Chapter {parsed_number}"
         if title:
             heading += f": {title}"
-        return heading, "normalized existing chapter heading"
+        reason = "normalized existing chapter heading"
+        if canonical_title and not parsed_title:
+            reason = "added outline chapter title to existing heading"
+        elif canonical_title and parsed_title != title:
+            reason = "normalized existing chapter heading to outline title"
+        return heading, reason
 
     md_match = _MD_TITLE_WITHOUT_NUMBER.match(stripped)
     if md_match:
-        title = title_case(md_match.group("title"))
-        return f"## Chapter {expected_chapter}: {title}", "added chapter number to markdown heading"
+        parsed_title = title_case(md_match.group("title"))
+        title = title_case(canonical_title or parsed_title)
+        reason = "added chapter number to markdown heading"
+        if canonical_title and parsed_title != title:
+            reason = "added chapter number and outline title to markdown heading"
+        return f"## Chapter {expected_chapter}: {title}", reason
+
+    if canonical_title:
+        return None, "inserted missing chapter heading from outline"
 
     return None, "inserted missing chapter heading"
 
@@ -196,14 +233,22 @@ def rebuild_chapter_text(
     return normalized_heading + "\n"
 
 
-def normalize_chapter_file(path: Path, *, write: bool = False) -> ChapterTitleResult:
+def normalize_chapter_file(
+    path: Path,
+    *,
+    write: bool = False,
+    outline_titles: dict[int, str] | None = None,
+) -> ChapterTitleResult:
     chapter_number = chapter_number_from_path(path)
+    canonical_title = (outline_titles or {}).get(chapter_number)
     text = path.read_text(encoding="utf-8")
     lines = text.splitlines()
     first_index, first_line = first_nonempty_line(lines)
 
     if first_index is None:
         normalized_heading = f"## Chapter {chapter_number}"
+        if canonical_title:
+            normalized_heading += f": {title_case(canonical_title)}"
         new_text = normalized_heading + "\n"
         result = ChapterTitleResult(
             path=path,
@@ -212,12 +257,25 @@ def normalize_chapter_file(path: Path, *, write: bool = False) -> ChapterTitleRe
             normalized_heading=normalized_heading,
             changed=text != new_text,
             inserted_heading=True,
-            reason="inserted missing chapter heading in empty chapter file",
+            reason=(
+                "inserted missing chapter heading from outline in empty chapter file"
+                if canonical_title
+                else "inserted missing chapter heading in empty chapter file"
+            ),
         )
     else:
-        parsed_heading, reason = parse_existing_heading(first_line, chapter_number)
+        parsed_heading, reason = parse_existing_heading(
+            first_line,
+            chapter_number,
+            canonical_title=canonical_title,
+        )
         inserted = parsed_heading is None
-        normalized_heading = parsed_heading or f"## Chapter {chapter_number}"
+        if parsed_heading:
+            normalized_heading = parsed_heading
+        else:
+            normalized_heading = f"## Chapter {chapter_number}"
+            if canonical_title:
+                normalized_heading += f": {title_case(canonical_title)}"
         new_text = rebuild_chapter_text(
             lines,
             first_index,
@@ -244,9 +302,13 @@ def normalize_chapters(
     *,
     write: bool = False,
     check: bool = False,
+    outline_path: Path | None = None,
+    outline_titles: dict[int, str] | None = None,
 ) -> ChapterTitleReport:
+    if outline_titles is None and outline_path is not None:
+        outline_titles = load_outline_titles(outline_path)
     paths = sorted(chapters_dir.glob("ch_*.md"))
-    results = [normalize_chapter_file(path, write=write) for path in paths]
+    results = [normalize_chapter_file(path, write=write, outline_titles=outline_titles) for path in paths]
     return ChapterTitleReport(results=results, write=write, check=check)
 
 
@@ -285,6 +347,12 @@ def main(argv: list[str] | None = None) -> int:
         help="Directory containing ch_*.md files (default: ./chapters)",
     )
     parser.add_argument(
+        "--outline",
+        type=Path,
+        default=DEFAULT_OUTLINE_PATH,
+        help="Outline file used as canonical source for chapter titles (default: ./outline.md)",
+    )
+    parser.add_argument(
         "--write",
         action="store_true",
         help="Rewrite chapter files. Default is dry-run inventory only.",
@@ -301,7 +369,12 @@ def main(argv: list[str] | None = None) -> int:
     if not args.chapters_dir.exists():
         parser.error(f"chapters directory does not exist: {args.chapters_dir}")
 
-    report = normalize_chapters(args.chapters_dir, write=args.write, check=args.check)
+    report = normalize_chapters(
+        args.chapters_dir,
+        write=args.write,
+        check=args.check,
+        outline_path=args.outline,
+    )
     print_report(report)
     return report.exit_code
 
