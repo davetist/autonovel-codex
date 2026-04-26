@@ -912,3 +912,17 @@
 - Kavir orders the purchase of pediatric ward capacity bonds outside his normal book after the advisory. *(ch08 eval)*
 - Anaya attends a school with Witness advisory continuity assemblies led by Ms. Iyer. *(ch08 eval)*
 - Public guidance after the advisory recommends breakfast routines for minors after Boundary media exposure. *(ch08 eval)*
+
+### Chapter 9
+
+- Asterion command log for mission day 118 contains two timestamp runs occupying the same thirty-seven-second interval with non-identical star-tracker states. *(ch09 eval)*
+- During the low-communication interval, Star Tracker C repeated an earlier star field and later showed Mars in an invalid position. *(ch09 eval)*
+- Sofia authorized a limited two-axis manual attitude correction under Procedure G-118-L. *(ch09 eval)*
+- The manual-input record duplicated with conflicting durations: 01.96 seconds and 04.21 seconds. *(ch09 eval)*
+- Sofia created a restricted command note stating the duplicated duration cannot be treated as pilot action without independent verification. *(ch09 eval)*
+- Bay two developed a confirmed microfracture along a fastener row without known impact source. *(ch09 eval)*
+- Biological tray four showed rupture without heat signature. *(ch09 eval)*
+- Asterion displays briefly returned anomalous non-Asterion interior geometry resembling a hatch or corridor. *(ch09 eval)*
+- Sofia's private command note duplicated with one copy reading "what" and the other reading "whom." *(ch09 eval)*
+- Sofia sealed both command-note copies as command restricted with the manual correction file attached and no public feed derivative. *(ch09 eval)*
+- Sofia's submarine battery-fire memory includes the Barents, a battery room hatch, two sailors behind it, and her hands smelling of insulation for three days after rescue. *(ch09 eval)*
