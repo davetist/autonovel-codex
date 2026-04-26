@@ -668,7 +668,11 @@ def parse_panel_consensus(panel_path: Path) -> list[dict]:
     return unique[:5]  # top 3-5 consensus items
 
 
-def run_revision(state: dict, max_cycles: int = MAX_REVISION_CYCLES) -> dict:
+def run_revision(
+    state: dict,
+    max_cycles: int = MAX_REVISION_CYCLES,
+    skip_review_loop: bool = False,
+) -> dict:
     """
     Revision phase: adversarial editing, reader panel, targeted revisions.
     """
@@ -809,6 +813,13 @@ def run_revision(state: dict, max_cycles: int = MAX_REVISION_CYCLES) -> dict:
             break
 
         prev_score = novel_score
+
+    if skip_review_loop:
+        step("Skipping Opus review loop after guarded revision cycle")
+        save_state(state)
+        banner(f"REVISION CYCLE COMPLETE — {state.get('revision_cycle', 0)} cycles, "
+               f"novel_score {state.get('novel_score', 0)}")
+        return state
 
     # =========================================================
     # PHASE 3b: OPUS REVIEW LOOP (deep, prose-level refinement)
@@ -1035,7 +1046,11 @@ def run_pipeline(args):
             elif phase == "drafting":
                 state = run_drafting(state)
             elif phase == "revision":
-                state = run_revision(state, max_cycles=max_cycles)
+                state = run_revision(
+                    state,
+                    max_cycles=max_cycles,
+                    skip_review_loop=args.skip_review_loop,
+                )
             elif phase == "export":
                 state = run_export(state)
             else:
@@ -1074,8 +1089,10 @@ Examples:
   python run_pipeline.py --phase foundation  # run only foundation
   python run_pipeline.py --phase drafting    # run only drafting
   python run_pipeline.py --phase revision    # run only revision
-  python run_pipeline.py --phase export      # run only export
+  python run_pipeline.py --phase export     # run only export
   python run_pipeline.py --max-cycles 4      # limit revision to 4 cycles
+  python run_pipeline.py --phase revision --max-cycles 1 --skip-review-loop
+                                           # guarded revision cycle, no review loop
 """)
 
     parser.add_argument(
@@ -1087,6 +1104,9 @@ Examples:
     parser.add_argument(
         "--max-cycles", type=int, default=None,
         help=f"Maximum revision cycles (default: {MAX_REVISION_CYCLES})")
+    parser.add_argument(
+        "--skip-review-loop", action="store_true",
+        help="Stop revision after the score-gated revision cycle; skip Opus review loop")
 
     args = parser.parse_args()
     run_pipeline(args)

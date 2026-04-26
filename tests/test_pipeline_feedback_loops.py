@@ -226,6 +226,61 @@ class PipelineFeedbackLoopTests(unittest.TestCase):
         self.assertIn("uv run python gen_brief.py --combined 1", calls)
         self.assertFalse(any("gen_brief.py --panel" in str(c) for c in calls))
 
+    def test_revision_can_skip_opus_review_loop_after_guarded_cycle(self):
+        calls = []
+
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            chapters = root / "chapters"
+            briefs = root / "briefs"
+            edit_logs = root / "edit_logs"
+            chapters.mkdir()
+            briefs.mkdir()
+            edit_logs.mkdir()
+            (root / "eval_logs").mkdir()
+            (root / "review.py").write_text("# review stub\n")
+            (chapters / "ch_01.md").write_text("chapter " * 100)
+            (edit_logs / "reader_panel.json").write_text(json.dumps({
+                "disagreements": [],
+                "readers": {},
+            }))
+
+            def fake_uv_run(script, timeout=600):
+                calls.append(script)
+                if script in {"adversarial_edit.py all", "reader_panel.py"}:
+                    return subprocess.CompletedProcess(script, 0, "", "")
+                if script == "evaluate.py --full":
+                    return subprocess.CompletedProcess(script, 0, "novel_score: 6.7\n", "")
+                if script.startswith("review.py"):
+                    raise AssertionError("guarded revision should stop before Opus review")
+                raise AssertionError(f"unexpected uv_run call: {script}")
+
+            def fake_run_tool(command, timeout=600, check=False):
+                calls.append(command)
+                if "review.py" in command:
+                    raise AssertionError("guarded revision should not parse Opus review")
+                return subprocess.CompletedProcess(command, 0, "", "")
+
+            with patch.object(run_pipeline, "BASE_DIR", root), \
+                 patch.object(run_pipeline, "STATE_FILE", root / "state.json"), \
+                 patch.object(run_pipeline, "RESULTS_FILE", root / "results.tsv"), \
+                 patch.object(run_pipeline, "CHAPTERS_DIR", chapters), \
+                 patch.object(run_pipeline, "BRIEFS_DIR", briefs), \
+                 patch.object(run_pipeline, "EDIT_LOGS_DIR", edit_logs), \
+                 patch.object(run_pipeline, "EVAL_LOGS_DIR", root / "eval_logs"), \
+                 patch.object(run_pipeline, "MIN_REVISION_CYCLES", 1), \
+                 patch.object(run_pipeline, "MAX_REVISION_CYCLES", 1), \
+                 patch.object(run_pipeline, "uv_run", side_effect=fake_uv_run), \
+                 patch.object(run_pipeline, "run_tool", side_effect=fake_run_tool), \
+                 patch.object(run_pipeline, "git_add_commit", return_value="rev1"):
+                state = run_pipeline.default_state()
+                state["phase"] = "revision"
+                state = run_pipeline.run_revision(state, max_cycles=1, skip_review_loop=True)
+
+        self.assertEqual(state["phase"], "revision")
+        self.assertEqual(state["revision_cycle"], 1)
+        self.assertFalse(any(str(c).startswith("review.py") for c in calls))
+
 
 if __name__ == "__main__":
     unittest.main()
