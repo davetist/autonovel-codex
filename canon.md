@@ -880,3 +880,17 @@
 - Elias recorded a private medical log roughly thirty-one minutes before signal loss, though its timestamp classification is disputed. *(ch06 eval)*
 - The final public-frame composition included orange peel, loose strap, Mars, Jun, Leila’s hand, Mateo’s basalt pouch, and Sofia’s reflection. *(ch06 eval)*
 - Elias’s off-screen laugh was prompted by Amara joking that she would resign if the orange peel became historic. *(ch06 eval)*
+
+### Chapter 7
+
+- Nadine restricts unscheduled Asterion viewing aboard Witness under Crew Safety Protocol 7. *(ch07 eval)*
+- Witness requires two-person authorization for Asterion public feed, wreck frame, and crew-private derivatives after the restriction. *(ch07 eval)*
+- Malik Serrano’s mother went flat after a raw contractor archive dump, recorded officially as Boundary-media exposure proximal to intake refusal. *(ch07 eval)*
+- Sera changes public language from coordinate drift toward failing Boundary trajectory model language. *(ch07 eval)*
+- Tomas confirms one manual Candle life-support linkage is disabled while automated isolation and emergency bottled oxygen remain. *(ch07 eval)*
+- Candle cannot support an occupied Boundary approach without invasive rework. *(ch07 eval)*
+- Nadine formally adds Mara’s need for an Elias-specific answer as a mission risk variable. *(ch07 eval)*
+- Mara’s access to Elias-specific material now requires another human present, with no private playback. *(ch07 eval)*
+- Pavel’s office sends Mara early access to Elias Venn’s MD117 private psych-medical log. *(ch07 eval)*
+- Elias’s MD117 private log criticizes Mara’s conversion drills as useful but dangerous and asks that his fear not be made to behave better than it did. *(ch07 eval)*
+- Elias’s MD117 log contains six duplicated seconds at 00:03:11 with non-identical waveform and two checksum repairs. *(ch07 eval)*
