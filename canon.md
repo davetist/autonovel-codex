@@ -979,3 +979,16 @@
 - Mika is a ten-year-old child connected to the floodwall site whose mother works at the sandbag station and whose school has replaced Mars projects with pipe maps. *(ch13 eval)*
 - Ivo Tan once had a Mars transfer slot for materials habitat shell or surface systems work before returning to Manila after Tondo flooding and pump failures. *(ch13 eval)*
 - Mara adds a public-release constraint distinguishing abandonment from longing and repair order from worth. *(ch13 eval)*
+
+### Chapter 14
+
+- Candle archive static test uses cartridge slots including lullabies, recipes, court transcripts, children’s drawings, weather reports, jokes, and sealed Asterion family messages. *(ch14 eval)*
+- The Candle archive contains 15,812 lullabies in mixed audio and scanned forms. *(ch14 eval)*
+- A Candle archive court transcript entry from Dublin Family Court triggers a non-operational line-ending normalization warning during static test. *(ch14 eval)*
+- A Glass Room 12B educational response drawing depicts Candle with a human figure and the text: SEND SOMEONE WHO CAN SAY WHAT IT IS. *(ch14 eval)*
+- Tomas Vale disclosed during Candle static test that he placed the manual left-rail life-support bridge under design hold before Witness launch. *(ch14 eval)*
+- The disabled Candle linkage prevents a controlled occupied Boundary approach without invasive command rework while leaving unmanned Candle functions unaffected. *(ch14 eval)*
+- The Candle retrofit bridge kit is stored in Locker H-12 and requires commander authority and hardware lead access. *(ch14 eval)*
+- Nadine orders the Candle diagnostic display changed to show unmanned operation green and occupied Boundary approach invalid without hiding the hold under an amber subline. *(ch14 eval)*
+- Sera witnesses the Candle interface/status patch authentication. *(ch14 eval)*
+- Nadine reports to Quito/Houston relay that the exception class is occupied-mode invalidation and unmanned Candle remains green. *(ch14 eval)*
