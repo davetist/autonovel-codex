@@ -226,6 +226,75 @@ class PipelineFeedbackLoopTests(unittest.TestCase):
         self.assertIn("uv run python gen_brief.py --combined 1", calls)
         self.assertFalse(any("gen_brief.py --panel" in str(c) for c in calls))
 
+    def test_revision_auto_uses_existing_panel_for_surgical_pass_without_broad_adversarial(self):
+        calls = []
+        eval_scores = iter([8.9, 9.0])
+
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            chapters = root / "chapters"
+            briefs = root / "briefs"
+            edit_logs = root / "edit_logs"
+            chapters.mkdir()
+            briefs.mkdir()
+            edit_logs.mkdir()
+            (root / "eval_logs").mkdir()
+            (chapters / "ch_23.md").write_text("chapter " * 100)
+            (root / "gen_brief.py").write_text("# test stub\n")
+            (edit_logs / "reader_panel.json").write_text(json.dumps({
+                "readers": {
+                    "editor": {"missing_scene": "Chapter 23 needs the Ruth receipt scene."},
+                    "reader": {"missing_scene": "Chapter 23 should show Ruth receiving the private packet."},
+                    "writer": {"missing_scene": "Chapter 23 withholds the human result."},
+                    "genre": {"missing_scene": "Chapter 23 needs a short intercut."},
+                },
+                "disagreements": [],
+            }))
+
+            def fake_uv_run(script, timeout=600):
+                calls.append(script)
+                if script in {"adversarial_edit.py all", "reader_panel.py"}:
+                    raise AssertionError("surgical auto mode should not start with broad passes")
+                if script == "evaluate.py --chapter=23":
+                    score = next(eval_scores)
+                    return subprocess.CompletedProcess(script, 0, f"overall_score: {score}\n", "")
+                if script.startswith("gen_revision.py 23 "):
+                    (chapters / "ch_23.md").write_text("revised chapter " * 100)
+                    return subprocess.CompletedProcess(script, 0, "", "")
+                if script == "evaluate.py --full":
+                    return subprocess.CompletedProcess(script, 0, "novel_score: 9.25\n", "")
+                raise AssertionError(f"unexpected uv_run call: {script}")
+
+            def fake_run_tool(command, timeout=600, check=False):
+                calls.append(command)
+                if command == "uv run python gen_brief.py --combined 23":
+                    (briefs / "ch23_combined.md").write_text("# Combined brief\nFix Ruth receipt.\n")
+                    return subprocess.CompletedProcess(command, 0, "", "")
+                return subprocess.CompletedProcess(command, 0, "", "")
+
+            with patch.object(run_pipeline, "BASE_DIR", root), \
+                 patch.object(run_pipeline, "STATE_FILE", root / "state.json"), \
+                 patch.object(run_pipeline, "RESULTS_FILE", root / "results.tsv"), \
+                 patch.object(run_pipeline, "CHAPTERS_DIR", chapters), \
+                 patch.object(run_pipeline, "BRIEFS_DIR", briefs), \
+                 patch.object(run_pipeline, "EDIT_LOGS_DIR", edit_logs), \
+                 patch.object(run_pipeline, "EVAL_LOGS_DIR", root / "eval_logs"), \
+                 patch.object(run_pipeline, "MIN_REVISION_CYCLES", 1), \
+                 patch.object(run_pipeline, "MAX_REVISION_CYCLES", 1), \
+                 patch.object(run_pipeline, "uv_run", side_effect=fake_uv_run), \
+                 patch.object(run_pipeline, "run_tool", side_effect=fake_run_tool), \
+                 patch.object(run_pipeline, "git_add_commit", return_value="rev23"), \
+                 patch.object(run_pipeline, "git_reset_hard"):
+                state = run_pipeline.default_state()
+                state["phase"] = "revision"
+                state["novel_score"] = 9.3
+                run_pipeline.run_revision(state, max_cycles=1, skip_review_loop=True)
+
+        self.assertNotIn("adversarial_edit.py all", calls)
+        self.assertNotIn("reader_panel.py", calls)
+        self.assertIn("uv run python gen_brief.py --combined 23", calls)
+        self.assertTrue(any(str(c).startswith("gen_revision.py 23 ") for c in calls))
+
     def test_revision_can_skip_opus_review_loop_after_guarded_cycle(self):
         calls = []
 

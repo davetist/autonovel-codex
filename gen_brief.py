@@ -651,7 +651,7 @@ def build_combined_brief(ch: int) -> str:
         flagged = info["flagged_issues"]
         for f in flagged:
             problem_parts.append(f"Panel flag: {f}")
-        for key in ["worst_scene", "momentum_loss", "cut_candidate"]:
+        for key in ["missing_scene", "worst_scene", "momentum_loss", "cut_candidate"]:
             for m in mentions[key]:
                 snippet = m[:400] + "..." if len(m) > 400 else m
                 change_parts.append(f"{change_num}. [panel/{key}] {snippet}")
@@ -811,7 +811,7 @@ def build_auto_brief() -> tuple[int, str]:
             for f in flagged:
                 problem_parts.append(f"- {f}")
 
-        for key in ["worst_scene", "momentum_loss", "cut_candidate"]:
+        for key in ["missing_scene", "worst_scene", "momentum_loss", "cut_candidate"]:
             if mentions[key]:
                 problem_parts.append(f"\n**Panel — {key.replace('_', ' ')}:**")
                 for m in mentions[key]:
