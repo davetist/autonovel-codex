@@ -57,14 +57,16 @@ Send the full manuscript to Claude Opus for dual-persona review
 Fix the top issues. Repeat until the reviewer runs out of major items.
 
 ### Phase 4: Export
-Rebuild docs, typeset in LaTeX, generate art, produce audiobook scripts,
-build ePub, create landing page.
+Run final presentation hygiene after drafting/revision is done, then rebuild
+docs, typeset in LaTeX, generate art, produce audiobook scripts, build ePub,
+and create the landing page. Chapter-title normalization lives here because it
+is layout hygiene, not prose revision.
 
 See [PIPELINE.md](PIPELINE.md) for the full technical specification.
 
 ---
 
-## Tools (27 Python scripts)
+## Tools (28 Python scripts)
 
 ### Foundation
 | Tool | Purpose |
@@ -99,6 +101,11 @@ See [PIPELINE.md](PIPELINE.md) for the full technical specification.
 | `gen_brief.py` | Auto-generate eval, panel, cuts, combined, or auto briefs |
 | `gen_revision.py` | Rewrite a chapter from a revision brief |
 | `apply_cuts.py` | Batch adversarial cut applicator |
+
+### Export Hygiene
+| Tool | Purpose |
+|------|---------|
+| `normalize_chapter_titles.py` | Post-draft/pre-export pass that normalizes `chapters/ch_*.md` headings without rewriting body prose |
 
 ### Art & Cover
 | Tool | Purpose |
@@ -147,6 +154,7 @@ TYPESETTING:
   typeset/novel.tex      — LaTeX template (EB Garamond, trade paperback)
   typeset/build_tex.py   — Chapters → LaTeX with vector ornaments
   typeset/epub_*          — ePub metadata, CSS, and front matter
+  normalize_chapter_titles.py — Post-revision heading normalization before export
 
 ART:
   audiobook_voices.json  — Character → ElevenLabs voice mapping

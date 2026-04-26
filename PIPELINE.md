@@ -60,6 +60,7 @@ TOOLS (the pipeline machinery):
     build_outline.py     -- regenerate outline.md from chapters
 
   Export:
+    normalize_chapter_titles.py -- post-revision heading normalization
     typeset/novel.tex    -- LaTeX template (EB Garamond, trade paperback)
     typeset/build_tex.py -- chapters/*.md → chapters_content.tex
 
@@ -360,14 +361,20 @@ PHASE 3b: OPUS REVIEW LOOP (deep, prose-level refinement)
 ### Phase 4: Export
 
 ```
-  1. Normalize chapter titles (all # level, consistent format)
-  2. typeset/build_tex.py → chapters_content.tex
-  3. Edit typeset/novel.tex:
+  1. normalize_chapter_titles.py --write
+     - Run only after all drafting and story revision are done.
+     - Normalize to "## Chapter N: Title" or "## Chapter N".
+     - Rewrite only heading lines and heading/body spacing; never body prose.
+     - If a chapter starts directly with prose, prepend a heading so export
+       does not consume the first sentence as a title.
+  2. build_outline.py and build_arc_summary.py from the final chapters
+  3. typeset/build_tex.py → chapters_content.tex
+  4. Edit typeset/novel.tex:
      - Set title, author name
      - Choose epigraph (from novel text, NOT a spoiler)
      - Set end-page text
-  4. tectonic novel.tex → novel.pdf
-  5. Git commit: "Export: [title] — [word count] words"
+  5. tectonic novel.tex → novel.pdf
+  6. Git commit: "Export: [title] — [word count] words"
 ```
 
 ---
@@ -432,7 +439,7 @@ PHASE 3b: OPUS REVIEW LOOP (deep, prose-level refinement)
      - Phase 1: hybrid foundation loop: reroll weak candidates, repair near misses from eval JSON
      - Phase 2: sequential drafting with eval-guided repair before unguided redraft
      - Phase 3: revision cycles with combined brief generation
-     - Phase 4: export
+     - Phase 4: post-revision title normalization, regenerated docs, and export
      - Score plateau detection (stop when Δ < 0.5 across 2 cycles)
      - Automated brief writing from panel feedback + eval callouts + adversarial cuts
 
