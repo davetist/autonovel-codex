@@ -1088,3 +1088,20 @@
 - Mateo's private log states that children were made witnesses, not merely audience, and that the mission gave that burden to them with crayons. *(ch21 eval)*
 - Mateo recorded AST-PUB-EDU-MD116-RIOS-BASALT-SEGMENT-REV2 as the replacement basalt lesson. *(ch21 eval)*
 - Sofia allowed Mateo's revised line to continue after he said not to let any adult make a planet so beautiful that it steals the room a child is in. *(ch21 eval)*
+
+### Chapter 22
+
+- Candle is sent unmanned into the Boundary transition zone and no human being is placed aboard to extract testimony. *(ch22 eval)*
+- During Candle burn, Optical A and B return repeated pre-launch calibration star fields with current timestamps. *(ch22 eval)*
+- Candle reports a mass-scale contradiction involving a sealed tungsten reference block: Scale Two loses nine grams while Scale One and Scale Three do not confirm it. *(ch22 eval)*
+- Candle biological tray C shows rupture artifact while containment holds; Tomas briefly mislabels it as Asterion tray four. *(ch22 eval)*
+- The Makers’ Address demands that Candle’s high-tower antenna transmit a prime burst, and Witness refuses. *(ch22 eval)*
+- Exit channels adopt the phrase “empty throne” for Candle’s empty couch, creating self-harm recruitment risk. *(ch22 eval)*
+- Candle’s sealed archive index duplicates and temporarily maps an Asterion family-message bucket to an AST-MD118 prefix without content access. *(ch22 eval)*
+- Candle forward radar returns current Witness Deck Two medical-corridor geometry, including a privacy screen installed after Candle release. *(ch22 eval)*
+- Nadine orders abort after the Witness interior radar return; Candle accepts the abort in one system and ignores it in another. *(ch22 eval)*
+- Candle’s high-tower mast crazes, pits, loses antenna geometry, briefly transmits by side lobe/reflected path, then fails. *(ch22 eval)*
+- A final Candle burst packet carries contradictory Asterion overlays with non-aligning apparent voices including Jun, Leila, Mateo, Sofia, and Elias-like audio. *(ch22 eval)*
+- Candle’s final block includes duplicate timestamps, contradictory advance/retreat records, mass records saying the tungsten block is restored, absent, and never loaded, and archive checksum collision between a Manila weather report and a child’s drawing. *(ch22 eval)*
+- Candle is gone for mission purposes after telemetry terminates, external tracking loses object lock, and guidance remains unreliable. *(ch22 eval)*
+- Mara begins a joint-reviewed provisional release note stating Candle was unmanned, no human being was placed aboard to extract testimony, occupied Boundary approach remained invalid by hardware hold and command seal, and Candle’s findings do not establish artificiality, external contact, survival after death, or that Mars is false. *(ch22 eval)*
