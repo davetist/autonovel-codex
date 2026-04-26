@@ -970,3 +970,12 @@
 - Mara strengthens her own Elias-specific access restriction by requesting second reviewer presence for any further Elias-addressed fragment. *(ch12 eval)*
 - Mara's reviewer note briefly duplicates as "family-specific conflict" and "family-specific conversion" before stabilizing. *(ch12 eval)*
 - Nadine receives status that the first Asterion final cluster has been opened, evidence is contaminated, interpretive risk is high, and no public release classification exists yet. *(ch12 eval)*
+
+### Chapter 13
+
+- Ivo Tan works at a Manila floodwall repair site where an old Red Nursery Mars mural has been painted over in civic gray. *(ch13 eval)*
+- The slogan "NEAR THINGS FIRST" is painted across the Manila nursery floodwall mural, with a child's reply beneath it: "WHAT IF I STILL WANT FAR THINGS?". *(ch13 eval)*
+- Lani Rivera is a nineteen-year-old apprentice at Ivo's repair site, recruited from a hospital maintenance program after senior pump technicians returned to orbital contracts. *(ch13 eval)*
+- Mika is a ten-year-old child connected to the floodwall site whose mother works at the sandbag station and whose school has replaced Mars projects with pipe maps. *(ch13 eval)*
+- Ivo Tan once had a Mars transfer slot for materials habitat shell or surface systems work before returning to Manila after Tondo flooding and pump failures. *(ch13 eval)*
+- Mara adds a public-release constraint distinguishing abandonment from longing and repair order from worth. *(ch13 eval)*
