@@ -80,7 +80,7 @@ FOR each chapter in outline order:
     3. Run `python evaluate.py --chapter=NN`
     4. Keep if score passes. If score fails, generate an eval-derived brief
        with `gen_brief.py --eval NN`, revise the current draft with
-       `gen_revision.py`, and evaluate again before attempting a blind redraft.
+       `gen_revision.py`, and evaluate again before attempting an unguided redraft.
     5. If writing reveals a lore gap or inconsistency, log a debt
        in state.json
     6. After evaluation, check new_canon_entries in the eval output.

@@ -31,7 +31,7 @@ def generate_directions(art_type, style, n=6, world_excerpt=""):
     """Generate N fundamentally different art direction prompts."""
 
     if art_type == "cover":
-        task = f"""You are an art director generating {n} RADICALLY DIFFERENT cover concepts for a fantasy novel.
+        task = f"""You are an art director generating {n} RADICALLY DIFFERENT cover concepts for the current novel.
 
 The novel's visual style brief:
   Style: {style.get('art_style', '')}
@@ -50,11 +50,11 @@ They should explore different:
 
 DO NOT just vary the same concept. Each should look like it came from a DIFFERENT designer.
 
-Examples of the range I want:
-  Direction 1: "Abstract — a single bronze bell cross-section rendered as a geological diagram, layers of metal shown like strata, the sound wave visible as concentric rings. Monochrome with one warm accent. Linocut style."
-  Direction 2: "Figurative — a boy's hands on a workbench, seen from above. Bronze filings, a pitch-gauge, a letter half-unfolded. Photorealistic, shallow depth of field. Warm lamplight."
-  Direction 3: "Typographic — the title constructed from overlapping sound waves, the letterforms vibrating. Pure geometry. Black on cream."
-  Direction 4: "Atmospheric — a limestone bowl city seen from the rim at dawn, tiny and detailed, the bell tower as the only vertical element. Watercolor. Pale gold and gray."
+Examples of the range I want, using only placeholders rather than story facts:
+  Direction 1: "Abstract — one central object from the foundation rendered as a technical or geological diagram, its hidden structure visible. Monochrome with one warm accent. Linocut style."
+  Direction 2: "Figurative — a character's hands interacting with a foundation-specific object, seen from above. Photorealistic, shallow depth of field. Light source implied by the scene."
+  Direction 3: "Typographic — the title constructed from visual motifs named in the book profile. Pure geometry. Black on cream."
+  Direction 4: "Atmospheric — a key location from the world bible seen from a distance, tiny human scale against an impossible system. Watercolor. Limited palette."
 
 Output a JSON array of {n} objects, each with:
   "direction": one-word label (e.g. "abstract", "figurative", "atmospheric")
@@ -65,7 +65,7 @@ Output a JSON array of {n} objects, each with:
 JSON array only."""
 
     elif art_type == "ornament":
-        task = f"""You are a book designer generating {n} RADICALLY DIFFERENT chapter ornament styles for a fantasy novel.
+        task = f"""You are a book designer generating {n} RADICALLY DIFFERENT chapter ornament styles for the current novel.
 
 The novel's visual style:
   Style: {style.get('art_style', '')}
@@ -84,7 +84,7 @@ Output a JSON array of {n} objects with: direction, concept, medium, prompt
 JSON array only."""
 
     elif art_type == "map":
-        task = f"""You are a cartographer generating {n} RADICALLY DIFFERENT fantasy map styles.
+        task = f"""You are a cartographer generating {n} RADICALLY DIFFERENT map/diagram styles.
 
 The world geography:
 {world_excerpt[:2000]}
@@ -93,7 +93,7 @@ Visual style: {style.get('art_style', '')}
 Map concept: {style.get('map_concept', '')}
 
 Generate {n} map prompts that are FUNDAMENTALLY DIFFERENT:
-  - Traditional parchment fantasy map vs acoustic/scientific diagram vs birds-eye illustration
+  - Traditional place map vs scientific/operational diagram vs birds-eye illustration
   - Labeled vs unlabeled vs symbolically coded
   - Full color vs sepia vs black and white
   - Detailed vs schematic vs impressionistic

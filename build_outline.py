@@ -10,6 +10,7 @@ import json
 import re
 from pathlib import Path
 from dotenv import load_dotenv
+from book_profile import book_title
 from llm_client import call_llm
 
 BASE_DIR = Path(__file__).parent
@@ -45,8 +46,9 @@ def main():
     
     entries = []
     
-    for ch in range(1, 20):
-        path = CHAPTERS_DIR / f"ch_{ch:02d}.md"
+    for path in sorted(CHAPTERS_DIR.glob("ch_*.md")):
+        ch_match = re.search(r"ch_(\d+)", path.name)
+        ch = int(ch_match.group(1)) if ch_match else len(entries) + 1
         text = path.read_text()
         wc = len(text.split())
         
@@ -81,12 +83,14 @@ JSON only, no other text."""
     # Load existing outline header info
     old_outline = (BASE_DIR / "outline.md").read_text()
     
+    title = book_title(BASE_DIR)
+
     # Build new outline
     lines = []
-    lines.append("# THE SECOND SON OF THE HOUSE OF BELLS")
+    lines.append(f"# {title.upper()}")
     lines.append("## Chapter Outline (reflects actual novel as-written)")
     lines.append("")
-    lines.append(f"**23 chapters, {sum(e['words'] for e in entries):,} words**")
+    lines.append(f"**{len(entries)} chapters, {sum(e['words'] for e in entries):,} words**")
     lines.append("")
     lines.append("---")
     lines.append("")

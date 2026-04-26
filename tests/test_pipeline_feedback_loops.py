@@ -17,6 +17,7 @@ class PipelineFeedbackLoopTests(unittest.TestCase):
             "gen_outline.py": "# Outline\n### Ch 1: Start\n",
             "gen_outline_part2.py": "## Foreshadowing\n",
             "gen_canon.py": "# Canon\n- Fresh fact.\n",
+            "gen_book_profile.py": "# Book Prompt Profile\nFresh current-book profile.\n",
             "evaluate.py --phase=foundation": "overall_score: 7.2\nlore_score: 7.2\neval_log: eval_logs/run2_foundation.json\n",
         }
 

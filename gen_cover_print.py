@@ -16,6 +16,7 @@ import io
 import sys
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
+from book_profile import book_title
 
 BASE_DIR = Path(__file__).parent
 ART_DIR = BASE_DIR / "art"
@@ -45,7 +46,7 @@ def find_font(name, style="Regular"):
 
 def compose_cover(
     art_path,
-    title="The Second Son of the House of Bells",
+    title=None,
     author="Claude Hermes",
     subtitle="A Novel",
     blurb="",
@@ -56,6 +57,7 @@ def compose_cover(
     canvas_height=None,
     spine_width=None,
 ):
+    title = title or book_title(BASE_DIR)
     # Use exact printer dimensions if provided, otherwise calculate
     if canvas_width and canvas_height and spine_width:
         canvas_w = canvas_width
@@ -330,7 +332,7 @@ def compose_cover(
 def main():
     parser = argparse.ArgumentParser(description="Compose print-ready book cover")
     parser.add_argument("art_path", help="Path to panoramic cover art")
-    parser.add_argument("--title", default="The Second Son of the House of Bells")
+    parser.add_argument("--title", default=None)
     parser.add_argument("--author", default="Claude Hermes")
     parser.add_argument("--subtitle", default="A Novel")
     parser.add_argument("--blurb", default="")

@@ -547,7 +547,7 @@ Sample line: “If they cannot prove the door is locked, why do they punish us f
 
 Billionaire-funded institutes trying to message whatever might be outside. Part science theater, part grief industry, part lobbying machine.
 
-**Representative character: Cassian Yew**  
+**Representative character: Adrian Yew**
 Fifties, founder of a consciousness-continuity corporation, immaculate, exhausted, convinced that being noticed is the only remaining form of salvation. He funds prime bursts and legal petitions to “external operators.” He believes he is buying humanity a hearing.  
 Sample line: “A closed system can still receive input. Every neglected child knows this.”
 
