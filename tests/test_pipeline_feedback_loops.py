@@ -115,6 +115,54 @@ class PipelineFeedbackLoopTests(unittest.TestCase):
         self.assertTrue(any(str(c).startswith("gen_revision.py 1 ") for c in calls))
         self.assertEqual(state["chapters_drafted"], 1)
 
+    def test_drafting_appends_eval_canon_entries_for_accepted_chapter(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            chapters = root / "chapters"
+            eval_logs = root / "eval_logs"
+            chapters.mkdir()
+            eval_logs.mkdir()
+            (root / "briefs").mkdir()
+            (root / "edit_logs").mkdir()
+            (root / "canon.md").write_text("# Canon\n\n## Existing\n- Earth exists.\n")
+            eval_log = eval_logs / "ch01.json"
+            eval_log.write_text(json.dumps({
+                "overall_score": 7.4,
+                "new_canon_entries": [
+                    "Witness uses a delayed public feed during crew-health segments.",
+                ],
+            }))
+
+            def fake_uv_run(script, timeout=600):
+                if script == "draft_chapter.py 1":
+                    (chapters / "ch_01.md").write_text("draft " * 80)
+                    return subprocess.CompletedProcess(script, 0, "drafted", "")
+                if script == "evaluate.py --chapter=1":
+                    return subprocess.CompletedProcess(
+                        script, 0,
+                        "overall_score: 7.4\neval_log: eval_logs/ch01.json\n",
+                        "",
+                    )
+                raise AssertionError(f"unexpected uv_run call: {script}")
+
+            with patch.object(run_pipeline, "BASE_DIR", root), \
+                 patch.object(run_pipeline, "STATE_FILE", root / "state.json"), \
+                 patch.object(run_pipeline, "RESULTS_FILE", root / "results.tsv"), \
+                 patch.object(run_pipeline, "CHAPTERS_DIR", chapters), \
+                 patch.object(run_pipeline, "BRIEFS_DIR", root / "briefs"), \
+                 patch.object(run_pipeline, "EDIT_LOGS_DIR", root / "edit_logs"), \
+                 patch.object(run_pipeline, "EVAL_LOGS_DIR", eval_logs), \
+                 patch.object(run_pipeline, "CHAPTER_THRESHOLD", 6.0), \
+                 patch.object(run_pipeline, "uv_run", side_effect=fake_uv_run), \
+                 patch.object(run_pipeline, "git_add_commit", return_value="ch1"):
+                state = run_pipeline.default_state()
+                state["chapters_total"] = 1
+                run_pipeline.run_drafting(state)
+
+            canon_text = (root / "canon.md").read_text()
+            self.assertIn("## Post-Draft Canon Addendum", canon_text)
+            self.assertIn("- Witness uses a delayed public feed during crew-health segments. *(ch01 eval)*", canon_text)
+
     def test_revision_generates_combined_briefs_not_panel_only_briefs(self):
         calls = []
         eval_scores = iter([5.8, 6.4])
