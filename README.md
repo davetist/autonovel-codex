@@ -93,6 +93,8 @@ See [PIPELINE.md](PIPELINE.md) for the full technical specification.
 | `adversarial_edit.py` | "Cut 500 words" analysis → classified cuts |
 | `compare_chapters.py` | Head-to-head Elo tournament |
 | `reader_panel.py` | 4-persona novel-level evaluation |
+| `panel_triage.py` | Deterministic reader-panel consensus ranking for revision targets |
+| `editorial_policy.py` | Autonomous scope decisions: broad cycle vs surgical fixes vs export |
 | `review.py` | Opus dual-persona review with stopping conditions |
 
 ### Revision

@@ -26,6 +26,7 @@ from datetime import datetime
 from pathlib import Path
 
 from canon_update import append_new_canon_entries_from_eval
+from editorial_policy import choose_revision_strategy, evaluate_surgical_cycle_outcome
 
 # ---------------------------------------------------------------------------
 # Constants
@@ -610,62 +611,9 @@ def parse_panel_consensus(panel_path: Path) -> list[dict]:
     Returns list of dicts: {chapter, question, flagged_by, details}
     sorted by number of readers who flagged (descending).
     """
-    if not panel_path.exists():
-        return []
-    with open(panel_path) as f:
-        data = json.load(f)
+    from panel_triage import load_and_rank
 
-    items = []
-
-    # Look at disagreements — these are flagged by some but not all readers
-    for d in data.get("disagreements", []):
-        items.append({
-            "chapter": d.get("chapter", 0),
-            "question": d.get("question", ""),
-            "flagged_by": d.get("flagged_by", []),
-            "count": len(d.get("flagged_by", [])),
-        })
-
-    # Also scan readers for direct chapter mentions in key questions
-    readers = data.get("readers", {})
-    chapter_mentions = {}  # ch_num -> count of readers mentioning it
-
-    for reader_key, answers in readers.items():
-        for question in ["momentum_loss", "cut_candidate", "worst_scene",
-                         "thinnest_character", "missing_scene"]:
-            answer = answers.get(question, "")
-            if not isinstance(answer, str):
-                continue
-            chs = re.findall(r'Ch(?:apter)?\s*(\d+)', answer, re.IGNORECASE)
-            for ch_str in chs:
-                ch_num = int(ch_str)
-                key = (ch_num, question)
-                if key not in chapter_mentions:
-                    chapter_mentions[key] = {"chapter": ch_num, "question": question,
-                                             "flagged_by": [], "count": 0}
-                chapter_mentions[key]["flagged_by"].append(reader_key)
-                chapter_mentions[key]["count"] += 1
-
-    # Merge and deduplicate
-    seen = set()
-    for item in items:
-        seen.add((item["chapter"], item["question"]))
-    for key, item in chapter_mentions.items():
-        if key not in seen:
-            items.append(item)
-
-    # Sort by count descending, take unique chapters
-    items.sort(key=lambda x: -x["count"])
-
-    # Deduplicate by chapter (keep highest-count issue per chapter)
-    seen_chapters = set()
-    unique = []
-    for item in items:
-        if item["chapter"] not in seen_chapters and item["chapter"] > 0:
-            seen_chapters.add(item["chapter"])
-            unique.append(item)
-
-    return unique[:5]  # top 3-5 consensus items
+    return load_and_rank(panel_path, limit=5)
 
 
 def run_revision(
@@ -687,27 +635,48 @@ def run_revision(
 
     for cycle in range(start_cycle, max_cycles + 1):
         banner(f"Revision Cycle {cycle}/{max_cycles}", "-")
+        cycle_start = run_tool("git rev-parse HEAD", timeout=10)
+        cycle_start_ref = cycle_start.stdout.strip() if cycle_start and cycle_start.stdout.strip() else "HEAD"
 
-        # -- Step 1: Adversarial editing pass --
-        step("Running adversarial editing on all chapters...")
-        uv_run("adversarial_edit.py all", timeout=900)
-
-        # -- Step 2: Apply mechanical cuts (only if apply_cuts.py exists) --
-        apply_cuts = BASE_DIR / "apply_cuts.py"
-        if apply_cuts.exists():
-            step("Applying mechanical cuts (OVER-EXPLAIN, REDUNDANT)...")
-            run_tool("uv run python apply_cuts.py all "
-                     "--types OVER-EXPLAIN REDUNDANT --min-fat 15", timeout=300)
-        else:
-            step("apply_cuts.py not found, skipping mechanical cuts")
-
-        # -- Step 3: Reader panel --
-        step("Running reader panel evaluation...")
-        uv_run("reader_panel.py", timeout=600)
-
-        # -- Step 4: Parse panel consensus --
         panel_path = EDIT_LOGS_DIR / "reader_panel.json"
-        consensus_items = parse_panel_consensus(panel_path)
+        existing_consensus = parse_panel_consensus(panel_path) if panel_path.exists() else []
+        decision = choose_revision_strategy(
+            state, existing_consensus, has_reader_panel=panel_path.exists())
+        step(f"Revision strategy: {decision['mode']} — {decision['rationale']}")
+
+        if decision["mode"] == "export":
+            state["phase"] = "export"
+            state["current_focus"] = "export"
+            save_state(state)
+            banner("REVISION COMPLETE — policy moved clean strong draft to export")
+            return state
+
+        if decision["mode"] == "surgical_revision":
+            allowed = set(decision["target_chapters"])
+            consensus_items = [
+                item for item in existing_consensus
+                if item.get("chapter") in allowed
+            ]
+        else:
+            # -- Step 1: Adversarial editing pass --
+            step("Running adversarial editing on all chapters...")
+            uv_run("adversarial_edit.py all", timeout=900)
+
+            # -- Step 2: Apply mechanical cuts (only if apply_cuts.py exists) --
+            apply_cuts = BASE_DIR / "apply_cuts.py"
+            if apply_cuts.exists():
+                step("Applying mechanical cuts (OVER-EXPLAIN, REDUNDANT)...")
+                run_tool("uv run python apply_cuts.py all "
+                         "--types OVER-EXPLAIN REDUNDANT --min-fat 15", timeout=300)
+            else:
+                step("apply_cuts.py not found, skipping mechanical cuts")
+
+            # -- Step 3: Reader panel --
+            step("Running reader panel evaluation...")
+            uv_run("reader_panel.py", timeout=600)
+
+            # -- Step 4: Parse panel consensus --
+            consensus_items = parse_panel_consensus(panel_path)
 
         if consensus_items:
             step(f"Found {len(consensus_items)} consensus items:")
@@ -794,6 +763,17 @@ def run_revision(
 
         total_words = count_words_in_chapters()
         step(f"Novel score: {novel_score}  (prev: {prev_score}, words: {total_words})")
+
+        if decision["mode"] == "surgical_revision":
+            outcome = evaluate_surgical_cycle_outcome(
+                previous_score=prev_score, new_score=novel_score)
+            step(f"Surgical cycle gate: {outcome['action']} — {outcome['rationale']}")
+            if outcome["action"] == "review_or_revert":
+                git_reset_hard(cycle_start_ref)
+                log_result("reverted", f"revision-cycle-{cycle}", novel_score,
+                           total_words, "discard",
+                           f"Cycle {cycle}: surgical pass failed full-score gate")
+                break
 
         # Commit cycle results
         commit_hash = git_add_commit(
