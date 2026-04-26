@@ -1122,3 +1122,22 @@
 - Ruth Venn receives a reviewed transcript rendering of 'Mara, leave the porch light on' under restricted family/clinical seal with support context, no raw waveform, and no public claim. *(ch23 eval)*
 - The public statement says the Candle/Asterion data do not prove operators, external contact, survival after death, Mars being fake, or practical control over the Boundary. *(ch23 eval)*
 - Public care guidance attached to the release recommends eating before viewing, watching with another person, preserving medication/sleep/feeding routines, and avoiding unsupported use in pediatric, ward, detention, or collapse recovery settings. *(ch23 eval)*
+
+### Chapter 24
+
+- After the Chapter 23 release, Glass Room 12B experiences an Exit-channel intrusion through parent/child devices, prompting Ms. Alonzo to request crayon-specific guidance from Witness. *(ch24 eval)*
+- Avram gives not-ready tokens to a frightened girl under a desk after the release disruption. *(ch24 eval)*
+- The first major Exit edit after the release removes context around Jun Park’s laugh and combines Elias’s public laugh with door imagery. *(ch24 eval)*
+- Post-release denial edits turn Sofia Arendt’s disputed command material into false manual-error and sabotage narratives. *(ch24 eval)*
+- Claire Arendt publicly objects to public phrasing around Sofia’s command record after the release. *(ch24 eval)*
+- Tomás Ríos Sr. renews his demand for Mateo’s full log from his kitchen in Antofagasta. *(ch24 eval)*
+- St. Odran’s formalizes a post-release routine: breakfast, name, weather, one question. *(ch24 eval)*
+- Parisa is a St. Odran’s patient who asks whether Candle is dead and whether Mars is false or true. *(ch24 eval)*
+- Thomas Keane eats jam toast after the release and reacts to the ward’s weather routine. *(ch24 eval)*
+- Kavir Shah turns off the Mumbai pit feed during post-release trading and answers Anaya’s school continuity call. *(ch24 eval)*
+- A proposed Mumbai Exchange temporary feed-pause rule follows the Desk 14 incident. *(ch24 eval)*
+- Ruth Venn opens the restricted Elias-associated transcript rendering once, refuses to call Mara, and plays an old hymn badly for seven minutes. *(ch24 eval)*
+- Ms. Adeyemi teaches at a Lagos Red Nursery where Tobi draws a house under Mars instead of a wall or door. *(ch24 eval)*
+- Continuity Education guidance is updated so house drawings under Mars are not coded as exit symbols absent an enclosing line. *(ch24 eval)*
+- Mara sends guidance to Glass Room 12B: children may draw Mars, do not correct longing, pair far drawings with near drawings, and say Mars is visible and measured while reach failure remains unknown. *(ch24 eval)*
+- Witness is on return trajectory after Candle, with Mara’s release authority partially restored for non-Elias material under added watchers. *(ch24 eval)*
