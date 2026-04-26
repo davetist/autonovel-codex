@@ -954,3 +954,19 @@
 - Mateo asked how to explain the anomaly to children, prompting Amara's cruel response and partial apology. *(ch11 eval)*
 - Amara entered the engineering annotation: "The hull is remembering shapes it never had." *(ch11 eval)*
 - The annotation saved in two copies with the same timestamp, one ending "had" and one ending "held." *(ch11 eval)*
+
+### Chapter 12
+
+- Witness archive bay review of the first Asterion private/final cluster is conducted by Sera Imani and Mara Venn under two-person authorization. *(ch12 eval)*
+- Sera explicitly defines the first cluster as an archive grouping, not an event or sequence. *(ch12 eval)*
+- Elias's MD117 private psych-medical log says the conversion drill worked and calls it useful and dangerous. *(ch12 eval)*
+- Elias's duplicated line differs between "thanked for a knife" and "blamed for a tourniquet," with only a four percent repair-confidence difference favoring the first. *(ch12 eval)*
+- Elias's private log includes the warning: "Conversion is not the same as rescue." *(ch12 eval)*
+- Leila Haddad's tray four file contains incompatible checklist and prayer tracks under the same timestamp group, with family restrictions on raw prayer content. *(ch12 eval)*
+- Leila's tray four language includes "mass is absent without path," which remains non-public. *(ch12 eval)*
+- The first cluster links Elias's six-second duplication, Leila's split track, and Amara's bay two annotation through a shared repair signature. *(ch12 eval)*
+- The structural composite places a nonsurvivable bay two failure marker at 03:11:08, followed by apparent crew audio through 03:11:22. *(ch12 eval)*
+- A restricted low-integrity audio fragment includes apparent Elias saying "Hands. Everybody hands," apparent Jun saying "Not sky," and a cut-off apparent Elias personal address to Mara. *(ch12 eval)*
+- Mara strengthens her own Elias-specific access restriction by requesting second reviewer presence for any further Elias-addressed fragment. *(ch12 eval)*
+- Mara's reviewer note briefly duplicates as "family-specific conflict" and "family-specific conversion" before stabilizing. *(ch12 eval)*
+- Nadine receives status that the first Asterion final cluster has been opened, evidence is contaminated, interpretive risk is high, and no public release classification exists yet. *(ch12 eval)*
