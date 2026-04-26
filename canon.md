@@ -1034,3 +1034,19 @@
 - Run B contains the public-derivative PARK LAUGH POST-IMPACT event, but source confidence is insufficient to establish sequence. *(ch17 eval)*
 - The restricted copies preserve "That's not sky" in conflicting relation to the laugh, while the circulated derivative omits the phrase. *(ch17 eval)*
 - The cockpit fragment establishes that Jun's cult-famous laugh was not simple joy and cannot be isolated as affective evidence. *(ch17 eval)*
+
+### Chapter 18
+
+- Mara privately played AST-MD118-MED-VMIX-LOWCONF three times under Sera's active reviewer token while Sera was absent. *(ch18 eval)*
+- The fragment contains apparent Elias saying, "Mara, leave the porch light on," with disputed timestamp association and low transcript confidence. *(ch18 eval)*
+- The archive labels the fragment with possible archive bleed from MD117 private log, family server transcript, or unknown source. *(ch18 eval)*
+- The fragment metadata includes Elias vocal match 0.62 and 0.81 after pitch repair, plus an unknown or known Venn-family household transcript collision. *(ch18 eval)*
+- Mara created and deleted a conflict note disclosing prior unauthorized transcript exposure, then saved a materially incomplete defer note. *(ch18 eval)*
+- Sera discovered the breach and reported an Elias-specific chain breach to Nadine. *(ch18 eval)*
+- Nadine provisionally classified the fragment as Class C, sealed raw replay, and logged its existence without releasing the phrase. *(ch18 eval)*
+- Malik quarantined AST-MD118-MED-VMIX-LOWCONF and its derivatives, paused remote mirrors, and delayed ground sync under evidence-preservation flag. *(ch18 eval)*
+- Ruth Venn's prior request is now cross-referenced under legal hold with no immediate notification. *(ch18 eval)*
+- Mara is temporarily removed from release authority over Asterion family-specific material, Elias-associated material, and Class C personal-address fragments. *(ch18 eval)*
+- Yuna conducted a focused cognitive safety review and recommended removal from interpretive authority across all Elias-associated content for at least twenty-four ship hours, likely through Candle Band Two transition. *(ch18 eval)*
+- Sera's compression sleeve with biometric thread is logged as custody evidence because Mara used Sera's active token during the breach. *(ch18 eval)*
+- Mara will sleep or fail to sleep under observation in the medical alcove after reporting that she still hears the recited phrase in Elias's voice. *(ch18 eval)*
