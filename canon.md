@@ -926,3 +926,17 @@
 - Sofia's private command note duplicated with one copy reading "what" and the other reading "whom." *(ch09 eval)*
 - Sofia sealed both command-note copies as command restricted with the manual correction file attached and no public feed derivative. *(ch09 eval)*
 - Sofia's submarine battery-fire memory includes the Barents, a battery room hatch, two sailors behind it, and her hands smelling of insulation for three days after rescue. *(ch09 eval)*
+
+### Chapter 10
+
+- Solenne Kade broadcasts from a classroom-like online stream using a red marker to draw a door around Mars. *(ch10 eval)*
+- Solenne uses Elias Venn's mission day 118 public-feed laugh as Exit Congregation recruitment evidence. *(ch10 eval)*
+- Solenne pairs Elias's public pre-clip laugh with a corrupted Jun Park cockpit derivative. *(ch10 eval)*
+- Solenne has access to a version of Jun's derivative that includes "That's not sky" and deliberately cuts the phrase. *(ch10 eval)*
+- Continuity Office interrupts the primary stream under Boundary Delay Protocol 8 for self-harm recruitment risk. *(ch10 eval)*
+- The suppression banner itself becomes part of the copied recruitment edits. *(ch10 eval)*
+- A North American pediatric and oncology mixed hospital campus reports an Exit cluster after the stream reaches a Glass Room through a parent channel. *(ch10 eval)*
+- The reported hospital incident includes twelve attempts, five unconfirmed fatalities, three confirmed resuscitations, and seven patients missing from supervised care. *(ch10 eval)*
+- Door symbols are drawn on two ward windows and one Mars education display after the stream. *(ch10 eval)*
+- Nadine orders incident archiving that separates Elias's public-feed laugh from Jun's corrupted derivative. *(ch10 eval)*
+- Mara proposes lethal fragment criteria naming the two laughs separately, naming missing context without raw release, flagging the door symbol, and adding "touching the handle" to ward prompt sheets. *(ch10 eval)*
