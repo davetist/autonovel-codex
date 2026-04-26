@@ -367,3 +367,21 @@ warning: `VIRTUAL_ENV=/Users/david/.hermes/hermes-agent/venv` does not match the
   [04:35:33] Chapter 24 score: 7.6
   [04:35:33] Appended 16 new canon entries from Chapter 24 eval
   [04:35:33] RUN: git add -A
+  [04:35:34] RUN: git commit -m "ch24: score 7.6, 5225w" --allow-empty
+  [04:35:34] RUN: git rev-parse --short HEAD
+  [04:35:34] GIT COMMIT: 7e2bdf7 — ch24: score 7.6, 5225w
+
+============================================================
+  DRAFTING COMPLETE — 24 chapters, 109007 words
+============================================================
+
+============================================================
+  PIPELINE COMPLETE
+============================================================
+  Time:       1.0 hours
+  Phase:      revision
+  Foundation: 8.0
+  Chapters:   24/24
+  Words:      109007
+  Novel:      0.0
+  Cycles:     0

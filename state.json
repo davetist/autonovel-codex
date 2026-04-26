@@ -1,12 +1,13 @@
 {
-  "phase": "foundation",
-  "current_focus": "foundation_review",
+  "phase": "revision",
+  "current_focus": "full_novel",
   "iteration": 2,
   "foundation_score": 8.0,
   "lore_score": 8.2,
-  "chapters_drafted": 23,
+  "chapters_drafted": 24,
   "chapters_total": 24,
   "novel_score": 0.0,
   "debts": [],
-  "foundation_eval_log": "/Users/david/Desktop/stuff/autonovel-codex/eval_logs/20260426_005854_foundation.json"
+  "foundation_eval_log": "/Users/david/Desktop/stuff/autonovel-codex/eval_logs/20260426_005854_foundation.json",
+  "revision_cycle": 0
 }
