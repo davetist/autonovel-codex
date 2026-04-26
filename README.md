@@ -105,7 +105,7 @@ See [PIPELINE.md](PIPELINE.md) for the full technical specification.
 ### Export Hygiene
 | Tool | Purpose |
 |------|---------|
-| `normalize_chapter_titles.py` | Post-draft/pre-export pass that normalizes `chapters/ch_*.md` headings without rewriting body prose |
+| `normalize_chapter_titles.py` | Post-draft/pre-export pass that normalizes `chapters/ch_*.md` headings from `outline.md` without rewriting body prose |
 
 ### Art & Cover
 | Tool | Purpose |

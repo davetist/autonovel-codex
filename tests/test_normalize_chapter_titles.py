@@ -39,6 +39,47 @@ class NormalizeChapterTitlesTests(unittest.TestCase):
                 "## Chapter 7\n\nNadine closed the Asterion viewer with two fingers.\n\nSecond paragraph.\n",
             )
 
+    def test_missing_heading_can_use_outline_title_without_eating_body_prose(self):
+        with tempfile.TemporaryDirectory() as td:
+            path = Path(td) / "ch_07.md"
+            path.write_text(
+                "Nadine closed the Asterion viewer with two fingers.\n\nSecond paragraph.\n",
+                encoding="utf-8",
+            )
+
+            result = normalize_chapter_file(
+                path,
+                write=True,
+                outline_titles={7: "Witness Narrowband"},
+            )
+
+            self.assertTrue(result.changed)
+            self.assertTrue(result.inserted_heading)
+            self.assertEqual(result.normalized_heading, "## Chapter 7: Witness Narrowband")
+            self.assertEqual(
+                path.read_text(encoding="utf-8"),
+                "## Chapter 7: Witness Narrowband\n\n"
+                "Nadine closed the Asterion viewer with two fingers.\n\nSecond paragraph.\n",
+            )
+
+    def test_outline_title_fills_existing_untitled_chapter_heading(self):
+        with tempfile.TemporaryDirectory() as td:
+            path = Path(td) / "ch_16.md"
+            path.write_text("### Chapter 16\n\nBody.\n", encoding="utf-8")
+
+            result = normalize_chapter_file(
+                path,
+                write=True,
+                outline_titles={16: "Release Hearing"},
+            )
+
+            self.assertTrue(result.changed)
+            self.assertEqual(result.normalized_heading, "## Chapter 16: Release Hearing")
+            self.assertEqual(
+                path.read_text(encoding="utf-8"),
+                "## Chapter 16: Release Hearing\n\nBody.\n",
+            )
+
     def test_dry_run_reports_changes_without_writing(self):
         with tempfile.TemporaryDirectory() as td:
             chapters = Path(td)
