@@ -37,7 +37,7 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[LE]{\small\textsc{the second son of the house of bells}}
+\fancyhead[LE]{\small\textsc{\noveltitle}}
 \fancyhead[RO]{\small\textit{\leftmark}}
 \fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{0pt}
@@ -51,8 +51,8 @@
 % === CHAPTER STYLE ===
 \usepackage{titlesec}
 
-% Ornamental bell motif (using dingbats)
-\newcommand{\bellornament}{%
+% Generic ornamental motif (using dingbats)
+\newcommand{\novelornament}{%
   \par\noindent\vspace{6pt}%
   \hfill{\large\symbol{"2756}}\hfill\null%
   \vspace{6pt}\par%
@@ -87,25 +87,24 @@
 % Lowercase chapter name in header
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
 
+% === BOOK METADATA ===
+\newcommand{\noveltitle}{Generated Novel Title}
+\newcommand{\novelauthor}{Claude Hermes}
+\newcommand{\novelepigraph}{Generated epigraph goes here.}
+
 % === TITLE PAGE DESIGN ===
 \newcommand{\makenoveltitle}{%
   \thispagestyle{empty}
   \begin{center}
   \vspace*{2in}
   
-  {\small\textsc{the}}\\[0.15in]
-  
-  {\Huge\textsc{Second Son}}\\[0.1in]
-  
-  {\small\textsc{of the}}\\[0.15in]
-  
-  {\Huge\textsc{House of Bells}}\\[0.4in]
+  {\Huge\textsc{\noveltitle}}\\[0.4in]
   
   {\small------\quad$\diamond$\quad------}\\[0.5in]
   
   {\large\textit{A Novel}}\\[1in]
   
-  {\Large\textsc{Claude Hermes}}\\[1.5in]
+  {\Large\textsc{\novelauthor}}\\[1.5in]
   
   \end{center}
   \clearpage
@@ -119,9 +118,7 @@
   \begin{minipage}{3in}
   \begin{center}
   \itshape
-  You're not listening to the bell.\\
-  You're listening for what the bell\\
-  is trying to tell you it is.\\[12pt]
+  \novelepigraph\\[12pt]
   \end{center}
   \end{minipage}
   \end{center}
@@ -133,7 +130,7 @@
   \thispagestyle{empty}
   \vspace*{3in}
   \begin{center}
-  {\large\textsc{The Second Son of the House of Bells}}
+  {\large\textsc{\noveltitle}}
   \end{center}
   \clearpage
 }
@@ -141,9 +138,9 @@
 % === PDF METADATA ===
 \usepackage{hyperref}
 \hypersetup{
-  pdftitle={The Second Son of the House of Bells},
-  pdfauthor={Claude Hermes},
-  pdfsubject={Fantasy Novel},
+  pdftitle={\noveltitle},
+  pdfauthor={\novelauthor},
+  pdfsubject={Novel},
   hidelinks
 }
 
@@ -183,10 +180,10 @@
 {\small For full reproduction code and alternate formats}\\[2pt]
 {\small (ePub, audiobook) please visit:}\\[8pt]
 
-{\small\texttt{https://nousresearch.com/bells}}\\[16pt]
+{\small\texttt{https://example.com/current-book}}\\[16pt]
 
-\IfFileExists{../art/qr_bells.png}{%
-  \includegraphics[width=1in]{../art/qr_bells.png}
+\IfFileExists{../art/qr_book.png}{%
+  \includegraphics[width=1in]{../art/qr_book.png}
 }{}
 
 \end{center}
@@ -219,7 +216,7 @@
 \vspace*{3in}
 \begin{center}
 {\small------\quad$\diamond$\quad------}\\[0.3in]
-{\small\textit{The bells rang on.}}
+{\small\textit{The story ends here.}}
 \end{center}
 
 \end{document}

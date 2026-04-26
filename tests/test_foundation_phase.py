@@ -17,6 +17,7 @@ class FoundationPhaseTests(unittest.TestCase):
             "gen_outline.py": "# Generated Outline\n### Ch 1: The Paused Frame\n",
             "gen_outline_part2.py": "## Foreshadowing Ledger\n| Thread | Planted (Ch) | Payoff (Ch) |\n",
             "gen_canon.py": "# Generated Canon\n- Mars is unreachable. (world.md)\n",
+            "gen_book_profile.py": "# Book Prompt Profile: The Boundary Condition\nUse only this foundation.\n",
             "evaluate.py --phase=foundation": "overall_score: 8.2\nlore_score: 8.0\n",
         }
         calls = []
@@ -58,6 +59,7 @@ class FoundationPhaseTests(unittest.TestCase):
                 outputs["gen_outline.py"].rstrip() + "\n\n" + outputs["gen_outline_part2.py"].lstrip(),
             )
             self.assertEqual((root / "canon.md").read_text(), outputs["gen_canon.py"])
+            self.assertEqual((root / "book_profile.md").read_text(), outputs["gen_book_profile.py"])
             self.assertNotIn("voice_fingerprint.py", calls)
             reset_hard.assert_not_called()
             self.assertEqual(state["phase"], "drafting")
@@ -84,7 +86,7 @@ class FoundationPhaseTests(unittest.TestCase):
             "Bell Tower",
         ]
         offenders = []
-        for name in ("gen_world.py", "gen_characters.py", "gen_outline.py", "gen_outline_part2.py"):
+        for name in ("gen_world.py", "gen_characters.py", "gen_outline.py", "gen_outline_part2.py", "gen_book_profile.py"):
             text = (root / name).read_text()
             for token in forbidden:
                 if token in text:
@@ -116,6 +118,13 @@ class FoundationPhaseTests(unittest.TestCase):
             calls.append(script)
             if script.startswith("repair_foundation.py --eval-log"):
                 return subprocess.CompletedProcess(args=script, returncode=0, stdout="repaired\n", stderr="")
+            if script == "gen_book_profile.py":
+                return subprocess.CompletedProcess(
+                    args=script,
+                    returncode=0,
+                    stdout="# Book Prompt Profile\nFoundation-only profile.\n",
+                    stderr="",
+                )
             if script == "evaluate.py --phase=foundation":
                 return subprocess.CompletedProcess(
                     args=script,
@@ -163,6 +172,13 @@ class FoundationPhaseTests(unittest.TestCase):
             calls.append(script)
             if script.startswith("repair_foundation.py --eval-log"):
                 return subprocess.CompletedProcess(args=script, returncode=0, stdout="repaired\n", stderr="")
+            if script == "gen_book_profile.py":
+                return subprocess.CompletedProcess(
+                    args=script,
+                    returncode=0,
+                    stdout="# Book Prompt Profile\nFoundation-only profile.\n",
+                    stderr="",
+                )
             if script == "evaluate.py --phase=foundation":
                 return subprocess.CompletedProcess(
                     args=script,

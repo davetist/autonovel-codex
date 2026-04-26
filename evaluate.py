@@ -21,6 +21,7 @@ import glob
 import re
 from datetime import datetime
 from pathlib import Path
+from book_profile import load_book_profile
 from llm_client import call_llm
 
 # --- Configuration ---
@@ -247,6 +248,7 @@ def load_layer_files():
     """Load all planning layer files."""
     return {
         "voice": load_file(BASE_DIR / "voice.md"),
+        "profile": load_book_profile(BASE_DIR, required=True),
         "world": load_file(BASE_DIR / "world.md"),
         "characters": load_file(BASE_DIR / "characters.md"),
         "outline": load_file(BASE_DIR / "outline.md"),
@@ -327,7 +329,7 @@ def parse_json_response(text):
 
 # --- Foundation Evaluation ---
 
-FOUNDATION_PROMPT = """Evaluate these fantasy novel planning documents.
+FOUNDATION_PROMPT = """Evaluate these current-novel planning documents.
 
 SCORING CALIBRATION (read this before scoring anything):
 
@@ -354,6 +356,9 @@ MANDATORY: For EVERY dimension, before scoring, you must identify:
 VOICE DEFINITION:
 {voice}
 
+BOOK PROMPT PROFILE:
+{profile}
+
 WORLD BIBLE:
 {world}
 
@@ -374,9 +379,9 @@ CROSS-CHECKS (perform these before scoring):
    - Deduct from character_distinctiveness if multiple characters
      share the same sentence structures
 2. Check for missing NEGATIVE SPACE -- what's absent?
-   - Are there gaps in the magic system that would block a specific
-     plot scene? (e.g., can Cass hear lies in written documents?
-     What happens during the climax -- what rule resolves it?)
+   - Are there gaps in the speculative/world system that would block a
+     specific plot scene? (e.g., do the planning docs define what a
+     character can test, know, withhold, or change during the climax?)
    - Are there characters needed for the plot who don't exist?
    - Are there scenes the outline demands that the world can't support?
 3. Check for CONVENIENT GAPS vs DELIBERATE MYSTERY:
@@ -387,7 +392,7 @@ CROSS-CHECKS (perform these before scoring):
      not an iceberg.
 4. Check the canon for INTERNAL CONTRADICTIONS:
    - Cross-reference dates, ages, and timelines
-   - Check if character abilities match magic system rules
+   - Check if character abilities/responsibilities match speculative/world rules
    - Look for factual conflicts between documents
 
 Score these dimensions (gap + improvement required for each):
@@ -408,9 +413,9 @@ LORE & WORLDBUILDING:
   Cultures with specific customs that GENERATE CONFLICT. Economy that
   creates class tension. Check: could two different scenes set in two
   different locations feel meaningfully different based on what's here?
-- lore_interconnection: Does changing one element force changes in
-  at least two others? Test by mentally removing the magic system --
-  does the political structure collapse? Does the class system change?
+- lore_interconnection: Does changing the speculative/world engine force changes in
+  at least two others? Test by mentally removing the speculative system --
+  does the political structure collapse? Does the class/social system change?
   If elements are modular/detachable, score low.
 - iceberg_depth: Implied depth vs stated depth. But CHECK: does the
   author actually know the answers to the mysteries, or are they
@@ -503,10 +508,10 @@ def evaluate_foundation():
 
 # --- Chapter Evaluation ---
 
-CHAPTER_PROMPT = """Evaluate this fantasy novel chapter against the planning docs.
+CHAPTER_PROMPT = """Evaluate this current-novel chapter against the planning docs.
 
 SCORING CALIBRATION:
-  9-10: Among the best chapters you've read in published fantasy. Name
+  9-10: Among the best chapters you've read in published fiction. Name
         a specific published chapter it competes with, or don't give 9+.
   7-8:  Strong, publishable with editorial polish. Specific flaws exist
         but don't break the reading experience.
@@ -527,6 +532,9 @@ MANDATORY: For each dimension, you must identify:
 
 VOICE DEFINITION:
 {voice}
+
+BOOK PROMPT PROFILE:
+{profile}
 
 WORLD BIBLE (summary):
 {world}
@@ -589,10 +597,12 @@ Score these dimensions:
 
 - character_voice: Remove all dialogue tags mentally. Can you tell who's
   speaking? Do characters ever sound alike? Does dialogue read as speech
-  or as written prose? Does Cass sound like a specific 14-year-old, or
-  like "young protagonist"? Does anyone say something surprising -- not
-  just the right thing, but a REAL thing? Characters who never stumble,
-  hesitate, or say something slightly wrong are AI-pattern characters.
+  or as written prose? Does the focal character sound like a specific person
+  from this foundation, or like a generic protagonist? Does anyone say
+  something surprising -- not just the right thing, but a REAL thing?
+  Characters who never stumble, hesitate, or say something slightly wrong
+  are AI-pattern characters.
+
 
 - plants_seeded: Were foreshadowing elements placed naturally? A plant
   that's obvious is worse than a plant that's invisible. Score based on
@@ -600,7 +610,8 @@ Score these dimensions:
 
 - prose_quality: Sentence variety (measure: do 3+ consecutive sentences
   start the same way?). Specificity (concrete nouns > abstract).
-  Metaphors from Cass's experience, not from a thesaurus. Show-don't-tell
+  Metaphors from the focal character's experience and this book's profile,
+  not from a thesaurus. Show-don't-tell
   at emotional peaks. QUOTE the weakest sentence and explain why. Also
   check for: repeated phrases, leaned-on constructions, paragraphs that
   could be cut without loss.
@@ -668,6 +679,7 @@ def evaluate_chapter(chapter_num):
 
     prompt = CHAPTER_PROMPT.format(
         voice=layers["voice"],
+        profile=layers["profile"],
         world=layers["world"][:4000],  # truncate world bible
         characters=layers["characters"],
         canon=layers["canon"],

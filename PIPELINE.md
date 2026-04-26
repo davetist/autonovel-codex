@@ -3,9 +3,8 @@
 ## Overview
 
 This document captures the full automated pipeline for generating,
-drafting, and revising a novel from a seed concept. Derived from the
-production of "The Second Son of the House of Bells" (75k words, 23
-chapters, 5 revision cycles).
+drafting, and revising a novel from a seed concept. It describes the
+reusable framework only; story-specific prompt support is generated per book.
 
 The goal: a user provides a seed concept. Everything else is automated.
 
@@ -122,7 +121,7 @@ OUTPUT: world.md, characters.md, outline.md, voice.md, canon.md, MYSTERY.md
 EXIT:   foundation_score > 7.5 AND lore_score > 7.0
 
 Loop:
-  1. gen_world.py        → world.md (lore, magic system, geography, factions)
+  1. gen_world.py        → world.md (lore, speculative/world system, geography, factions)
   2. gen_characters.py   → characters.md (wound/want/need/lie, speech, sliders)
   3. gen_outline.py      → outline.md part 1 (beats, chapter structure)
   4. gen_outline_part2.py → outline.md part 2 (foreshadowing ledger)
@@ -136,7 +135,7 @@ Loop:
 
 Key learnings:
   - Foundation typically takes 5-15 iterations
-  - The evaluator weights lore interconnection at 40% — magic must
+  - The evaluator weights lore interconnection at 40% — the speculative/world engine must
     affect politics, history must explain factions, geography must
     shape culture
   - Cross-layer consistency check on EVERY iteration
@@ -377,7 +376,7 @@ PHASE 3b: OPUS REVIEW LOOP (deep, prose-level refinement)
 
 ### What the evaluator rewards
   - Theme coherence hits ceiling (10) early if the seed has a strong
-    central question. Build the magic system AS the theme.
+    central question. Build the speculative/world engine AS the theme.
   - Voice consistency (9) holds if you never break POV and keep the
     craft vocabulary native.
   - Foreshadowing (9) requires a ledger maintained from foundation
@@ -431,7 +430,7 @@ PHASE 3b: OPUS REVIEW LOOP (deep, prose-level refinement)
 ### Current implementation notes:
   1. run_pipeline.py — Orchestrator that runs all phases
      - Phase 1: hybrid foundation loop: reroll weak candidates, repair near misses from eval JSON
-     - Phase 2: sequential drafting with eval-guided repair before blind redraft
+     - Phase 2: sequential drafting with eval-guided repair before unguided redraft
      - Phase 3: revision cycles with combined brief generation
      - Phase 4: export
      - Score plateau detection (stop when Δ < 0.5 across 2 cycles)

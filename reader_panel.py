@@ -37,7 +37,7 @@ READERS = {
     "genre_reader": {
         "name": "The Genre Reader",
         "system": (
-            "You are an avid fantasy reader who reads 50+ novels a year. "
+            "You are an avid reader who reads 50+ speculative/literary novels a year. "
             "You care about pacing, mystery, worldbuilding payoff, and whether "
             "you want to keep turning pages. You get bored by beautiful prose "
             "that doesn't GO anywhere. You notice when an investigation stalls, "
@@ -50,7 +50,7 @@ READERS = {
     "writer": {
         "name": "The Writer",
         "system": (
-            "You are a published fantasy author with 5 novels and a Hugo nomination. "
+            "You are a published novelist with 5 books and major award recognition. "
             "You read as a craftsperson. You notice structure: where the beats fall, "
             "whether foreshadowing pays off, whether character arcs complete. You "
             "notice when technique shows versus when it disappears into the story. "
@@ -75,10 +75,9 @@ READERS = {
     },
 }
 
-READER_PROMPT = """You have just read a complete fantasy novel in summary form.
+READER_PROMPT = """You have just read a complete novel in summary form.
 The summaries include chapter-by-chapter events, opening and closing passages
-from each chapter, and key dialogue. The full novel is 72,422 words across
-24 chapters.
+from each chapter, and key dialogue.
 
 {arc_summary}
 
@@ -89,7 +88,7 @@ Respond with JSON:
 {{
   "momentum_loss": "Where does the story lose momentum? Name the specific chapter(s) and what causes the drag. If it never loses momentum, say so and explain why.",
   
-  "earned_ending": "Does the ending feel earned by everything before it? Does Cass's choice in Ch 22 land? Does the final image in Ch 24 mirror Ch 1 in a way that satisfies? What, if anything, feels unearned?",
+  "earned_ending": "Does the ending feel earned by everything before it? Does the protagonist/focal character's final choice land? Does the final image answer or transform the opening image in a satisfying way? What, if anything, feels unearned?",
   
   "cut_candidate": "If the novel had to be 10% shorter (~7,000 words), which chapter or section would you cut first? Why? What would be lost?",
   

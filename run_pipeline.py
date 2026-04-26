@@ -412,6 +412,8 @@ def run_foundation(state: dict) -> dict:
             if repair_result.returncode != 0:
                 step(f"Foundation repair failed (exit {repair_result.returncode}), stopping")
                 break
+            step("Regenerating book-specific prompt profile from repaired foundation...")
+            run_foundation_generator("gen_book_profile.py", "book_profile.md", timeout=600)
         else:
             if best_score > 0 and best_score < FOUNDATION_THRESHOLD - 0.5:
                 step(
@@ -432,6 +434,9 @@ def run_foundation(state: dict) -> dict:
 
             step("Generating canon...")
             run_foundation_generator("gen_canon.py", "canon.md", timeout=300)
+
+            step("Generating book-specific prompt profile...")
+            run_foundation_generator("gen_book_profile.py", "book_profile.md", timeout=600)
 
             step("Skipping voice fingerprint during foundation; no chapter prose exists yet")
 

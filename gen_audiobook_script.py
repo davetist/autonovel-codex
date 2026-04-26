@@ -18,6 +18,7 @@ import json
 import re
 from pathlib import Path
 from dotenv import load_dotenv
+from book_profile import load_book_profile
 from llm_client import call_llm
 
 BASE_DIR = Path(__file__).parent
@@ -29,22 +30,17 @@ CHAPTERS_DIR = BASE_DIR / "chapters"
 AUDIO_DIR = BASE_DIR / "audiobook"
 SCRIPTS_DIR = AUDIO_DIR / "scripts"
 
-# Characters from the novel
-CHARACTERS = {
-    "NARRATOR": "The narrative voice — warm, measured, precise. Reads prose with the rhythm of the novel's world.",
-    "CASS": "14-year-old boy. Dry, sharp, sometimes frustrated. His voice tightens when he lies or holds back.",
-    "EDDAN": "52, Cass's father. Deep, rough, terse. Sentences often trail off or restart. Workshop voice is steadier than kitchen voice.",
-    "PERIN": "26, Cass's brother. Dry, precise, carries something heavy. Letters-voice is more controlled than in-person voice.",
-    "LENNE": "14, female. Quick, confident, intellectually sharp. Composes while she talks — fingers moving, voice certain.",
-    "TORVALD": "63, retired dye merchant. Gravelly, warm, rambling. Outer-district speech — longer sentences, less careful, trade metaphors.",
-    "MARET": "60, female. Controlled, precise, still. No wasted words. When she finally shows emotion it's devastating.",
-    "DAV_SORN": "34, Court Singer. Formal, clipped, self-correcting. Starts sentences and abandons them. Qualifying everything.",
-    "PROCTOR_FEN": "Male, middle-aged, Academy teacher. Dry, archly amused, pedagogical.",
-    "FERREN": "40, acoustician. Clinical, measured, professional.",
-    "MIRA_FEN": "60s, female, Academy scholar. Quiet, precise, carrying thirty years of regret.",
-    "VELLA": "Lenne's mother, Court Singer. Measured, formal, the weight of knowing she's about to risk everything.",
-    "OSSIAN": "14, male student. Nervous, eager, tends to overstate.",
-}
+def load_character_guide():
+    """Return current-book speaker guidance from generated foundation files."""
+    profile = load_book_profile(BASE_DIR, required=True)
+    characters = (BASE_DIR / "characters.md").read_text(encoding="utf-8") if (BASE_DIR / "characters.md").exists() else ""
+    return (
+        "NARRATOR: the narrative voice described in voice.md and book_profile.md.\n\n"
+        "BOOK PROMPT PROFILE:\n"
+        f"{profile}\n\n"
+        "FOUNDATION CHARACTERS:\n"
+        f"{characters}"
+    )
 
 AUDIO_TAG_GUIDE = """
 Available ElevenLabs v3 audio tags (use sparingly, only when the emotion is CLEAR):
@@ -86,10 +82,12 @@ def parse_chapter(ch_num):
     title = text.split("\n")[0].lstrip("# ").strip()
     wc = len(text.split())
 
+    character_guide = load_character_guide()
+
     prompt = f"""You are parsing a novel chapter into an audiobook script. Your job is to break the text into segments, each attributed to a speaker, with optional audio delivery tags.
 
-CHARACTERS IN THIS NOVEL:
-{json.dumps(CHARACTERS, indent=2)}
+CURRENT-BOOK SPEAKER GUIDE:
+{character_guide}
 
 AUDIO TAG GUIDE:
 {AUDIO_TAG_GUIDE}
@@ -101,12 +99,12 @@ RULES:
 4. Keep narration segments reasonably sized (2-4 sentences each). Split long paragraphs.
 5. Dialogue "he said" / "she said" tags should be part of the NARRATOR segment AFTER the dialogue, not part of the character's line.
 6. Scene breaks (---) become {{"speaker": "NARRATOR", "text": "[pause]"}}
-7. Chapter titles become the first segment: {{"speaker": "NARRATOR", "text": "[slowly] Chapter One: The Morning Pitch"}}
+7. Chapter titles become the first segment: {{"speaker": "NARRATOR", "text": "[slowly] Chapter One: [chapter title]"}}
 8. Add audio tags based on emotional context. Be subtle — most lines need no tag.
-9. Internal thoughts in *italics* should be read by the CHARACTER (Cass usually), tagged [softly] or [whisper].
+9. Internal thoughts in *italics* should be attributed to the focal character when clear; otherwise use NARRATOR.
 
 OUTPUT FORMAT: A JSON array of objects, each with:
-  "speaker": character name (from the list above)
+  "speaker": current-book speaker name from the guide above
   "text": the text to speak (with optional [audio tags] at the start)
 
 CHAPTER {ch_num}: "{title}" ({wc} words)
