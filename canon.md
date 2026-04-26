@@ -940,3 +940,17 @@
 - Door symbols are drawn on two ward windows and one Mars education display after the stream. *(ch10 eval)*
 - Nadine orders incident archiving that separates Elias's public-feed laugh from Jun's corrupted derivative. *(ch10 eval)*
 - Mara proposes lethal fragment criteria naming the two laughs separately, naming missing context without raw release, flagging the door symbol, and adding "touching the handle" to ward prompt sheets. *(ch10 eval)*
+
+### Chapter 11
+
+- Asterion bay two strain housing fastener one registered 41.8 C after extraction while adjacent fasteners were cold or sheared. *(ch11 eval)*
+- Bay two strain lattice showed crazing, micro-pitting, and compression imprints from geometry not present in the bay. *(ch11 eval)*
+- Amara, Mateo, Sofia, Jun, Elias, and Leila observed duplicated 13:42:09 timestamp behavior in the maintenance tablet record. *(ch11 eval)*
+- Bay two strain data and Leila's tray four mount data shared a one-sample spike at 03:11 ship time. *(ch11 eval)*
+- Leila's biological tray four suffered vascular analogue rupture, paired-probe disagreement, and later 0.02 gram mass variance without heat, radiation, or feed-pressure cause. *(ch11 eval)*
+- Bay two mounting posts showed a continuous compression feature crossing discontinuous material, described by Amara as a dent crossing empty space. *(ch11 eval)*
+- Jun reported optics returning two Mars positions during the same event window. *(ch11 eval)*
+- Amara declared bay two strain network unfit for structural assurance and recommended isolating the B2 sensor branch. *(ch11 eval)*
+- Mateo asked how to explain the anomaly to children, prompting Amara's cruel response and partial apology. *(ch11 eval)*
+- Amara entered the engineering annotation: "The hull is remembering shapes it never had." *(ch11 eval)*
+- The annotation saved in two copies with the same timestamp, one ending "had" and one ending "held." *(ch11 eval)*
