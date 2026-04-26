@@ -1105,3 +1105,20 @@
 - Candle’s final block includes duplicate timestamps, contradictory advance/retreat records, mass records saying the tungsten block is restored, absent, and never loaded, and archive checksum collision between a Manila weather report and a child’s drawing. *(ch22 eval)*
 - Candle is gone for mission purposes after telemetry terminates, external tracking loses object lock, and guidance remains unreliable. *(ch22 eval)*
 - Mara begins a joint-reviewed provisional release note stating Candle was unmanned, no human being was placed aboard to extract testimony, occupied Boundary approach remained invalid by hardware hold and command seal, and Candle’s findings do not establish artificiality, external contact, survival after death, or that Mars is false. *(ch22 eval)*
+
+### Chapter 23
+
+- Chapter 23 release package is titled WHAT THE DATA PERMITS. *(ch23 eval)*
+- Witness publicly states Candle was unmanned and that Candle's empty human-rated couch remained empty by command decision, hardware hold, and command seal. *(ch23 eval)*
+- Witness publicly states Candle no longer has reliable external object lock or usable guidance telemetry and that its physical state cannot be established from present available data. *(ch23 eval)*
+- Witness classifies the final package as Class B public context with named Class C raw exclusions. *(ch23 eval)*
+- Raw Class C exclusions include personal-address material, raw devotional audio, and raw post-failure laughter fragments known and documented to have been used for self-harm recruitment. *(ch23 eval)*
+- The public package distinguishes Elias Venn's mission day 118 public-feed laugh from Jun Park's corrupted cockpit laugh and states they must not be combined as evidence. *(ch23 eval)*
+- The public package releases transcript/context for Jun Park's 'That's not sky' while restricting raw audio. *(ch23 eval)*
+- The public package describes Leila Haddad's checklist/prayer track structure while keeping raw prayer audio family-restricted. *(ch23 eval)*
+- The public package releases Amara Okonkwo's duplicated engineering annotation with both 'had' and 'held' variants and structural context. *(ch23 eval)*
+- The public package includes part of Mateo Ríos's private objection and admits institutional use of childhood trust. *(ch23 eval)*
+- Mara publicly records her prior unauthorized transcript exposure and Elias-specific chain breach in the custody file. *(ch23 eval)*
+- Ruth Venn receives a reviewed transcript rendering of 'Mara, leave the porch light on' under restricted family/clinical seal with support context, no raw waveform, and no public claim. *(ch23 eval)*
+- The public statement says the Candle/Asterion data do not prove operators, external contact, survival after death, Mars being fake, or practical control over the Boundary. *(ch23 eval)*
+- Public care guidance attached to the release recommends eating before viewing, watching with another person, preserving medication/sleep/feeding routines, and avoiding unsupported use in pediatric, ward, detention, or collapse recovery settings. *(ch23 eval)*
