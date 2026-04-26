@@ -894,3 +894,21 @@
 - Pavel’s office sends Mara early access to Elias Venn’s MD117 private psych-medical log. *(ch07 eval)*
 - Elias’s MD117 private log criticizes Mara’s conversion drills as useful but dangerous and asks that his fear not be made to behave better than it did. *(ch07 eval)*
 - Elias’s MD117 log contains six duplicated seconds at 00:03:11 with non-identical waveform and two checksum repairs. *(ch07 eval)*
+
+### Chapter 8
+
+- Kavir Shah is a trader in the Mumbai Futures Pit with a daughter named Anaya. *(ch08 eval)*
+- Nisha works beside Kavir and has a Red Nursery school photograph marked by a black vertical line. *(ch08 eval)*
+- Meera is a compliance officer monitoring Kavir’s desk from the glass room above the floor. *(ch08 eval)*
+- Mr. Menon represents a sovereign pension fund exposed to Boundary-linked municipal, mission-delay, sponsor-default, and collapse instruments. *(ch08 eval)*
+- Boundary Continuity December futures can break upper bands on rumor before official data. *(ch08 eval)*
+- The Mumbai Futures Pit uses biometric monitors with hydration and continuity-check thresholds for traders. *(ch08 eval)*
+- The Mumbai Futures Pit has a clinician station behind armored glass and medical intervention can trigger account lock or transfer. *(ch08 eval)*
+- Arvind Rao goes flat on the Mumbai Futures Pit floor at 09:25 under the Mars weather feed. *(ch08 eval)*
+- Arvind Rao has a son considering engineering or reactor work after doubts about deep-space careers. *(ch08 eval)*
+- The Exchange Authority records medical events and can transfer a collapsed trader’s book to another desk. *(ch08 eval)*
+- A Witness advisory confirms restricted Asterion log access during the approach window while raw material remains withheld and family notification sealed. *(ch08 eval)*
+- Mumbai pediatric continuity waitlist reaches 4,882 during this event. *(ch08 eval)*
+- Kavir orders the purchase of pediatric ward capacity bonds outside his normal book after the advisory. *(ch08 eval)*
+- Anaya attends a school with Witness advisory continuity assemblies led by Ms. Iyer. *(ch08 eval)*
+- Public guidance after the advisory recommends breakfast routines for minors after Boundary media exposure. *(ch08 eval)*

@@ -122,3 +122,24 @@ warning: `VIRTUAL_ENV=/Users/david/.hermes/hermes-agent/venv` does not match the
 ------------------------------------------------------------
   [03:29:47] Attempt 1/5
   [03:29:47] RUN: uv run python draft_chapter.py 8
+warning: `VIRTUAL_ENV=/Users/david/.hermes/hermes-agent/venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead
+
+============================================================
+  AUTONOVEL PIPELINE — phases: drafting
+============================================================
+  State: phase=foundation, foundation_score=8.0, chapters=7/24, novel_score=0.0
+
+============================================================
+  PHASE 2: DRAFTING
+============================================================
+
+------------------------------------------------------------
+  Drafting Chapter 8/24
+------------------------------------------------------------
+  [03:32:57] Attempt 1/5
+  [03:32:57] RUN: uv run python draft_chapter.py 8
+  [03:35:45] Chapter draft has 4175 words
+  [03:35:45] RUN: uv run python evaluate.py --chapter=8
+  [03:36:34] Chapter 8 score: 8.0
+  [03:36:34] Appended 15 new canon entries from Chapter 8 eval
+  [03:36:34] RUN: git add -A
