@@ -45,3 +45,18 @@ warning: `VIRTUAL_ENV=/Users/david/.hermes/hermes-agent/venv` does not match the
   [12:28:15] RUN: uv run python evaluate.py --chapter=23
   [12:29:00] Ch 23: 6.7 -> 7.7
   [12:29:00] RUN: git add -A
+  [12:29:00] RUN: git commit -m "revision cycle 3: ch23 missing_scene 6.7->7.7" --allow-empty
+  [12:29:00] RUN: git rev-parse --short HEAD
+  [12:29:00] GIT COMMIT: 6360c5d — revision cycle 3: ch23 missing_scene 6.7->7.7
+
+............................................................
+    Revising Ch 13 (cut_candidate) [3/3]
+............................................................
+  [12:29:00] RUN: uv run python evaluate.py --chapter=13
+  [12:29:46] Generating combined brief for Ch 13...
+  [12:29:46] RUN: uv run python gen_brief.py --combined 13
+  [12:29:46] Revising Ch 13 with brief ch13_combined.md...
+  [12:29:46] RUN: uv run python gen_revision.py 13 /Users/david/Desktop/stuff/autonovel-codex/briefs/ch13_combined.md
+  [12:31:44] RUN: uv run python evaluate.py --chapter=13
+  [12:32:35] Ch 13: 8.0 -> 8.0
+  [12:32:35] RUN: git add -A
