@@ -1,0 +1,175 @@
+warning: `VIRTUAL_ENV=/Users/david/.hermes/hermes-agent/venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead
+
+==================================================
+READING: The Editor
+==================================================
+  Momentum loss: The main momentum drag comes in Chapters 12-16, not because the material is weak, but because several chapters perform adjacent forms of classificatio...
+  Best scene: The best scene is Chapter 14, Candle Static Test, especially Nadine forcing Tomas's private refusal into operational language. The moment that lands i...
+  Would recommend: Yes. I would recommend it to readers of literary speculative fiction who like Stanislaw Lem's epistemic dread, Emily St. John Mandel's social aftermat...
+
+==================================================
+READING: The Genre Reader
+==================================================
+  Momentum loss: The novel loses some momentum in chapters 16 through 20. Individually, most of these scenes are strong, but the sequence stacks multiple hearings/clas...
+  Best scene: The best scene is chapter 14, Candle Static Test, especially the moment Nadine forces the hidden truth into operational language: 'Exception class: oc...
+  Would recommend: Yes. I would recommend it to readers who like Le Guin, Jemisin, Stanislaw Lem, Emily St. John Mandel, or Katie Williams: literary science fiction wher...
+
+==================================================
+READING: The Writer
+==================================================
+  Momentum loss: The only real sag is the civic-institutional middle, especially Chapters 13 and 16. Chapter 13 has strong matter-in-the-hands material, but the pump s...
+  Best scene: The best scene is Chapter 20, when Nadine turns the hidden crewed-Candle order into operational refusal. It is the book's moral architecture made acti...
+  Would recommend: Yes. I would recommend it to readers of literary science fiction who like Stanislaw Lem's epistemic dread, Emily St. John Mandel's civic aftermath, an...
+
+==================================================
+READING: The First Reader
+==================================================
+  Momentum loss: The story mostly holds me, but it slows in chapters 14 through 16, where Candle, release authority, sealed records, and hearing rules stack up in a wa...
+  Best scene: The best scene is chapter 18, when Mara breaks protocol and plays the Elias fragment. It hurt because I knew she was wrong and I also completely under...
+  Would recommend: Yes, but not to someone looking for a fast thriller. I would recommend it to readers who like sad, serious science fiction about institutions, grief, ...
+
+============================================================
+READER PANEL RESULTS
+============================================================
+
+--- MOMENTUM_LOSS ---
+  [The Editor]: The main momentum drag comes in Chapters 12-16, not because the material is weak, but because several chapters perform adjacent forms of classification: first cluster review, public-civic counterpoint, Candle static test, biology file, family hearing. Chapter 13 is thematically good but placed after
+  [The Genre Reader]: The novel loses some momentum in chapters 16 through 20. Individually, most of these scenes are strong, but the sequence stacks multiple hearings/classifications/restricted-audio disputes in a row: family custody in chapter 16, cockpit context in 17, Mara's breach in 18, ward consequences in 19, sea
+  [The Writer]: The only real sag is the civic-institutional middle, especially Chapters 13 and 16. Chapter 13 has strong matter-in-the-hands material, but the pump scene arrives after the charged Asterion cluster of Chapter 12 and before Candle's static test, so its function can feel overly legible: it tells us ho
+  [The First Reader]: The story mostly holds me, but it slows in chapters 14 through 16, where Candle, release authority, sealed records, and hearing rules stack up in a way that starts to feel like I am waiting in the hallway outside the real pain. Chapter 14 has a strong ending with "occupied-mode invalidation," but th
+
+--- EARNED_ENDING ---
+  [The Editor]: Yes, the ending is earned. Mara's final choice is not revelation or healing; it is continued custody: 'Mara opened the next one.' That lands because the whole book has trained us to see opening a packet as moral labor, not exposition. The final image transforms the opening beautifully. Chapter 1 beg
+  [The Genre Reader]: Yes, mostly. The ending feels earned because the novel has trained the reader to value constrained action over revelation. Mara's final position is not triumph, confession, or cosmic answer; it is continued custodial labor: 'Some were poison. Some were bread. Most were both until someone touched the
+  [The Writer]: Yes. The ending is earned because Mara's final action is not revelation, rescue, or catharsis; it is continued triage. Her final choice lands: she keeps opening packets under care, discipline, hunger, and uncertainty. The final image transforms the opening image beautifully. The novel begins in a cl
+  [The First Reader]: Yes. The ending feels earned because the book never promised rescue, proof, or healing. It promised people trying not to make harm worse, and that is what Mara chooses at the end. Her final movement is not triumph; it is continuation: "Some were poison. Some were bread. Most were both until someone 
+
+--- CUT_CANDIDATE ---
+  [The Editor]: I would cut or sharply compress Chapter 13 first, then take remaining pages from Chapter 23's release drafting repetitions. Chapter 13 is well-written, and Ivo's 'Near things first' becomes useful language, but the novel already has St. Odran's for bodily care, the Glass Rooms for children, and the 
+  [The Genre Reader]: If the book had to lose about 7,000 words, I would cut or compress the chapter 16-19 band first, not remove one whole chapter cleanly. Chapter 16's hearing, chapter 18's porch-light breach, and chapter 19's ward response all matter, but together they over-elaborate the private-audio custody problem.
+  [The Writer]: I would cut or compress Chapter 13 first, then trim Chapter 16. Chapter 13's Ivo floodwall scene is well made, and the line "Do not let any adult make a planet so beautiful that it steals the room you are in" later echoes its ethic, but its argument is already carried by St. Odran's, Mateo's lesson,
+  [The First Reader]: I would cut or heavily compress chapter 8 first, the Mumbai futures pit. I understood why it was there: it shows the Boundary crisis becoming money, panic, bodies on a trading floor, and a father remembering his child. But Kavir does not feel as necessary later as Ines, Ruth, Tomas, or the Asterion 
+
+--- MISSING_SCENE ---
+  [The Editor]: The novel needs one post-release Ruth scene, probably between Chapters 23 and 24 or embedded early in Chapter 24. Not a cathartic call, not confirmation, just Ruth receiving the rendered Elias fragment under custody language and deciding what to do with the porch light. The book has earned this beca
+  [The Genre Reader]: The novel needs one direct scene between Mara and Ruth after the restricted Elias rendering is delivered, probably between chapters 23 and 24 or inside chapter 24. Ruth is crucial in chapters 5, 16, and 23, but the book never quite gives us the personal landing of Mara's breach and compromise with t
+  [The Writer]: The novel needs one brief Ruth scene after Chapter 23 and before or inside Chapter 24: Ruth receiving the private Elias transcript rendering. Not a confirmation scene, not a sentimental release. Something domestic and procedural: a lamp in the wrong window, the transcript marked low confidence, Ruth
+  [The First Reader]: I wanted one small Ruth scene after chapter 23 or inside chapter 24. The private packet to Ruth matters so much, and the porch-light line has been carried for the whole book, but I never quite get the moment of her receiving the low-confidence transcript rendering. I do not need her to be healed. I 
+
+--- THINNEST_CHARACTER ---
+  [The Editor]: Malik is the thinnest recurring Witness crew member by the end. He is useful, competent, and often present at crucial routing moments, but he remains more function than pressure system. I know Nadine's command ethic, Sera's precision-as-care, Tomas's hardware guilt, Mara's clinical theology. Malik m
+  [The Genre Reader]: Malik feels thinnest by the end. He is useful and present at important routing/custody moments, but he often functions as the hands of the system: routing packets, confirming custody, building shells, transmitting locks. I know what he does, less what he fears or wants. Kavir is also peripheral, but
+  [The Writer]: Malik is the thinnest recurring Witness crew member. He is useful, competent, and often present at crucial transmission moments, but he remains more routing function than inward pressure. I do not need a full backstory, but one private constraint would help: what he fears misrouting, what custody ha
+  [The First Reader]: Malik feels thinnest by the end. I always know what he does, but I do not really know what it costs him. He routes, quarantines, locks, watches transmit bars, and that is useful, but he remains mostly hands and console. Kavir could probably be cut without the novel suffering structurally, though I l
+
+--- BEST_SCENE ---
+  [The Editor]: The best scene is Chapter 14, Candle Static Test, especially Nadine forcing Tomas's private refusal into operational language. The moment that lands is: 'Exception class: occupied-mode invalidation. Unmanned Candle remains green.' It works because the prose turns an engineering diagnostic into an et
+  [The Genre Reader]: The best scene is chapter 14, Candle Static Test, especially the moment Nadine forces the hidden truth into operational language: 'Exception class: occupied-mode invalidation. Unmanned Candle remains green.' It works because it turns an ethical stance into engineering record. Tomas's guilt, Nadine's
+  [The Writer]: The best scene is Chapter 20, when Nadine turns the hidden crewed-Candle order into operational refusal. It is the book's moral architecture made active. The line that lands is: "No one dies for a photograph." Then Sera corrects it: "Add: no one dies for testimony." That correction is exactly what t
+  [The First Reader]: The best scene is chapter 18, when Mara breaks protocol and plays the Elias fragment. It hurt because I knew she was wrong and I also completely understood her. The strongest moment is near the end: "In the archive bay, sealed behind two doors and Malik’s custody flag, Elias waited inside a file tha
+
+--- WORST_SCENE ---
+  [The Editor]: The weakest scene is Chapter 13. Not bad, but comparatively least necessary. Ivo's pump, the child with gray/red paint, and 'Near things first' are strong, yet the chapter risks stating the book's ethic more directly than the surrounding machinery does. The repair metaphor is apt but a little too cl
+  [The Genre Reader]: The weakest scene is chapter 16. Not because the material is bad, but because the hearing risks becoming the book arguing its release ethics out loud. The family conflict is necessary, yet compared with the embodied scenes around it, the chapter feels more procedural and less surprising. I would fix
+  [The Writer]: The weakest scene is Chapter 16, the Quito hearing. The ingredients are strong: Sofia's sealed record, Mateo's family claim, Ruth's private sentence, Mara's compromised authority. But the scene risks becoming a docket of the novel's themes. The stakes are clear before the chapter ends, so the later 
+  [The First Reader]: The weakest scene is chapter 14, Candle Static Test. The idea is strong, especially the empty couch and Tomas making refusal into hardware, but the scene spends too long circling technical confirmation before the emotional fact fully arrives. I would fix it by getting to the couch's human meaning ea
+
+--- WOULD_RECOMMEND ---
+  [The Editor]: Yes. I would recommend it to readers of literary speculative fiction who like Stanislaw Lem's epistemic dread, Emily St. John Mandel's social aftermath, and institutional novels about care under impossible uncertainty. One sentence: A grave, exacting near-future novel about a cosmos that may have en
+  [The Genre Reader]: Yes. I would recommend it to readers who like Le Guin, Jemisin, Stanislaw Lem, Emily St. John Mandel, or Katie Williams: literary science fiction where the cosmic premise matters because it damages schools, wards, families, markets, and breakfast. One sentence: A devastating near-future novel about 
+  [The Writer]: Yes. I would recommend it to readers of literary science fiction who like Stanislaw Lem's epistemic dread, Emily St. John Mandel's civic aftermath, and novels where the speculative premise matters most because it changes how people feed children, seal records, and tell the truth.
+  [The First Reader]: Yes, but not to someone looking for a fast thriller. I would recommend it to readers who like sad, serious science fiction about institutions, grief, and ordinary care under impossible uncertainty. One sentence: It is a novel about finding out the sky is smaller than we thought and still having to f
+
+--- HAUNTS_YOU ---
+  [The Editor]: The line that stays with me is from Chapter 15: 'A culture grown in plastic is not false to itself. A child conceived by machine is not less hungry. Bread made in a factory still feeds.' It is the rare philosophical line in the book that earns its abstraction by passing through bodies and materials 
+  [The Genre Reader]: Chapter 15 stays with me: 'A culture grown in plastic is not false to itself. A child conceived by machine is not less hungry. Bread made in a factory still feeds.' That line crystallizes the book's whole moral argument without solving its universe.
+  [The Writer]: The line that stays with me is from Chapter 24: "Some were poison. Some were bread. Most were both until someone touched them with care." It contains the whole novel's ethic without sounding like a thesis.
+  [The First Reader]: "A culture grown in plastic is not false to itself. A child conceived by machine is not less hungry. Bread made in a factory still feeds." That stayed with me because it refuses the easy panic of 'nothing is real' without pretending the panic is foolish.
+
+--- NEXT_BOOK ---
+  [The Editor]: Yes. I would read the author's next book because this one shows unusually strong control of speculative ambiguity, institutional texture, and moral pressure at the sentence level. My hesitation would be pacing: the author may need a sterner structural editor to prevent excellent adjacent scenes from
+  [The Genre Reader]: Yes. I would read the author's next book because this one shows rare control of scale: it can move from Mars and corrupted telemetry to toast, coat buttons, and a pulse cuff without making either side feel decorative. I would want the next book to keep that moral precision but trust fewer procedural
+  [The Writer]: Yes. I would read the author's next book because this one shows unusual control of scale: classrooms, wards, markets, spacecraft, grief, and cosmology all remain in relation. When it is at its best, I forgot I was reading a constructed argument and felt the machinery vanish into care.
+  [The First Reader]: Yes. I would read the author's next book because this one trusted small human acts more than big answers. Even when it dragged, it felt morally awake, and I believed the rooms, the food, the buttons, the screens, and the people trying not to misuse the dead.
+
+============================================================
+DISAGREEMENTS (editorial decisions needed)
+============================================================
+
+  momentum_loss -- Ch 19
+    Flagged by: genre_reader
+    Not flagged: editor, writer, first_reader
+
+  momentum_loss -- Ch 14
+    Flagged by: first_reader
+    Not flagged: editor, genre_reader, writer
+
+  momentum_loss -- Ch 22
+    Flagged by: editor
+    Not flagged: genre_reader, writer, first_reader
+
+  momentum_loss -- Ch 23
+    Flagged by: editor
+    Not flagged: genre_reader, writer, first_reader
+
+  momentum_loss -- Ch 12
+    Flagged by: writer
+    Not flagged: editor, genre_reader, first_reader
+
+  momentum_loss -- Ch 13
+    Flagged by: editor, writer
+    Not flagged: genre_reader, first_reader
+
+  cut_candidate -- Ch 14
+    Flagged by: first_reader
+    Not flagged: editor, genre_reader, writer
+
+  cut_candidate -- Ch 4
+    Flagged by: genre_reader
+    Not flagged: editor, writer, first_reader
+
+  cut_candidate -- Ch 18
+    Flagged by: genre_reader
+    Not flagged: editor, writer, first_reader
+
+  cut_candidate -- Ch 19
+    Flagged by: genre_reader
+    Not flagged: editor, writer, first_reader
+
+  cut_candidate -- Ch 8
+    Flagged by: first_reader
+    Not flagged: editor, genre_reader, writer
+
+  cut_candidate -- Ch 16
+    Flagged by: genre_reader, writer
+    Not flagged: editor, first_reader
+
+  cut_candidate -- Ch 24
+    Flagged by: editor, writer
+    Not flagged: genre_reader, first_reader
+
+  cut_candidate -- Ch 23
+    Flagged by: editor
+    Not flagged: genre_reader, writer, first_reader
+
+  cut_candidate -- Ch 13
+    Flagged by: editor, writer
+    Not flagged: genre_reader, first_reader
+
+  thinnest_character -- Ch 8
+    Flagged by: editor, genre_reader, writer
+    Not flagged: first_reader
+
+  worst_scene -- Ch 14
+    Flagged by: first_reader
+    Not flagged: editor, genre_reader, writer
+
+  worst_scene -- Ch 13
+    Flagged by: editor
+    Not flagged: genre_reader, writer, first_reader
+
+  worst_scene -- Ch 16
+    Flagged by: genre_reader, writer
+    Not flagged: editor, first_reader
+
+Saved to /Users/david/Desktop/stuff/autonovel-codex/edit_logs/reader_panel.json
