@@ -1003,3 +1003,21 @@
 - Leila’s private log includes the belief that a made thing can suffer and that pain remains jurisdiction, not comfort. *(ch15 eval)*
 - During the tray four event, Elias’s apparent voice asks whether Leila can feel her hands, but source is unknown and not clean medical instruction. *(ch15 eval)*
 - Leila and Amara jointly preserve the record’s ambiguity: prayer outside argument, tissue death before symbol, and no proof of instruction. *(ch15 eval)*
+
+### Chapter 16
+
+- Claire Arendt invokes the Asterion privacy injunction and Article Seventeen to demand Sofia's restricted command records remain sealed. *(ch16 eval)*
+- Denial-state edits already use false manual correction overlays around Sofia's disputed command material. *(ch16 eval)*
+- Tomás Ríos Sr. publicly demands full release of Mateo's logs, including Mateo's MD118 angry private log. *(ch16 eval)*
+- Mara publicly acknowledges that Mateo's public teaching value was part of mission evaluation and that naming the risk did not make it clean. *(ch16 eval)*
+- The Quito hearing records Mateo's private-log sentence as restricted content: 'They put Mars in classrooms so no one could cancel us.' *(ch16 eval)*
+- Ruth Venn publicly requests one private Elias sentence for family custody, specifically alluding to the porch light. *(ch16 eval)*
+- Mara recommends a restricted family-clinical seal for verified family-specific personal-address material. *(ch16 eval)*
+- Mara states she should not be the trained reviewer for Ruth's Elias-specific private access. *(ch16 eval)*
+- Pavel presents four release scenarios: continued sealing, family-restricted contextual access, staged public context with withheld raw lethal fragments, and full raw release. *(ch16 eval)*
+- Pavel projects eight hundred to eleven hundred additional deaths in the first thirty days under full raw release, with higher attempts and relapse events. *(ch16 eval)*
+- Sera recommends Class B public context for selected contaminated records and Class C raw restriction for personal-address material, decontextualized post-failure laughter, and prayer-track devotional audio. *(ch16 eval)*
+- Nadine states Witness will recommend no shipboard concurrence if the hearing becomes release design by injury. *(ch16 eval)*
+- Mara drafts a classification note covering Sofia command, Mateo private, Elias family-specific, Leila prayer-track cross-reference, and Jun cockpit derivative. *(ch16 eval)*
+- Witness concurs only with package release, not fragment release. *(ch16 eval)*
+- The next restricted item surfaced is AST-MD118-COCKPIT-PARK-J / DUP TS / AUDIO: THATS_NOT_SKY_CONTEXT. *(ch16 eval)*

@@ -241,3 +241,17 @@ warning: `VIRTUAL_ENV=/Users/david/.hermes/hermes-agent/venv` does not match the
   [04:01:57] Chapter 15 score: 7.7
   [04:01:57] Appended 8 new canon entries from Chapter 15 eval
   [04:01:57] RUN: git add -A
+  [04:01:57] RUN: git commit -m "ch15: score 7.7, 5089w" --allow-empty
+  [04:01:57] RUN: git rev-parse --short HEAD
+  [04:01:57] GIT COMMIT: 7e46b1b — ch15: score 7.7, 5089w
+
+------------------------------------------------------------
+  Drafting Chapter 16/24
+------------------------------------------------------------
+  [04:01:57] Attempt 1/5
+  [04:01:57] RUN: uv run python draft_chapter.py 16
+  [04:04:49] Chapter draft has 4812 words
+  [04:04:49] RUN: uv run python evaluate.py --chapter=16
+  [04:05:41] Chapter 16 score: 7.8
+  [04:05:41] Appended 15 new canon entries from Chapter 16 eval
+  [04:05:41] RUN: git add -A
