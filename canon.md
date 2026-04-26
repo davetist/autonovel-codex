@@ -894,3 +894,250 @@
 - Pavel’s office sends Mara early access to Elias Venn’s MD117 private psych-medical log. *(ch07 eval)*
 - Elias’s MD117 private log criticizes Mara’s conversion drills as useful but dangerous and asks that his fear not be made to behave better than it did. *(ch07 eval)*
 - Elias’s MD117 log contains six duplicated seconds at 00:03:11 with non-identical waveform and two checksum repairs. *(ch07 eval)*
+
+### Chapter 8
+
+- Kavir Shah is a trader in the Mumbai Futures Pit with a daughter named Anaya. *(ch08 eval)*
+- Nisha works beside Kavir and has a Red Nursery school photograph marked by a black vertical line. *(ch08 eval)*
+- Meera is a compliance officer monitoring Kavir’s desk from the glass room above the floor. *(ch08 eval)*
+- Mr. Menon represents a sovereign pension fund exposed to Boundary-linked municipal, mission-delay, sponsor-default, and collapse instruments. *(ch08 eval)*
+- Boundary Continuity December futures can break upper bands on rumor before official data. *(ch08 eval)*
+- The Mumbai Futures Pit uses biometric monitors with hydration and continuity-check thresholds for traders. *(ch08 eval)*
+- The Mumbai Futures Pit has a clinician station behind armored glass and medical intervention can trigger account lock or transfer. *(ch08 eval)*
+- Arvind Rao goes flat on the Mumbai Futures Pit floor at 09:25 under the Mars weather feed. *(ch08 eval)*
+- Arvind Rao has a son considering engineering or reactor work after doubts about deep-space careers. *(ch08 eval)*
+- The Exchange Authority records medical events and can transfer a collapsed trader’s book to another desk. *(ch08 eval)*
+- A Witness advisory confirms restricted Asterion log access during the approach window while raw material remains withheld and family notification sealed. *(ch08 eval)*
+- Mumbai pediatric continuity waitlist reaches 4,882 during this event. *(ch08 eval)*
+- Kavir orders the purchase of pediatric ward capacity bonds outside his normal book after the advisory. *(ch08 eval)*
+- Anaya attends a school with Witness advisory continuity assemblies led by Ms. Iyer. *(ch08 eval)*
+- Public guidance after the advisory recommends breakfast routines for minors after Boundary media exposure. *(ch08 eval)*
+
+### Chapter 9
+
+- Asterion command log for mission day 118 contains two timestamp runs occupying the same thirty-seven-second interval with non-identical star-tracker states. *(ch09 eval)*
+- During the low-communication interval, Star Tracker C repeated an earlier star field and later showed Mars in an invalid position. *(ch09 eval)*
+- Sofia authorized a limited two-axis manual attitude correction under Procedure G-118-L. *(ch09 eval)*
+- The manual-input record duplicated with conflicting durations: 01.96 seconds and 04.21 seconds. *(ch09 eval)*
+- Sofia created a restricted command note stating the duplicated duration cannot be treated as pilot action without independent verification. *(ch09 eval)*
+- Bay two developed a confirmed microfracture along a fastener row without known impact source. *(ch09 eval)*
+- Biological tray four showed rupture without heat signature. *(ch09 eval)*
+- Asterion displays briefly returned anomalous non-Asterion interior geometry resembling a hatch or corridor. *(ch09 eval)*
+- Sofia's private command note duplicated with one copy reading "what" and the other reading "whom." *(ch09 eval)*
+- Sofia sealed both command-note copies as command restricted with the manual correction file attached and no public feed derivative. *(ch09 eval)*
+- Sofia's submarine battery-fire memory includes the Barents, a battery room hatch, two sailors behind it, and her hands smelling of insulation for three days after rescue. *(ch09 eval)*
+
+### Chapter 10
+
+- Solenne Kade broadcasts from a classroom-like online stream using a red marker to draw a door around Mars. *(ch10 eval)*
+- Solenne uses Elias Venn's mission day 118 public-feed laugh as Exit Congregation recruitment evidence. *(ch10 eval)*
+- Solenne pairs Elias's public pre-clip laugh with a corrupted Jun Park cockpit derivative. *(ch10 eval)*
+- Solenne has access to a version of Jun's derivative that includes "That's not sky" and deliberately cuts the phrase. *(ch10 eval)*
+- Continuity Office interrupts the primary stream under Boundary Delay Protocol 8 for self-harm recruitment risk. *(ch10 eval)*
+- The suppression banner itself becomes part of the copied recruitment edits. *(ch10 eval)*
+- A North American pediatric and oncology mixed hospital campus reports an Exit cluster after the stream reaches a Glass Room through a parent channel. *(ch10 eval)*
+- The reported hospital incident includes twelve attempts, five unconfirmed fatalities, three confirmed resuscitations, and seven patients missing from supervised care. *(ch10 eval)*
+- Door symbols are drawn on two ward windows and one Mars education display after the stream. *(ch10 eval)*
+- Nadine orders incident archiving that separates Elias's public-feed laugh from Jun's corrupted derivative. *(ch10 eval)*
+- Mara proposes lethal fragment criteria naming the two laughs separately, naming missing context without raw release, flagging the door symbol, and adding "touching the handle" to ward prompt sheets. *(ch10 eval)*
+
+### Chapter 11
+
+- Asterion bay two strain housing fastener one registered 41.8 C after extraction while adjacent fasteners were cold or sheared. *(ch11 eval)*
+- Bay two strain lattice showed crazing, micro-pitting, and compression imprints from geometry not present in the bay. *(ch11 eval)*
+- Amara, Mateo, Sofia, Jun, Elias, and Leila observed duplicated 13:42:09 timestamp behavior in the maintenance tablet record. *(ch11 eval)*
+- Bay two strain data and Leila's tray four mount data shared a one-sample spike at 03:11 ship time. *(ch11 eval)*
+- Leila's biological tray four suffered vascular analogue rupture, paired-probe disagreement, and later 0.02 gram mass variance without heat, radiation, or feed-pressure cause. *(ch11 eval)*
+- Bay two mounting posts showed a continuous compression feature crossing discontinuous material, described by Amara as a dent crossing empty space. *(ch11 eval)*
+- Jun reported optics returning two Mars positions during the same event window. *(ch11 eval)*
+- Amara declared bay two strain network unfit for structural assurance and recommended isolating the B2 sensor branch. *(ch11 eval)*
+- Mateo asked how to explain the anomaly to children, prompting Amara's cruel response and partial apology. *(ch11 eval)*
+- Amara entered the engineering annotation: "The hull is remembering shapes it never had." *(ch11 eval)*
+- The annotation saved in two copies with the same timestamp, one ending "had" and one ending "held." *(ch11 eval)*
+
+### Chapter 12
+
+- Witness archive bay review of the first Asterion private/final cluster is conducted by Sera Imani and Mara Venn under two-person authorization. *(ch12 eval)*
+- Sera explicitly defines the first cluster as an archive grouping, not an event or sequence. *(ch12 eval)*
+- Elias's MD117 private psych-medical log says the conversion drill worked and calls it useful and dangerous. *(ch12 eval)*
+- Elias's duplicated line differs between "thanked for a knife" and "blamed for a tourniquet," with only a four percent repair-confidence difference favoring the first. *(ch12 eval)*
+- Elias's private log includes the warning: "Conversion is not the same as rescue." *(ch12 eval)*
+- Leila Haddad's tray four file contains incompatible checklist and prayer tracks under the same timestamp group, with family restrictions on raw prayer content. *(ch12 eval)*
+- Leila's tray four language includes "mass is absent without path," which remains non-public. *(ch12 eval)*
+- The first cluster links Elias's six-second duplication, Leila's split track, and Amara's bay two annotation through a shared repair signature. *(ch12 eval)*
+- The structural composite places a nonsurvivable bay two failure marker at 03:11:08, followed by apparent crew audio through 03:11:22. *(ch12 eval)*
+- A restricted low-integrity audio fragment includes apparent Elias saying "Hands. Everybody hands," apparent Jun saying "Not sky," and a cut-off apparent Elias personal address to Mara. *(ch12 eval)*
+- Mara strengthens her own Elias-specific access restriction by requesting second reviewer presence for any further Elias-addressed fragment. *(ch12 eval)*
+- Mara's reviewer note briefly duplicates as "family-specific conflict" and "family-specific conversion" before stabilizing. *(ch12 eval)*
+- Nadine receives status that the first Asterion final cluster has been opened, evidence is contaminated, interpretive risk is high, and no public release classification exists yet. *(ch12 eval)*
+
+### Chapter 13
+
+- Ivo Tan works at a Manila floodwall repair site where an old Red Nursery Mars mural has been painted over in civic gray. *(ch13 eval)*
+- The slogan "NEAR THINGS FIRST" is painted across the Manila nursery floodwall mural, with a child's reply beneath it: "WHAT IF I STILL WANT FAR THINGS?". *(ch13 eval)*
+- Lani Rivera is a nineteen-year-old apprentice at Ivo's repair site, recruited from a hospital maintenance program after senior pump technicians returned to orbital contracts. *(ch13 eval)*
+- Mika is a ten-year-old child connected to the floodwall site whose mother works at the sandbag station and whose school has replaced Mars projects with pipe maps. *(ch13 eval)*
+- Ivo Tan once had a Mars transfer slot for materials habitat shell or surface systems work before returning to Manila after Tondo flooding and pump failures. *(ch13 eval)*
+- Mara adds a public-release constraint distinguishing abandonment from longing and repair order from worth. *(ch13 eval)*
+
+### Chapter 14
+
+- Candle archive static test uses cartridge slots including lullabies, recipes, court transcripts, children’s drawings, weather reports, jokes, and sealed Asterion family messages. *(ch14 eval)*
+- The Candle archive contains 15,812 lullabies in mixed audio and scanned forms. *(ch14 eval)*
+- A Candle archive court transcript entry from Dublin Family Court triggers a non-operational line-ending normalization warning during static test. *(ch14 eval)*
+- A Glass Room 12B educational response drawing depicts Candle with a human figure and the text: SEND SOMEONE WHO CAN SAY WHAT IT IS. *(ch14 eval)*
+- Tomas Vale disclosed during Candle static test that he placed the manual left-rail life-support bridge under design hold before Witness launch. *(ch14 eval)*
+- The disabled Candle linkage prevents a controlled occupied Boundary approach without invasive command rework while leaving unmanned Candle functions unaffected. *(ch14 eval)*
+- The Candle retrofit bridge kit is stored in Locker H-12 and requires commander authority and hardware lead access. *(ch14 eval)*
+- Nadine orders the Candle diagnostic display changed to show unmanned operation green and occupied Boundary approach invalid without hiding the hold under an amber subline. *(ch14 eval)*
+- Sera witnesses the Candle interface/status patch authentication. *(ch14 eval)*
+- Nadine reports to Quito/Houston relay that the exception class is occupied-mode invalidation and unmanned Candle remains green. *(ch14 eval)*
+
+### Chapter 15
+
+- Leila’s tray four file is family-restricted for prayer-track context hearing, with raw devotional audio sealed. *(ch15 eval)*
+- Tray four records cellular boundary failure, 0.02 to 0.027 gram unstable mass variance, and absence without assignable path. *(ch15 eval)*
+- Leila explicitly classifies tray-four imagery as high misuse risk requiring scale, lab sequence, and prior rupture context. *(ch15 eval)*
+- Leila’s lab record contains simultaneous or file-simultaneous checklist and prayer, without establishing whether simultaneity occurred in the world. *(ch15 eval)*
+- Leila’s MD116 private log states she prays so fear does not become sovereign and so procedure remains distinct from prayer. *(ch15 eval)*
+- Leila’s private log includes the belief that a made thing can suffer and that pain remains jurisdiction, not comfort. *(ch15 eval)*
+- During the tray four event, Elias’s apparent voice asks whether Leila can feel her hands, but source is unknown and not clean medical instruction. *(ch15 eval)*
+- Leila and Amara jointly preserve the record’s ambiguity: prayer outside argument, tissue death before symbol, and no proof of instruction. *(ch15 eval)*
+
+### Chapter 16
+
+- Claire Arendt invokes the Asterion privacy injunction and Article Seventeen to demand Sofia's restricted command records remain sealed. *(ch16 eval)*
+- Denial-state edits already use false manual correction overlays around Sofia's disputed command material. *(ch16 eval)*
+- Tomás Ríos Sr. publicly demands full release of Mateo's logs, including Mateo's MD118 angry private log. *(ch16 eval)*
+- Mara publicly acknowledges that Mateo's public teaching value was part of mission evaluation and that naming the risk did not make it clean. *(ch16 eval)*
+- The Quito hearing records Mateo's private-log sentence as restricted content: 'They put Mars in classrooms so no one could cancel us.' *(ch16 eval)*
+- Ruth Venn publicly requests one private Elias sentence for family custody, specifically alluding to the porch light. *(ch16 eval)*
+- Mara recommends a restricted family-clinical seal for verified family-specific personal-address material. *(ch16 eval)*
+- Mara states she should not be the trained reviewer for Ruth's Elias-specific private access. *(ch16 eval)*
+- Pavel presents four release scenarios: continued sealing, family-restricted contextual access, staged public context with withheld raw lethal fragments, and full raw release. *(ch16 eval)*
+- Pavel projects eight hundred to eleven hundred additional deaths in the first thirty days under full raw release, with higher attempts and relapse events. *(ch16 eval)*
+- Sera recommends Class B public context for selected contaminated records and Class C raw restriction for personal-address material, decontextualized post-failure laughter, and prayer-track devotional audio. *(ch16 eval)*
+- Nadine states Witness will recommend no shipboard concurrence if the hearing becomes release design by injury. *(ch16 eval)*
+- Mara drafts a classification note covering Sofia command, Mateo private, Elias family-specific, Leila prayer-track cross-reference, and Jun cockpit derivative. *(ch16 eval)*
+- Witness concurs only with package release, not fragment release. *(ch16 eval)*
+- The next restricted item surfaced is AST-MD118-COCKPIT-PARK-J / DUP TS / AUDIO: THATS_NOT_SKY_CONTEXT. *(ch16 eval)*
+
+### Chapter 17
+
+- Jun's cockpit recording begins with two disputed non-identical timestamp runs under AST-MD118-COCKPIT-PARK-J. *(ch17 eval)*
+- During the final approach anomaly, Star Tracker C repeats an old calibration field before A and B also show the same repeated field with current timestamps and valid checksums. *(ch17 eval)*
+- Jun recommends holding the course-correction burn after all optical star fields repeat while Mars remains visually correct. *(ch17 eval)*
+- Asterion forward radar returns interior geometry of the service corridor between med and payload, then later returns cockpit geometry including an inconsistent pilot state. *(ch17 eval)*
+- Jun hard-isolates manual attitude after the pad overheats without listed power draw, but Asterion later logs MANUAL AUTHORITY ACCEPTED despite his claim that he did not touch it. *(ch17 eval)*
+- Jun recommends no burn and no manual correction, naming that Asterion is no longer flyable in cockpit terms. *(ch17 eval)*
+- A white line crosses the forward glass at the disputed post-03:11:08 interval without immediate pressure loss. *(ch17 eval)*
+- Run B contains the public-derivative PARK LAUGH POST-IMPACT event, but source confidence is insufficient to establish sequence. *(ch17 eval)*
+- The restricted copies preserve "That's not sky" in conflicting relation to the laugh, while the circulated derivative omits the phrase. *(ch17 eval)*
+- The cockpit fragment establishes that Jun's cult-famous laugh was not simple joy and cannot be isolated as affective evidence. *(ch17 eval)*
+
+### Chapter 18
+
+- Mara privately played AST-MD118-MED-VMIX-LOWCONF three times under Sera's active reviewer token while Sera was absent. *(ch18 eval)*
+- The fragment contains apparent Elias saying, "Mara, leave the porch light on," with disputed timestamp association and low transcript confidence. *(ch18 eval)*
+- The archive labels the fragment with possible archive bleed from MD117 private log, family server transcript, or unknown source. *(ch18 eval)*
+- The fragment metadata includes Elias vocal match 0.62 and 0.81 after pitch repair, plus an unknown or known Venn-family household transcript collision. *(ch18 eval)*
+- Mara created and deleted a conflict note disclosing prior unauthorized transcript exposure, then saved a materially incomplete defer note. *(ch18 eval)*
+- Sera discovered the breach and reported an Elias-specific chain breach to Nadine. *(ch18 eval)*
+- Nadine provisionally classified the fragment as Class C, sealed raw replay, and logged its existence without releasing the phrase. *(ch18 eval)*
+- Malik quarantined AST-MD118-MED-VMIX-LOWCONF and its derivatives, paused remote mirrors, and delayed ground sync under evidence-preservation flag. *(ch18 eval)*
+- Ruth Venn's prior request is now cross-referenced under legal hold with no immediate notification. *(ch18 eval)*
+- Mara is temporarily removed from release authority over Asterion family-specific material, Elias-associated material, and Class C personal-address fragments. *(ch18 eval)*
+- Yuna conducted a focused cognitive safety review and recommended removal from interpretive authority across all Elias-associated content for at least twenty-four ship hours, likely through Candle Band Two transition. *(ch18 eval)*
+- Sera's compression sleeve with biometric thread is logged as custody evidence because Mara used Sera's active token during the breach. *(ch18 eval)*
+- Mara will sleep or fail to sleep under observation in the medical alcove after reporting that she still hears the recited phrase in Elias's voice. *(ch18 eval)*
+
+### Chapter 19
+
+- Thomas Keane relapses after the restricted Elias-associated Witness advisory and verbalizes a refusal to "perform real." *(ch19 eval)*
+- Thomas Keane chooses strawberry jam over butter and eats most of a slice of toast after Ines removes doctrinal family argument from the room. *(ch19 eval)*
+- Nurse Brenna removes paper stars from Thomas Keane's ward ceiling under celestial-imagery policy. *(ch19 eval)*
+- A small paper Mars is found hidden by Thomas Keane's light fixture and retained in his bedside drawer by Ines's order. *(ch19 eval)*
+- St. Odran's receives both hospital-channel and public versions of the Continuity bulletin, with the public version delayed and softened. *(ch19 eval)*
+- Ines records CALDER_TO_VENN_STODRANS_CLINICAL_KEANE_JAM for Mara through the Continuity medical channel. *(ch19 eval)*
+- Mara accesses Ines's recording under observation in Witness ship medical with no reply recorded. *(ch19 eval)*
+- At 04:12 Dublin time, Thomas asks whether Finn has school, looks at the hidden paper Mars, closes the drawer himself, and chooses butter for breakfast. *(ch19 eval)*
+
+### Chapter 20
+
+- At 11:08 ship time, Witness's local comms watchdog housekeeping loop COM-HK-2 is anomalously contaminated by a clipped human breath under static. *(ch20 eval)*
+- Nadine reveals the sealed IIA emergency order authorizing human-occupied Candle approach under exceptional interpretive necessity. *(ch20 eval)*
+- The sealed order requires mission commander concurrence, medical clearance, hardware readiness, interpretive officer recommendation, and emergency ground concurrence where communications allow. *(ch20 eval)*
+- Nadine had known about the occupied Candle authority since launch and had not intended to use or disclose it. *(ch20 eval)*
+- Mara reads the sealed occupied-Candle order while removed from Elias-associated release authority. *(ch20 eval)*
+- Sera learns that Tomas disabled one manual life-support linkage and that Nadine knew the broader occupied-mode authority existed. *(ch20 eval)*
+- Sera requires Tomas to document the disabled linkage as design interference and to include the exact mechanical path needed to reenable it. *(ch20 eval)*
+- Locker H-12 contains the retrofit bridge kit needed for occupied Candle reenablement and is placed under command seal. *(ch20 eval)*
+- Nadine records commander nonconcurrence: Candle will proceed unmanned or not at all. *(ch20 eval)*
+- The Witness command note adds the operational principle: no one dies for testimony. *(ch20 eval)*
+- Ground notices H-12 moving to active seal and asks why. *(ch20 eval)*
+
+### Chapter 21
+
+- Mateo recorded AST-PUB-EDU-MD115-RIOS-BASALT-SEGMENT for Red Nurseries using his personal Atacama comparative sample. *(ch21 eval)*
+- Public Learning supplied or approved the phrase "Mars is waiting for all of us, and we are coming carefully." *(ch21 eval)*
+- A child-question packet from Red Nursery Fourteen asked Mateo to say "Mars is waiting for us." *(ch21 eval)*
+- Mateo publicly refused the verb "waiting" and answered that Mars is there and Asterion is going carefully. *(ch21 eval)*
+- The edited Red Nursery version retained: "Mars is there. We are going carefully. When you study basalt, you are learning how to greet a place before you touch it." *(ch21 eval)*
+- Mateo recorded an unscheduled private MD115 log in payload storage later labeled the angry log. *(ch21 eval)*
+- Mateo's father warned him that the mission was buying witnesses before the accident. *(ch21 eval)*
+- Mateo's private log states that children were made witnesses, not merely audience, and that the mission gave that burden to them with crayons. *(ch21 eval)*
+- Mateo recorded AST-PUB-EDU-MD116-RIOS-BASALT-SEGMENT-REV2 as the replacement basalt lesson. *(ch21 eval)*
+- Sofia allowed Mateo's revised line to continue after he said not to let any adult make a planet so beautiful that it steals the room a child is in. *(ch21 eval)*
+
+### Chapter 22
+
+- Candle is sent unmanned into the Boundary transition zone and no human being is placed aboard to extract testimony. *(ch22 eval)*
+- During Candle burn, Optical A and B return repeated pre-launch calibration star fields with current timestamps. *(ch22 eval)*
+- Candle reports a mass-scale contradiction involving a sealed tungsten reference block: Scale Two loses nine grams while Scale One and Scale Three do not confirm it. *(ch22 eval)*
+- Candle biological tray C shows rupture artifact while containment holds; Tomas briefly mislabels it as Asterion tray four. *(ch22 eval)*
+- The Makers’ Address demands that Candle’s high-tower antenna transmit a prime burst, and Witness refuses. *(ch22 eval)*
+- Exit channels adopt the phrase “empty throne” for Candle’s empty couch, creating self-harm recruitment risk. *(ch22 eval)*
+- Candle’s sealed archive index duplicates and temporarily maps an Asterion family-message bucket to an AST-MD118 prefix without content access. *(ch22 eval)*
+- Candle forward radar returns current Witness Deck Two medical-corridor geometry, including a privacy screen installed after Candle release. *(ch22 eval)*
+- Nadine orders abort after the Witness interior radar return; Candle accepts the abort in one system and ignores it in another. *(ch22 eval)*
+- Candle’s high-tower mast crazes, pits, loses antenna geometry, briefly transmits by side lobe/reflected path, then fails. *(ch22 eval)*
+- A final Candle burst packet carries contradictory Asterion overlays with non-aligning apparent voices including Jun, Leila, Mateo, Sofia, and Elias-like audio. *(ch22 eval)*
+- Candle’s final block includes duplicate timestamps, contradictory advance/retreat records, mass records saying the tungsten block is restored, absent, and never loaded, and archive checksum collision between a Manila weather report and a child’s drawing. *(ch22 eval)*
+- Candle is gone for mission purposes after telemetry terminates, external tracking loses object lock, and guidance remains unreliable. *(ch22 eval)*
+- Mara begins a joint-reviewed provisional release note stating Candle was unmanned, no human being was placed aboard to extract testimony, occupied Boundary approach remained invalid by hardware hold and command seal, and Candle’s findings do not establish artificiality, external contact, survival after death, or that Mars is false. *(ch22 eval)*
+
+### Chapter 23
+
+- Chapter 23 release package is titled WHAT THE DATA PERMITS. *(ch23 eval)*
+- Witness publicly states Candle was unmanned and that Candle's empty human-rated couch remained empty by command decision, hardware hold, and command seal. *(ch23 eval)*
+- Witness publicly states Candle no longer has reliable external object lock or usable guidance telemetry and that its physical state cannot be established from present available data. *(ch23 eval)*
+- Witness classifies the final package as Class B public context with named Class C raw exclusions. *(ch23 eval)*
+- Raw Class C exclusions include personal-address material, raw devotional audio, and raw post-failure laughter fragments known and documented to have been used for self-harm recruitment. *(ch23 eval)*
+- The public package distinguishes Elias Venn's mission day 118 public-feed laugh from Jun Park's corrupted cockpit laugh and states they must not be combined as evidence. *(ch23 eval)*
+- The public package releases transcript/context for Jun Park's 'That's not sky' while restricting raw audio. *(ch23 eval)*
+- The public package describes Leila Haddad's checklist/prayer track structure while keeping raw prayer audio family-restricted. *(ch23 eval)*
+- The public package releases Amara Okonkwo's duplicated engineering annotation with both 'had' and 'held' variants and structural context. *(ch23 eval)*
+- The public package includes part of Mateo Ríos's private objection and admits institutional use of childhood trust. *(ch23 eval)*
+- Mara publicly records her prior unauthorized transcript exposure and Elias-specific chain breach in the custody file. *(ch23 eval)*
+- Ruth Venn receives a reviewed transcript rendering of 'Mara, leave the porch light on' under restricted family/clinical seal with support context, no raw waveform, and no public claim. *(ch23 eval)*
+- The public statement says the Candle/Asterion data do not prove operators, external contact, survival after death, Mars being fake, or practical control over the Boundary. *(ch23 eval)*
+- Public care guidance attached to the release recommends eating before viewing, watching with another person, preserving medication/sleep/feeding routines, and avoiding unsupported use in pediatric, ward, detention, or collapse recovery settings. *(ch23 eval)*
+
+### Chapter 24
+
+- After the Chapter 23 release, Glass Room 12B experiences an Exit-channel intrusion through parent/child devices, prompting Ms. Alonzo to request crayon-specific guidance from Witness. *(ch24 eval)*
+- Avram gives not-ready tokens to a frightened girl under a desk after the release disruption. *(ch24 eval)*
+- The first major Exit edit after the release removes context around Jun Park’s laugh and combines Elias’s public laugh with door imagery. *(ch24 eval)*
+- Post-release denial edits turn Sofia Arendt’s disputed command material into false manual-error and sabotage narratives. *(ch24 eval)*
+- Claire Arendt publicly objects to public phrasing around Sofia’s command record after the release. *(ch24 eval)*
+- Tomás Ríos Sr. renews his demand for Mateo’s full log from his kitchen in Antofagasta. *(ch24 eval)*
+- St. Odran’s formalizes a post-release routine: breakfast, name, weather, one question. *(ch24 eval)*
+- Parisa is a St. Odran’s patient who asks whether Candle is dead and whether Mars is false or true. *(ch24 eval)*
+- Thomas Keane eats jam toast after the release and reacts to the ward’s weather routine. *(ch24 eval)*
+- Kavir Shah turns off the Mumbai pit feed during post-release trading and answers Anaya’s school continuity call. *(ch24 eval)*
+- A proposed Mumbai Exchange temporary feed-pause rule follows the Desk 14 incident. *(ch24 eval)*
+- Ruth Venn opens the restricted Elias-associated transcript rendering once, refuses to call Mara, and plays an old hymn badly for seven minutes. *(ch24 eval)*
+- Ms. Adeyemi teaches at a Lagos Red Nursery where Tobi draws a house under Mars instead of a wall or door. *(ch24 eval)*
+- Continuity Education guidance is updated so house drawings under Mars are not coded as exit symbols absent an enclosing line. *(ch24 eval)*
+- Mara sends guidance to Glass Room 12B: children may draw Mars, do not correct longing, pair far drawings with near drawings, and say Mars is visible and measured while reach failure remains unknown. *(ch24 eval)*
+- Witness is on return trajectory after Candle, with Mara’s release authority partially restored for non-Elias material under added watchers. *(ch24 eval)*
