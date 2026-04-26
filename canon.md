@@ -816,3 +816,67 @@
 - Whether Elias belongs to Mara, history, science, or those who can survive the truth must remain contested. (world.md)
 - Whether the human voice is trustworthy remains pressured because even voice can be duplicated. (world.md)
 - Whether people can keep acting after losing the open-cosmos assumption is the central uncertainty. (world.md)
+
+## Post-Draft Canon Addendum
+
+### Chapter 1
+
+- Glass Room 12B is a Houston District Learning Continuity Pilot site located in a converted Red Nursery. *(ch01 eval)*
+- Ms. Alonzo moderates Glass Room 12B. *(ch01 eval)*
+- A child named Avram asks Mara whether pain hurts if it is computed. *(ch01 eval)*
+- Glass Room 12B uses ready/not ready token bowls after a parent lawsuit over performed confidence. *(ch01 eval)*
+- Avram's mother works nights at a desal plant and is in outpatient care. *(ch01 eval)*
+- Witness enters the final interpretive window six hours ahead of public schedule and ninety-one minutes ahead of internal margin. *(ch01 eval)*
+- Sera reclassifies three incoming packets as contaminated: optical repeat, timestamp duplication, and audio bleed. *(ch01 eval)*
+- Pavel activates sibling-conflict protocol for Mara regarding Elias material. *(ch01 eval)*
+- Mara signs a narrowed declaration: no undisclosed verified family-specific material. *(ch01 eval)*
+- A restricted contaminated audio sample contains the phrase "...not sky" with duplicated timestamp and disputed Asterion match. *(ch01 eval)*
+- Three leak channels are active during the Witness window: one from a family server, one unnamed contractor, and one market desk. *(ch01 eval)*
+- Mumbai market movement precedes the official advisory by six minutes. *(ch01 eval)*
+- Nadine sends a note forbidding martyr language, speculation on Candle occupancy, and requesting Mara if cleared. *(ch01 eval)*
+
+### Chapter 2
+
+- The Quito Assembly Hall selection setup used a nine-meter suspended Mars model over six candidate chairs. *(ch02 eval)*
+- Mara's 2039 selection notes explicitly warned that stage pressure was not neutral. *(ch02 eval)*
+- Elias was chosen over Dr. Ansel Vo, an equivalent medical candidate with cleaner metrics and superior sleep discipline. *(ch02 eval)*
+- Mara's formal recommendation described Elias as stabilizing others while requiring monitoring for calm-mask behavior. *(ch02 eval)*
+- Mara's private ranking labeled Mateo Ríos 'symbolically mission-critical.' *(ch02 eval)*
+- The Asterion conversion-drill schedule included fear naming, humor limits, private act versus public mission, care without rescue fantasy, silence tolerance, and failure of horizon language. *(ch02 eval)*
+- A service-corridor maintenance recording captured Mateo asking Elias whether Mara was why he was calm. *(ch02 eval)*
+
+### Chapter 3
+
+- Banda Sea is a room in the Houston Continuity Annex used for release-environment briefing. *(ch03 eval)*
+- Pavel authorized selected lower-integrity release to preempt a larger Asterion data dump; it reduced harm in three cities but contributed to deaths in Manila. *(ch03 eval)*
+- Seventy-one confirmed deaths in Manila's first wave had Boundary-media exposure as a primary factor, with more in disputed classification. *(ch03 eval)*
+- Mara conditionally accepts appointment as Mission Psychologist and Authorized Interpretive Officer for Witness Boundary Release Environment. *(ch03 eval)*
+- Mara's interpretive notes must remain in the custody record regardless of release decision under the appended access terms. *(ch03 eval)*
+- Mara is scheduled for transport from Houston to Dublin at 0600 for an interview at St. Odran's with Ines Calder. *(ch03 eval)*
+- Mara negotiates access terms requiring preservation of raw integrity markers, checksum failures, analyst cautions, contradictory timestamps, machine transcript alternatives, and source disputes before interpretive review. *(ch03 eval)*
+
+### Chapter 4
+
+- Thomas Keane is a St. Odran’s patient whose collapse interrupted feeding, dressing, and response to his grandchild Finn. *(ch04 eval)*
+- St. Odran’s uses bread, weather, name, and coat-button routines as grounding prompts. *(ch04 eval)*
+- Mara Solenne Kade’s Exit recruitment phrase appears in a fourteen-year-old patient’s notebook. *(ch04 eval)*
+- St. Odran’s adolescent wing stores personal devices in a locked cabinet. *(ch04 eval)*
+- Ines gives Mara a chipped brown coat button before Mara leaves for the Pacific Gantry. *(ch04 eval)*
+
+### Chapter 5
+
+- Ruth Venn has a private 19-second audio message loaded for Mara after orbit insertion. *(ch05 eval)*
+- Witness launch materials include Nadine's conduct addendum headed "NO MARTYRS. NO THEATER.". *(ch05 eval)*
+- The Asterion Families' Circle secured covered cameras for last private family minutes before launch. *(ch05 eval)*
+- Malik Serrano serves aboard Witness in communications. *(ch05 eval)*
+- Anika Rao is a Quito/Houston relay voice during Witness launch. *(ch05 eval)*
+- Candle's couch status is explicitly called out in crew check as "Candle couch empty.". *(ch05 eval)*
+
+### Chapter 6
+
+- On mission day 118, Elias ran a public crew-health segment shortly before the planned course-correction low-communication interval. *(ch06 eval)*
+- Leila publicly stated that her prayer was private and not part of mission protocol. *(ch06 eval)*
+- Star tracker C first showed a repeatable wrong offset before later agreeing with A by changing the star field. *(ch06 eval)*
+- Elias recorded a private medical log roughly thirty-one minutes before signal loss, though its timestamp classification is disputed. *(ch06 eval)*
+- The final public-frame composition included orange peel, loose strap, Mars, Jun, Leila’s hand, Mateo’s basalt pouch, and Sofia’s reflection. *(ch06 eval)*
+- Elias’s off-screen laugh was prompted by Amara joking that she would resign if the orange peel became historic. *(ch06 eval)*
