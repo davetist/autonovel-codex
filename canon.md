@@ -1021,3 +1021,16 @@
 - Mara drafts a classification note covering Sofia command, Mateo private, Elias family-specific, Leila prayer-track cross-reference, and Jun cockpit derivative. *(ch16 eval)*
 - Witness concurs only with package release, not fragment release. *(ch16 eval)*
 - The next restricted item surfaced is AST-MD118-COCKPIT-PARK-J / DUP TS / AUDIO: THATS_NOT_SKY_CONTEXT. *(ch16 eval)*
+
+### Chapter 17
+
+- Jun's cockpit recording begins with two disputed non-identical timestamp runs under AST-MD118-COCKPIT-PARK-J. *(ch17 eval)*
+- During the final approach anomaly, Star Tracker C repeats an old calibration field before A and B also show the same repeated field with current timestamps and valid checksums. *(ch17 eval)*
+- Jun recommends holding the course-correction burn after all optical star fields repeat while Mars remains visually correct. *(ch17 eval)*
+- Asterion forward radar returns interior geometry of the service corridor between med and payload, then later returns cockpit geometry including an inconsistent pilot state. *(ch17 eval)*
+- Jun hard-isolates manual attitude after the pad overheats without listed power draw, but Asterion later logs MANUAL AUTHORITY ACCEPTED despite his claim that he did not touch it. *(ch17 eval)*
+- Jun recommends no burn and no manual correction, naming that Asterion is no longer flyable in cockpit terms. *(ch17 eval)*
+- A white line crosses the forward glass at the disputed post-03:11:08 interval without immediate pressure loss. *(ch17 eval)*
+- Run B contains the public-derivative PARK LAUGH POST-IMPACT event, but source confidence is insufficient to establish sequence. *(ch17 eval)*
+- The restricted copies preserve "That's not sky" in conflicting relation to the laugh, while the circulated derivative omits the phrase. *(ch17 eval)*
+- The cockpit fragment establishes that Jun's cult-famous laugh was not simple joy and cannot be isolated as affective evidence. *(ch17 eval)*
