@@ -30,3 +30,4 @@ ad1d3dd	ch23	7.7	6034	keep	Chapter 23 (attempt 1)
 9866e44	rev-ch16	7.8	5222	keep	Cycle 2: worst_scene improved 7.8->7.8
 3ac3935	rev-ch13	8.0	3947	keep	Cycle 2: cut_candidate improved 8.0->8.0
 399fa6f	revision-cycle-2	9.3	109958	cycle	Cycle 2: novel_score 9.3->9.3
+7640219	rev-ch16	7.8	5339	keep	Cycle 3: momentum_loss improved 7.8->7.8
