@@ -2,7 +2,7 @@
 ## Full-Arc Summary for Reader Panel
 
 This document contains chapter summaries, opening/closing passages,
-and key dialogue for all 24 drafted chapters. Total novel: 107,716 words.
+and key dialogue for all 24 drafted chapters. Total novel: 107,436 words.
 
 BOOK PROMPT PROFILE:
 # Book Prompt Profile: The Boundary Condition
@@ -10,85 +10,78 @@ BOOK PROMPT PROFILE:
 ## Core identity
 
 - **Title:** The Boundary Condition
-- **Genre/mode/form:** Braided literary near-future science fiction. Philosophical, civic, operational, intimate. Not a puzzle thriller, not space opera, not a solved simulation story.
-- **Narrative tense/person/focalization rules:** Primary present-action chapters use close third past, usually Mara Venn unless the outline assigns another focal consciousness. Stay inside the focal character’s knowledge, bias, guilt, and sensory field. Recovered records may use transcript, log, analyst note, corrupted archive, or close reconstruction, but must show incompleteness. Earth fragments may use hearings, clinical notes, market feeds, school records, family testimony, broadcasts, or interviews.
-- **What this book is centrally about:** Humanity discovers that space may have a limit after Asterion, the first crewed Mars vessel, is found crushed against an invisible Boundary while Mars remains visible beyond it. Dr. Mara Venn, mission psychologist and sister of Asterion flight surgeon Elias Venn, must decide whether meaning survives when infinity stops being trustworthy. The book’s answer is not cosmic proof. It is obligation under uncertainty: pain counts because someone suffers; courage counts because someone chooses; love counts because it binds the living.
+- **Genre/mode/form:** Braided literary near-future science fiction. Philosophical, civic, clinical, and intimate. Not a puzzle-box thriller, not space opera, not a simple simulation-reveal story.
+- **Narrative tense/person/focalization rules:** Primary Witness chapters use close third past tense, usually through Dr. Mara Venn unless the outline assigns another focal consciousness. Recovered Asterion records may use transcript, log notation, partial reconstruction, analyst note, or disputed archive form. Earth fragments may use documentary modes such as clinical notes, hearings, market feeds, school records, testimony, intercepted streams, and ward observations. Never become omniscient in a way that solves the Boundary.
+- **What this book is centrally about:** Humanity discovers that reachable space may have a limit, and the old story of infinite outward progress collapses. Mara Venn, a grieving mission psychologist who helped prepare the Asterion crew and her brother Elias, must decide whether meaning survives when cosmic scale no longer guarantees it. The book’s answer is not proof about the universe; it is obligation under uncertainty.
 
 ## Per-chapter drafting rules
 
-- **Choose POV from the outline.** If the chapter is Witness present action, default to Mara unless the outline assigns Nadine, Tomas, or another focal consciousness. If it is an Asterion record, focalize through the named crew member and the limits of the recovered source. If it is an Earth fragment, give the fragment a person with a day to get through, not a faceless chorus.
-- **Honor dominant mode.** Witness chapters should feel like metal, breath, command audio, archive custody, restraint bars, stale citrus, and operational risk. Asterion records should preserve timestamps, dropouts, jokes, bodily checks, contradiction, and scarred evidence. Earth fragments must read like documents or scenes that accidentally reveal souls.
-- **Every fragment must impose later pressure.** A ward note, market feed, cult stream, family hearing, school transcript, or repair-site interview should change release rules, custody, public risk, mission decisions, or Mara’s ethical frame.
-- **Do not smooth recovered records.** Asterion logs remain inconsistent. Contradictions are canon, not clues to be solved into one hidden sequence.
-- **Do not invent outside the foundation.** No operators, outside beings, divine authors, alien engineers, readable code layer, multiverse rescue, clean afterlife, resurrection, teleportation, FTL communication, or practical Boundary power.
-- **Do not make Mars fake.** Mars remains visible, measurable in some ways, culturally real, and unreachable in the relevant way.
-- **Candle stays unmanned in the climax.** The book rejects human sacrifice as proof. The empty couch is temptation, scandal, political compromise, and moral object, not a heroic invitation.
-- **Mara’s final action must be limited and costly.** She releases a contextual civic package, names withheld material, restricts raw lethal fragments, and does not heal the world.
+- **How to choose the POV/focal consciousness from the outline:** Use the outline’s assigned POV as binding. If a chapter is Witness present action, default to Mara unless the outline names Nadine, Tomas, or another focal character. If a chapter is an Asterion record, keep focalization inside the recovered person’s available record, bias, and gaps. If a chapter is an Earth fragment, give the fragment a specific person with a day, body, job, family pressure, or institutional constraint.
+- **How to handle braided/fragments/records if present:** Fragments must not be decorative commentary. Each one must impose a later constraint: release protocol, legal pressure, ward procedure, market movement, family claim, censorship action, cult misuse, command decision, or public-language change. Recovered records must show scars: checksum failure, disputed timestamp, source uncertainty, family restriction, transcript alternatives, analyst caution, missing audio, or impossible simultaneity.
+- **What the chapter must never invent outside the foundation:** Do not invent operators, creators, outside beings, alien engineers, divine authors, readable code, a solved simulation mechanism, a rescue path beyond the Boundary, a usable power, or a clean final sequence for Asterion. Do not make Mars simply fake. Do not let any faction become the authorial answer. Do not add new central mythology that changes the rules of the Boundary.
 
 ## Sensory and metaphor palette
 
-- **Core sensory wells:** red Mars visible beyond reach; black vacuum; glossy non-surface cameras cannot agree on; repeated stars; clipped breaths; static; checklists; prayer under breath; cold metal; velcro; polished handrails; canned mandarin and citrus syrup; orange peel; glass; dust; old launch gantries; candle smoke and LED vigils; school screens; red marker doors around Mars; children’s drawings; bread, jam, bad coffee, coat buttons, piano, ration packs.
-- **Witness texture:** plastic, skin, sterilized fabric, stale citrus, restraint bars, archive bays without windows, narrow corridors, command loops, side-lobe transmissions, antenna geometry, custody tokens, checksum failures.
-- **Earth texture:** Glass Rooms, Red Nurseries, continuity wards, market pits, floodwall repair sites, kitchen calls, school assemblies, funeral chairs, insurance clauses, collapse dashboards, union fights, painted-over Mars murals.
-- **Allowed metaphor domains:** mission procedure, telemetry, thresholds, burns, handoffs, seals; clinical care, intake, relapse, pulse, feeding, discharge; ritual language used carefully, including prayer, vigil, liturgy, confession, mercy, sacrament, witness; domestic anchors such as porch lights, bread, jam, coat buttons, bad coffee; engineering and matter, including bolts, gaskets, hulls, pumps, welds, stress, heat; flood, triage, custody, evidence, rooms, weather when tied to embodied experience.
-- **Avoid:** inflated cosmic abstraction, game/code metaphors as fact, fantasy magic, neat Matrix-style mechanics, mystical whispering, dreamlike personification of the Boundary, heroic martyr imagery, generic destiny language, and any metaphor field not grounded in this book’s world.
+- **Concrete sensory wells from voice/world/characters:** Red Mars visible and unreachable; black vacuum; glossy non-surface cameras cannot agree on; repeated star fields; clipped breath, static, prayer, checklists, channel labels; cold metal, handrails polished by fear, velcro, stale canned mandarin, plastic, skin, sterilized fabric; old launch gantries, salt, hot insulation, algae bloom, machine coolant, coffee; candle smoke and LED light in vigils; paused Asterion wreck frame; orange peel, loose strap, Mars behind Jun and Leila’s hand; bread, jam, butter, coat buttons, bad coffee, porch lights, school desks, crayons, red marker doors around Mars.
+- **Metaphor domains allowed by the book:** Mission procedure, telemetry, burns, windows, handoff, thresholds, seals, channels, checksums; clinical care, relapse, intake, dose, pulse, feeding, discharge, risk, consent, harm; careful ritual language such as prayer, liturgy, altar, vigil, confession, mercy, witness, sacrament; domestic anchors such as bread, jam, porch light, coats, piano, rent, funeral chairs; repair and matter: pumps, valves, gaskets, welds, fasteners, heat, load paths, glass, dust, basalt, desert, floodwalls.
+- **Domains to avoid if they are not in the foundation:** Avoid fantasy magic, cyberpunk simulation aesthetics, game-interface language as truth, heroic military spectacle, multiverse cosmology, divine revelation, operator-contact mythology, romanticized martyrdom, lush cosmic abstraction, mystical weather, and generic existential-essay imagery. Avoid using “infinity,” “truth,” “meaning,” and “humanity” as atmosphere; earn them through bodies, rooms, documents, instruments, and choices.
 
 ## Speculative system / world rules
 
-- The Boundary is an unresolved failure of physical resolution, not a stable wall. It has location but no agreed surface.
-- Matter pays first: bolts shear, hull plates pit, polymers craze, tissue ruptures, mass vanishes without radiation signature.
-- Information degrades unevenly: repeated star fields, duplicated timestamps with different content, delayed or early light returns, archive bleed, clipped old recordings, contradictory position logs, error-correcting codes that look edited but do not repeat.
-- Observation changes public reality, not physics. A leak can move markets, start vigils, trigger collapse, feed cults, or force censorship.
-- Mars remains visible. Reach is failing; that is not the same as proving Mars false.
-- The Boundary is not symmetrical, not a neat shell, and not a useful machine.
-- No evidence proves consciousness has special status.
-- Ontological collapse is social, psychological, philosophical, and bodily. It is not magical mind control.
-- Every clean answer creates a cult. Preserve “maybe”: enough evidence to shatter certainty, not enough to replace it.
-- Release classes matter. Class B can be public with context. Class C raw fragments are interpretively lethal: personal addresses from the dead, post-failure laughter, raw devotional audio, exit-seeming phrases, or material already used for self-harm recruitment.
-- The final package, **WHAT THE DATA PERMITS**, must state what the data does not prove: operators, external contact, survival after death, fake Mars, or practical control over the Boundary.
+- Space has a limit called the Boundary or B-C, but it is not a normal wall. It is a transition region where matter, light, and information stop resolving cleanly.
+- The Boundary has location but no stable surface. It can be approached and modeled, but not touched in a stable way.
+- Matter pays first: bolts shear, hull plates pit, polymers craze, tissue ruptures, scans show duplication artifacts, and mass can go missing without radiation signature.
+- Information degrades unevenly: repeated star fields, duplicated timestamps with different content, clipped audio from prior recordings, delayed or early light returns, contradictory position logs, archive collisions, and error patterns that look intentional but do not repeat.
+- Mars remains visible, measurable in some ways, and unreachable in the relevant way. Do not resolve whether it is physical terrain beyond the limit or observable output without reachable depth.
+- The Boundary creates no reliable power. No teleportation, time travel, resurrection, faster-than-light communication, proof of God, proof of operators, or usable contact with the dead.
+- Proximity may cause pattern hunger, temporal unease, dreams, and compulsive rewatching, but the cause remains unclear: stress, confinement, media saturation, or unknown physics.
+- Observation changes public reality, not proven physics. A leaked frame can move markets, start vigils, trigger collapse, feed cults, and alter release policy.
+- Ontological collapse is social, psychological, and bodily, not magical mind control. It interrupts eating, dressing, parenting, work, speech, school, and ordinary future-making.
+- Release protocols matter. Data classes, family restrictions, lethal fragments, public delay, clinical framing, and custody records are part of the drama.
+- Candle must remain unmanned in the climax. The book rejects human sacrifice as proof.
+- The Boundary must remain partly unknowable. Stronger evidence may sharpen contradictions, but no clean ontology replaces the old certainty.
 
 ## Character and dialogue rules
 
-- **Mara Venn:** precise, clinical, theological under strain. Asks questions like instruments. Guilt makes her insightful and dangerous. Do not let her become a generic grieving protagonist; keep her tied to conversion drills, Elias, custody, public interpretation, and the lie that scale grants worth.
-- **Elias Venn:** warm, medical, dry, bodily. Jokes until honesty becomes unavoidable. He must stay incomplete and human, never a final-message machine.
-- **Nadine Qureshi:** dry command minimalism. No martyrs, no theater. Survival and command responsibility under public pressure.
-- **Sera Imani:** scientific precision as moral discipline. Corrects terms because terms can kill. She refuses both simulation overclaim and denial.
-- **Tomas Vale:** hesitant engineering plainness. Hardware as moral argument. The empty couch and disabled linkage are his pressure points.
-- **Pavel Ilyin:** polished institutional control. He is manipulative, frightened, sometimes right. Secrecy as care and power at once.
-- **Ines Calder:** bodily clinical practicality. Bread before metaphysics. Small choices are treatment, not sentiment.
-- **Asterion crew voices:** Sofia is compressed command; Jun is tactile pilot slang; Amara is blunt repair truth; Leila is measured, spiritually private, exact; Mateo is teacherly until anger breaks the lesson voice.
-- **Dialogue must not become thesis exchange.** Characters interrupt, evade, answer the wrong part, clip sentences, reach for work, or use procedure to avoid terror.
-- **No nickname invention.** Use established names and roles. Do not invent cozy variants, pet names, or new family structures.
-- **The dead are not mouthpieces.** Their records should include hunger, irritation, boredom, jokes, maintenance, fear, tenderness, and contradiction.
+- **Mara Venn:** Precise, clinical, morally alert, theological under strain. She asks questions like instruments. Her grief makes her insightful and dangerous. Do not let her become a generic brave protagonist or a clean truth-speaker.
+- **Elias Venn:** Warm, medical, dry, bodily. He jokes until honesty becomes unavoidable. He is not a martyr, message, or theme-delivery device.
+- **Nadine Qureshi:** Dry command minimalism. Survival over theater. Her no-martyr rule must have operational force.
+- **Sera Imani:** Scientific precision as care. Corrects terms because terms can kill. Not cold, not secretly faithless, not secretly certain.
+- **Tomas Vale:** Hesitant engineering plainness. Moral insight through hardware, especially Candle’s couch and disabled linkage.
+- **Pavel Ilyin:** Polished institutional language. Care and control braided. He is manipulative, frightened, sometimes right, and never a simple villain.
+- **Ines Calder:** Bodily, clinical, practical. Bread before metaphysics. She interrupts abstraction with food, weather, medication, names, and hands.
+- **Asterion crew:** Keep each dead crew member alive before they become significant: hunger, irritation, jokes, maintenance, prayer, fatigue, boredom, fear, and partial courage.
+- **Dialogue rules:** Characters must not trade polished thesis statements. They interrupt, evade, answer the wrong part, repeat, clip, go silent, return to work, or hide inside procedure. Use “said” when needed; mission channels, action beats, and role labels can carry exchanges.
+- **Avoid generic protagonist drift or nickname invention:** Use established names and roles. Do not invent casual nicknames, new family structures, new childhood symbols, or new intimate phrases. The porch-light phrase, wrist pulse habit, mandarin/citrus trigger, and conversion drills already carry Mara’s private texture.
 
 ## Evaluation priorities
 
-- Reward chapters that keep the Boundary operationally concrete and ontologically unresolved.
-- Reward embodied stakes: food, sleep, breath, touch, school, rent, medicine, custody, hardware, market pressure, family claims.
-- Reward mode discipline: Witness action, Asterion record, and Earth fragment should feel structurally different.
-- Reward public consequence chains. A discovery should alter release rules, cult risk, market behavior, family litigation, ward protocols, or mission decisions.
-- Reward distinct voices, especially under stress.
-- Reward scenes where large ideas arrive through small costs.
-- Reward truthful restraint: contextual release, named withholding, no raw lethal spectacle.
-- Penalize solved simulation mechanics, operator contact, secret messages from outside, fake Mars reveals, martyr logic, clean healing, and lectures about meaning.
-- Penalize abstract cosmic prose without instruments, rooms, bodies, documents, or choices.
-- Penalize any ending that implies civilization is healed. Hope here is practice, not cure.
+- Reward chapters that keep awe contaminated by care: every large idea should have a small bodily, institutional, or domestic cost beside it.
+- Reward operational clarity without metaphysical over-explanation: the reader should understand rules, risks, authorities, and consequences, not receive a solved ontology.
+- Reward fragments that change later action rather than merely illustrating theme.
+- Reward character-specific voice: Mara’s clinical theology, Elias’s bodily humor, Nadine’s command restraint, Sera’s precision, Tomas’s hardware guilt, Pavel’s managed-care rhetoric, Ines’s bread-first care, Leila’s private faith, Amara’s repair truth, Jun’s tactile pilot language, Mateo’s teacherly anger.
+- Reward ambiguity that is sharp, not mushy: state observed facts clearly, then preserve competing interpretations.
+- Reward public-scale crisis landing in private acts: eating, calling a child, turning off a feed, choosing jam, sealing a file, repairing a pump, drawing Mars, withholding raw audio with named reasons.
+- Penalize any chapter that proves simulation, confirms operators, solves Mars, turns the Boundary into magic, uses the dead as doctrine, or makes the ending cleanly healing.
+- Penalize generic cosmic language, lecture-style existentialism, sentimental closure, dreamlike mystical Boundary effects, hard-SF exposition that explains away dread, and dialogue that sounds like an argument essay.
+- Penalize continuity errors around Orpheus/Asterion, Elias’s laugh versus Jun’s laugh, Mara’s porch-light access, Candle’s couch and linkage, release authority, or the final unmanned Candle rule.
 
 ## Anti-contamination rules
 
-- Do not import any prior-book characters, titles, settings, institutions, relationships, voice habits, magic systems, speculative mechanics, family structures, sensory gimmicks, disability frameworks, plot turns, or ending patterns.
-- Do not replace this book’s Boundary with another genre device. It is not magic, portal logic, chosen-one revelation, monster cosmology, clean simulation proof, or an exit mechanism.
-- Do not import a prior protagonist template. Mara is specifically a mission psychologist, former crisis theologian, bereaved sister, compromised interpreter, and custodian of dangerous ambiguity.
-- Do not import a prior emotional resolution. This book ends with damaged continuation, not revelation, cure, reunion, transcendence, or collapse into nihilism.
-- Do not add new factions, religions, technologies, or social diseases unless directly required by the outline and consistent with the foundation.
-- Do not let repeated prior-book patterns override this book’s required final shape: Candle unmanned, Boundary unknowable, lethal fragments named but restricted, public truth contextual and incomplete, ordinary life continuing under a smaller sky.
+- Do not import prior-book characters, titles, settings, planets, cities, institutions, families, relationships, wounds, endings, magic systems, powers, disability or sensory gimmicks, symbolic objects, repeated final images, or inherited voice habits.
+- Do not import any earlier book’s protagonist pattern, family structure, romance structure, revelation structure, miracle logic, or “chosen one” pressure.
+- Do not use a previous book’s ending pattern. This ending is not cure, escape, reunion, transcendence, apocalypse, or proof. It is damaged continuation under a smaller sky.
+- Do not replace this book’s speculative system with another: no magic, no portal, no multiverse rescue, no operator conversation, no afterlife confirmation, no hidden control room, no chosen child, no reliable message from beyond.
+- Do not replace this book’s sensory identity with unrelated motifs. Stay with Mars, glass, static, clipped breath, cold metal, canned citrus, candle smoke, school screens, bread, jam, handrails, transcripts, repeated stars, and corrupted mission audio.
+- Do not invent new central characters to carry existing functions. Use Mara, Elias, Nadine, Sera, Tomas, Pavel, Ines, Ruth, the Asterion crew, Witness crew, families, clinics, markets, schools, and named public factions already in the foundation.
+- Do not let any draft sound like it belongs to a different novel’s moral universe. The Boundary Condition lives in the maybe: enough evidence to shatter certainty, not enough evidence to replace it.
 
 ---
 
 ### Chapter 1 (4591 words)
-**Summary:** Mara Venn moderates a school viewing of the Asterion wreck, deviates from approved answers when Avram asks whether computed pain still hurts, and is then summoned to the Continuity Annex because Witness has entered its final interpretive window early.  
-Her role shifts from school-facing grief management to restricted mission triage as she signs a narrowed conflict disclosure, hears a contaminated Asterion audio bleed, and is cleared to review the Quito crew-selection archive.  
-The open question is whether the Asterion voices, Candle data, and Witness records will reveal evidence that can be released without breaking public trust or Mara’s own fitness to interpret it.
+**Summary:** Mara Venn moderates a school viewing of the Asterion wreck, departs after Witness enters its final interpretive window, and is summoned by Pavel Ilyin to review contaminated Asterion audio tied to Candle and public release planning.
+Her role shifts from controlled public explainer to conflicted necessary interpreter when she signs a narrowed disclosure statement about unverified family material and is cleared to join the procedure.
+The open question is whether the duplicated audio bleed contains real Asterion voices, what it means for Witness and Candle, and whether computed pain still counts as pain.
 
 **Opening:** Chapter 1: The Paused Frame The children sat under painted Mars. Someone had blacked a line across the old mural at adult shoulder height, too straight to be a child’s work. Below it, the nursery wall still showed red dunes, plastic habitats, a greenhouse dome with smiling carrots inside. Above it, the paint had been left alone: a bright sky no Martian child would ever have seen. On the screen, Asterion remained crushed against nothing. The image had been paused for eleven minutes because the youngest boy in the room had started counting hull ribs and would not stop. The moderator had muted the public channel, lowered the room lights by one step, and asked Dr. Venn to take over. Mara stood beside a bin of cracked foam planets. The bin smelled faintly of disinfectant and canned mandarin, though no one was eating. The smell came from the snack cabinet,...
 
@@ -99,9 +92,7 @@ The open question is whether the Asterion voices, Candle data, and Witness recor
 ---
 
 ### Chapter 2 (4070 words)
-**Summary:** Mara reviews the 2039 Quito selection tape showing the Asterion crew interviews, where Elias proves able to calm and organize others under pressure while Mateo resists being turned into a public symbol.  
-What changes is that Mara’s old recommendation of Elias is reframed by later disaster: his “calm stabilizes others” becomes both the reason he was chosen and evidence of a dangerous mask she helped make structural.  
-The open question is whether Elias’s calm came from training, fear, family damage, or something Mara should have recognized before Asterion.
+**Summary:** Mara reviews the Quito selection archive, where Elias, Mateo, and the other Asterion candidates are stress-tested under public and institutional pressure. Elias is chosen over Vo because Mara argues his calm stabilizes the crew, while Mateo is marked as “symbolically mission-critical,” turning both men into structural burdens for the mission. The open question is whether Mara’s contaminated but grounded recommendation helped save the crew or helped build the conditions for what later happened.
 
 **Opening:** ## Chapter 2: Quito Selection Tape The first frame gave Mara the underside of Mars. Polymer over alloy ribs, nine meters across, suspended from three black cables above the Quito Interplanetary Assembly Hall. Its southern ice cap had been painted with more mercy than data allowed. Under it, six chairs waited on polished basalt. Mara’s archival note, 2039, Selection Record QIAH-AST-CREW/PSY-7: Stage geometry exerts useful pressure. Candidates enter through rear aisle under public-facing Mars model. Audience sightline places model above candidate shoulders during interview. Recommend retaining for announcement sequence. Strong collective effect without overt nationalist load. Later, in the review copy, someone from Public Integration had highlighted useful pressure and written, in green, Excellent. Mara had answered in the margin with a smaller hand: Pressure is not neutral. The tape stuttered at the thirty-one-second mark. A checksum patch appeared in the lower right. The Assembly Hall lights corrected themselves from...
 
@@ -112,9 +103,9 @@ The open question is whether Elias’s calm came from training, fear, family dam
 ---
 
 ### Chapter 3 (4245 words)
-**Summary:** Pavel shows Mara casualty maps from past Orpheus leaks and admits Continuity authorized a controlled audio release that reduced harm elsewhere but helped cause deaths in Manila.  
-He offers her a restricted hybrid role aboard Witness with archive access, and she signs conditional acceptance after forcing terms that preserve unsmoothed evidence and attach her notes to the custody record.  
-The open question is whether Mara can defend truth inside the release chain before fear, secrecy, or her private Elias fragment distort what Witness sends back.
+**Summary:** Pavel shows Mara casualty maps from past Orpheus/Asterion leaks, admits Continuity authorized a controlled audio release that caused deaths in Manila, and argues Witness needs a compromised but credible interpreter before its Boundary-adjacent materials arrive.
+Mara negotiates unsmoothed archive access, including Elias’s medical channels under custody terms, and signs on as Witness mission psychologist and authorized interpretive officer, entering the release chain she mistrusts.
+The open question is whether Mara can use that authority to protect the truth without becoming the institution’s instrument, especially when Elias’s private fragments and her hidden porch-light rumor come under review.
 
 **Opening:** 3. Release Environment The first map showed Manila in red. Pavel Ilyin stood beside the wall display with one hand in his jacket pocket and the other hanging open, palm toward the carpet, as if he had set something down there and meant everyone to notice its absence. The Houston Continuity Annex lights flattened his suit to a dark cutout. Behind him the city map pulsed in six-hour intervals, hospital intake points brightening along roads, train lines, church basements, school Glass Rooms. Mara sat at the end of the table where the carpet had worn thin under years of chair legs. The room was called Banda Sea. Nothing in it moved like water. The air smelled of old upholstery and electrolyte broth from the vending alcove outside. “Week two after the Orpheus frame leak,” Pavel said. He touched the control pad. The map advanced. Red thickened. “Do not compress it,”...
 
@@ -125,9 +116,9 @@ The open question is whether Mara can defend truth inside the release chain befo
 ---
 
 ### Chapter 4 (4496 words)
-**Summary:** Mara visits St. Odran’s, watches Ines Calder ground patients through bread, weather, names, buttons, pain, and ordinary care, and sees how Exit rhetoric has entered children’s notebooks, family grief, and clinical routines.  
-Mara’s problem shifts from abstract Witness release policy to the bodily consequences of raw fragments, while she accepts Ines’s lesson that scale must remember hunger, touch, and “ouch.”  
-The open question is whether Mara can use Witness to recognize and contain dangerous voices without turning them into instruments, shrines, or another sealed cabinet.
+**Summary:** Mara visits St. Odran’s, watches Ines Calder treat Boundary-fractured patients through bread, weather, names, buttons, and embodied care, and sees how Exit rhetoric has reached children through soft recruitment.
+Mara’s framework shifts from abstract Witness release policy toward the ward’s slower truth that pain, hunger, names, and bodies must anchor any decision about dangerous fragments.
+The open question is whether Witness can release truth without turning lethal language into another instrument for predators, children, families, and institutions to misuse.
 
 **Opening:** ## Chapter 4: St. Odran’s “Bread first,” Ines Calder said. The man at the table held the slice by its corner. It sagged under a shine of butter. His other hand rested in his lap, thumb rubbing the hole where a coat button should have been. Mara stood beside the ward door with her visitor badge clipped too high on her jacket. The badge warmed against her throat. St. Odran’s had kept the old hospice proportions: low ceilings, broad windows, corridors built for beds rather than cameras. Someone had taken down the saint pictures and left pale rectangles on the walls. “Mr. Keane,” Ines said, “look at me.” He looked at the window. “Close enough. Weather.” “Outside,” he said. “That is a location, not weather.” “Gray.” “Good. Bread.” He lifted the slice halfway. His wrist stalled as if a valve had shut inside the arm. Ines waited. She wore a...
 
@@ -138,9 +129,9 @@ The open question is whether Mara can use Witness to recognize and contain dange
 ---
 
 ### Chapter 5 (4292 words)
-**Summary:** Mara says goodbye to Ruth on the Pacific Gantry, admits a rumored private line from Elias, boards Witness, learns Candle still contains an empty human-rated couch, and launches with the crew.  
-What changes is that Mara carries Ruth’s demand to know what truly belongs to Elias, Nadine’s command against martyrdom, and Vale’s hidden sabotage of Candle’s life-support pretense into the mission.  
-The open question is whether Mara can protect truth, grief, and the living crew once Elias’s fragments, Candle’s empty couch, and Ruth’s private message become harder to keep contained.
+**Summary:** Mara says goodbye to Ruth on the Pacific Gantry, admits an uncertain rumored line from Elias, then boards Witness with Nadine and the crew as they prepare for launch.
+What changes is that Mara confronts the private cost of public evidence: Ruth demands an uncleaned sentence, Nadine forbids martyrdom, and Tomas reveals he disabled part of Candle’s human life-support path to keep its empty couch from becoming a sacrifice.
+The chapter ends with Witness lifting off, leaving open whether Elias’s porch-light sentence is real and whether Mara can protect what is his before the world turns it into a symbol.
 
 **Opening:** Chapter 5: Pacific Gantry Ruth Venn held the boarding pass in both hands as if it were a program from a funeral. The Pacific Gantry moved under them in long, shallow corrections. Through the glass of the family enclosure, cranes crept along ceramic trusses, white against the dawn water. The sea below the launch ring had the flat pewter color that came before heat. Somewhere beneath the floor, pumps beat against ballast, and each beat came up through Mara’s shoes. “You have time,” Ruth said. Mara had eleven minutes. A liaison in a blue IIA vest waited by the pressure door with the disciplined blankness of a person trained to be furniture during family pain. Behind him, two cameras faced away from the Venns, covers on. The Asterion Families’ Circle had won that much after the Break: no last private minute unless the lens was asleep. Mara checked the seal...
 
@@ -151,9 +142,7 @@ The open question is whether Mara can protect truth, grief, and the living crew 
 ---
 
 ### Chapter 6 (3737 words)
-**Summary:** During a public health and education segment on mission day 118, Elias moves the crew through hydration checks while Leila resists being made into the mission’s spiritual symbol and Jun reports a small but repeatable star-tracker discrepancy.  
-As course-correction prep begins, the crew’s routine stress hardens into alarm when coolant anomalies, repeated star-field imagery, and star tracker C’s sudden agreement suggest the problem may be larger than instrumentation.  
-The feed cuts out after Jun starts to say “That’s not—” and Elias asks him to “say the word,” leaving unanswered what Jun saw and whether Asterion was still on a real path to Mars.
+**Summary:** During a public crew-health and education segment on mission day 118, Elias manages hydration checks, Leila resists being turned into the mission’s spiritual symbol, Jun reports a repeatable star-tracker offset, and Amara notices a coolant-pump irregularity. As course-correction prep begins, the crew shifts from strained routine into alarm when the optical background appears to repeat and Jun says the tracker has “agreed by changing the stars.” The chapter ends with the public feed cutting out, Elias asking Jun to “say the word,” and no verified answer surviving.
 
 **Opening:** ## Chapter 6: Mission Day 118 Asterion public feed, mission day 118, scheduled crew-health segment. Source: primary public archive. Delay stamp intact. Video stable until final ninety-one seconds. Elias caught the electrolyte pouch with the heel of his hand and let the impact turn him half around. The public camera tracked late, as it always did when a body moved too softly for its prediction. For one second his knees were tucked under him and his left sock filled the feed, gray at the toe where the fabric had thinned. “Good morning, schools with sensible teachers,” he said. “Good evening, schools with cruel teachers. Good whatever it is to my mother, who has already written to complain that I look underfed.” Off camera, Jun made a sound through his teeth. Elias hooked one foot under the restraint loop by the med locker. His tablet floated against his wrist tether, blinking...
 
@@ -164,9 +153,9 @@ The feed cuts out after Jun starts to say “That’s not—” and Elias asks h
 ---
 
 ### Chapter 7 (4768 words)
-**Summary:** Nadine restricts Asterion viewing, Sera forces more precise public language about Mars’s unresolved reachability, Tomas reveals Candle’s couch cannot support a real occupied Boundary approach without rework, and Mara is made to review an early private Elias log under supervision.  
-The crew’s compulsions and private griefs become formal mission risks, Mara’s access to Elias-specific material is constrained, and suspicion grows that Pavel’s office and market rumors may be moving ahead of the official archive schedule.  
-The open question is who triggered the early Elias log release, whether it connects to Mumbai pricing restricted access, and what later Elias material is still coming.
+**Summary:** Nadine restricts Asterion playback after the crew’s fixation worsens, Sera revises public language about Mars from “fake” to unresolved reachability, Tomas reveals Candle’s couch cannot truly support an occupied Boundary approach, and Mara is forced to review an early private Elias log under supervision.
+The crew’s private grief becomes formal mission risk: Mara’s Elias connection is codified, Tomas’s sabotage-like “care” is exposed, Sera’s private model language moves closer to public release, and Nadine tightens control while still keeping Mara in the interpretive role.
+The open question is why Pavel advanced Elias’s restricted log at the same moment Mumbai markets began pricing restricted Asterion access, and whether someone is leaking or staging the next release.
 
 **Opening:** Nadine closed the Asterion viewer with two fingers. The last frame went black in the crew bay. For one second Witness showed Mara only the reflection of four faces in the dead glass, stretched by the curve of the display. Sera’s sleeves were pulled over her knuckles. Malik had one hand on the narrowband console, thumb resting beside the release queue as if pressure there could stop Earth from asking. Tomas Vale looked at the blank screen and began counting under his breath. “Unscheduled viewing ends now,” Nadine said. No one moved. The bay kept its own small weather: air through vents, velcro lifting from a cuff, somebody’s swallow too close to a mic. The ship smelled of sterilized fabric and skin. A strip of handrail beside the viewer had been rubbed bright where crew reached for it during public check-ins. Mara had noticed the polish on day two and...
 
@@ -177,9 +166,9 @@ The open question is who triggered the early Elias log release, whether it conne
 ---
 
 ### Chapter 8 (3896 words)
-**Summary:** Boundary markets spike after rumors of restricted Witness log access, and Kavir trades collapse protection while advising Menon, managing Nisha, and watching Arvind suffer an acute collapse on the trading floor.  
-The rumor becomes effectively confirmed by an advisory, Kavir shifts from pure exploitation toward buying pediatric ward capacity bonds and is forced into a continuity check that makes him call his daughter about food and Witness exposure.  
-The open question is what the restricted Asterion material actually shows about Witness and how much damage its eventual release or suppression will cause.
+**Summary:** Boundary rumors hit the Mumbai futures pit, Kavir trades the repricing as official advisory confirms restricted Witness access to Asterion material, and Arvind collapses on the floor while the market keeps moving.
+Kavir shifts from pure hedging into buying pediatric ward capacity bonds, is forced into a continuity check, and calls his daughter after realizing his own household is inside the same harm he prices.
+What remains open is whether Witness is actually dying, what the sealed Asterion material shows, and how far the collapse will spread.
 
 **Opening:** Chapter 8: The Mumbai Futures Pit At 09:17 Mumbai time, Boundary Continuity December futures broke their upper band on no official data. Kavir Shah saw it first as a thin green jump in the corner of his left screen, too clean to be public fear. Retail panic moved ragged. This came in a line, four desks at once, Singapore first by half a breath, then Zurich, then an insurer pool in Lagos whose brokers usually waited for permission before they sneezed. “Somebody has a log,” Nisha said beside him. Kavir adjusted the cuff on his biometric monitor. It had begun to buzz against the inside of his wrist, soft as an insect, warning him his pulse had crossed the exchange floor threshold for mandatory hydration. He pressed two fingers to the metal contact until the buzzing stopped. “No,” he said. “Somebody has access to somebody with a log.” On the...
 
@@ -190,9 +179,9 @@ The open question is what the restricted Asterion material actually shows about 
 ---
 
 ### Chapter 9 (3811 words)
-**Summary:** During a low-communication burn window, Asterion’s navigation, structural, and biology systems produce impossible conflicting records, and Sofia authorizes a limited manual trim while documenting that the corrupted logs cannot be used to blame Jun.  
-The situation changes from a sensor fault into evidence that the ship is being physically affected and that even command notes can duplicate with altered wording.  
-The open question is whether Asterion is being hurt by an unknown phenomenon or by an unknown person.
+**Summary:** During a low-communication burn window, Asterion’s trackers, panels, structure, biology rack, and logs begin producing contradictory anomalies, so Sofia authorizes Jun’s tightly limited manual trim and then records that corrupted data cannot be used to blame him.
+What changes is that the problem moves from navigation uncertainty to evidence that the ship itself is being physically hurt and that the record is duplicating and altering events.
+The open question is whether the force behind the damage is an impersonal anomaly or a “whom” that could make someone aboard or elsewhere responsible.
 
 **Opening:** Chapter 9: Sofia’s Hatch Asterion command log, mission day 118. Command module internal record. Source composite from CM voice bus, pilot station camera, and command private notation. Integrity warning: two timestamp runs occupy the same thirty-seven-second interval with non-identical star-tracker states. Analyst caution: manual-input record exists in both runs but with different authorization latency. Do not treat sequence as settled. 00:00:00 / LOW-COMMUNICATION INTERVAL BEGINS Sofia Arendt braced one knee under the command rail and watched Star Tracker C disagree with the universe. This reading arrived with manners. Tracker A held Mars at expected bearing within tolerance. Tracker B lagged by a small, ugly fraction. Tracker C returned the same wrong offset for the third cycle, clean as a signed form. Then it corrected itself by showing a field Sofia had seen eleven minutes earlier. “C repeat confirmed,” Jun said. His voice had the bright edge it took when he...
 
@@ -203,7 +192,9 @@ The open question is whether Asterion is being hurt by an unknown phenomenon or 
 ---
 
 ### Chapter 10 (3556 words)
-**Summary:** Solenne Kade livestreams a classroom-style lesson framing the Boundary around Mars as a locked door, plays Elias’s ordinary pre-disaster laugh beside a corrupted Jun derivative, and uses the clips to argue that authorities cannot prove the door is locked. The stream is interrupted for self-harm recruitment risk, but mirrors spread faster, the clips trigger hospital incidents and deaths, and Mara, Nadine, Sera, Malik, and Pavel shift from suppression toward classifying “lethal fragments” with separated context for Elias and Jun. The open question is whether withheld context can prevent further harm without becoming another locked-room authority that Solenne’s followers will use as proof.
+**Summary:** Solenne Kade streams a classroom-style lesson framing the Mars Boundary as a locked door, pairs Elias’s ordinary pre-disaster laugh with a corrupted Jun clip, and turns “touching the handle” into a viral challenge before Continuity cuts the feed.
+In the Witness review room, Mara, Sera, Malik, Nadine, and Pavel watch the clips spread, learn of hospital attempts and deaths linked to the broadcast, and move to classify the incident by separating Elias’s public laugh from Jun’s derivative and naming the missing context without releasing raw data.
+The open question is whether truthful context can stop the door mythology, or whether any fragment of the dead will keep being transformed into proof that Mars opens somewhere.
 
 **Opening:** Chapter 10: The Door Around Mars Solenne Kade held the red marker with the cap on. On the screen behind her, Mars hung at the center of the lesson board, a clean rust disk with a pale dust system moving over Valles Marineris. She had chosen a feed with no wreckage in it. No crushed ship. No orange peel. No loose strap. Children stayed longer when the first image was only a planet. The room looked like a classroom because she knew classrooms made people lower their guard. White board. Two rows of empty chairs. A paper weather calendar with the wrong month still clipped to the wall. A shelf of plastic habitat models left over from her Red Nursery years. She had turned the little greenhouses sideways so the cameras would not catch their painted windows. The stream counter climbed by hundreds at a time. Solenne smiled with her...
 
@@ -214,7 +205,9 @@ The open question is whether Asterion is being hurt by an unknown phenomenon or 
 ---
 
 ### Chapter 11 (4744 words)
-**Summary:** Amara inspects a damaged bay two strain sensor and finds heat, sheared hardware, impossible compression marks across empty space, duplicated timestamps, and a one-sample force spike that matches failures in Leila’s biological tray. Bay two shifts from trusted structural backup to unfit data, while the anomaly expands from a local engineering fault into a shipwide contradiction affecting metal, instruments, navigation, mass readings, and tissue. The open question is what caused Asterion’s materials and records to show damage from shapes and forces that were never physically there.
+**Summary:** Amara investigates a warm screw and damaged strain sensor in Engineering Bay Two, finding impossible compression marks, one-sample force spikes, duplicated timestamps, unstable mass readings, and physical dents that cross empty space.
+The anomaly spreads from hardware to biology and navigation: Leila’s sealed tissue tray fails at the same 03:11 event, bay two’s strain network is declared unfit, and the crew can no longer trust sensors that appear normal.
+The open question is what force or process can make the ship and samples “remember” shapes and losses that should never have existed.
 
 **Opening:** [ASTERION SYSTEMS RECORD / ENGINEERING BAY TWO] [Mission Day 118 / Source family: OKONKWO MAINT-PRIVATE / recovery status partial] [Analyst caution: internal clock agrees with Command Log branch A for first 04:12, then follows no verified sequence. Audio channel retains cabin fan and tool contact. Visual frames repaired from two damaged buffers. Reconstruction uncertain where marked.] The first screw came out hot. Amara caught it against her palm before it floated into the rack. Heat through glove liner, enough to make her hiss once and close her fist. The screw had no business being warm. Bay two ran cool. The sensor housing sat outside the fluid loop and below the forward panel row, dull gray, boring, faithful hardware. A box for measuring strain. A box to tell the ship when metal changed shape. “Record thermal,” she said. The maintenance tablet blinked at her. The number arrived in a small font:...
 
@@ -225,9 +218,9 @@ The open question is whether Asterion is being hurt by an unknown phenomenon or 
 ---
 
 ### Chapter 12 (4354 words)
-**Summary:** Mara and Sera open the first restricted Asterion “final cluster,” hearing Elias warn that fear drills can be useful but dangerous, Leila’s split-track checklist and prayer, and disputed crew audio apparently occurring after a nonsurvivable structural marker.  
-Mara shifts from seeking legible comfort in Elias’s last moments to formally classifying the material as contaminated, high-risk, and requiring stricter review, especially after a screen flicker changes her own note from “conflict” to “conversion.”  
-The open question is whether the cluster preserves real sequence, overlay, corruption, or something stranger, and whether Elias’s cut-off address to Mara should ever be heard again.
+**Summary:** Mara and Sera open the first Asterion cluster, hearing disputed Elias, Leila, and structural recordings that overlap private warning, prayer/checklist audio, and crew voices after a nonsurvivable marker.
+Mara shifts from seeking usable closure about Elias to formally classifying the cluster as contaminated, high-risk evidence that could distort fear, faith, sequence, and survival.
+The open question is whether the post-failure voices, duplicated words, and flickering “conflict/conversion” note are corrupted archive artifacts, overlays, or evidence that Asterion’s final moments did not follow survivable reality.
 
 **Opening:** Chapter 12: The First Cluster The archive bay had taken the smell of Mara’s opened ration and kept it. Mandarin syrup clung to the air above the console. She had drained the fruit first, then the thin sweet liquid from the foil seam, because sleep had slipped and food had become something done by rule. Eat before review. Water before classification. Touch wrist only after playback, not during. Sera stood on the opposite foot loop with her sleeves pulled over both wrists. She had brought a hardcopy packet, which on Witness meant either distrust or ceremony. The pages were clipped under a transparent cover so they would not float loose. Two red stamps crossed the first sheet. ASTERION PRIVATE/FINAL CLUSTER: PROVISIONAL. TIMESTAMP DUPLICATION PRESENT. SOURCE CONFIDENCE DISPUTED. Mara read the stamps twice. “Final cluster?” “First cluster,” Sera said. “That is not a correction.” “It is if you are hungry enough.”...
 
@@ -238,9 +231,9 @@ The open question is whether the cluster preserves real sequence, overlay, corru
 ---
 
 ### Chapter 13 (3836 words)
-**Summary:** Ivo Tan repairs a failing floodwall pump during a civic feed, confronts the way Mars has been turned into both excuse and taboo, and admits he once wanted a Mars transfer but returned after flood failures hurt his family.  
-What changes is that “near things first” is clarified from a rejection of far dreams into an order of repair, and Mara aboard Witness turns that distinction into release guidance: longing is not abandonment.  
-The open question is whether Witness, Candle, and the public story around the Boundary can hold “first, not only” without turning either Earth repair or outward desire into doctrine.
+**Summary:** Ivo Tan repairs a failing floodwall pump during a civic feed, argues with the interviewer and city official over how Earth repair and Mars longing are being framed, and tells Mika that wanting Mars is not selfish as long as it is not used to abandon people.
+The pump is temporarily stabilized, Ivo’s slogan “Near things first” shifts from anti-Mars doctrine into repair priority rather than worth judgment, and Mara aboard Witness turns the exchange into release guidance: distinguish abandonment from longing.
+The open question is whether Witness, Candle, and the public narrative can hold “first, not only” without turning either Earth repair or outward desire into a weapon.
 
 **Opening:** Chapter 13: Near Things First The pump coughed brown water over Ivo Tan’s boots and spat a strip of blue plastic into his hand. “Cut power,” he said. The apprentice above him slapped the breaker with the heel of her palm. The motor died badly, one last metal complaint rolling through the repair pit under the floodwall. Rainwater kept ticking through the concrete seam. Behind Ivo, on the wall of the old nursery yard, Mars had been painted over in civic gray. The red disk still showed through where salt had lifted the new paint. A child had scraped one small crater back into sight with a coin. Ivo held up the plastic strip. “Wrapper. From the intake.” “It came through the screen?” the interviewer asked. He looked toward her camera, then past it to the leak crossing the floor. The media crew had been told to keep behind the...
 
@@ -251,9 +244,7 @@ The open question is whether Witness, Candle, and the public story around the Bo
 ---
 
 ### Chapter 14 (5340 words)
-**Summary:** Tomas completes Candle’s archive static test, then admits he secretly disabled a manual life-support bridge that could help turn the officially unmanned probe’s empty couch into a survivable occupied Boundary approach.  
-The hidden hold becomes command-owned record: Nadine orders clearer diagnostics, Sera marks the unmanned/occupied split, Mara frames the interpretive risk, and Candle is now honest that unmanned functions pass while occupied certification fails.  
-The open question is how Earth, the families, sponsors, exit channels, and Pavel will use or distort the revelation once the “occupied-mode invalidation” reaches them.
+**Summary:** Tomas completes Candle’s archive static test, revealing that the human-rated couch still remains while its manual life-support bridge has been secretly disabled by his design hold. Nadine forces the hidden subline into explicit diagnostic language: Candle is green for unmanned flight but invalid for any occupied Boundary approach, shifting Tomas’s private refusal into command-owned record. The open question is how Earth, the families, sponsors, and exit factions will react once the occupied-mode invalidation can no longer stay buried.
 
 **Opening:** Chapter 14: Candle Static Test Tomas had one knee braced against Candle’s hatch rim while the archive cradle warmed under his hands. The craft’s interior light made every surface look underpainted. White shell, white restraint webbing, white panel foam already nicked by tool cases. No one had made Candle beautiful. Beauty invited cameras. Cameras invited someone to say vessel when the correct word was probe, and then someone else to say witness, and after that the couch became a seat waiting for a body. “Archive cradle at twenty-one point six,” he said. “Seal pressure nominal. Slot A awake.” Malik’s voice came from the hangar loop, thin through the open hatch. “Confirming hash handshake.” “Handshake is not romance.” “Never said it was, Vale.” Tomas touched the first cartridge with two gloved fingers. The label had been printed, sealed, barcoded, signed by two committees, then marked again by him in black ink...
 
@@ -264,9 +255,9 @@ The open question is how Earth, the families, sponsors, exit channels, and Pavel
 ---
 
 ### Chapter 15 (5089 words)
-**Summary:** Leila documents tray four’s unexplained biological failure while Asterion’s records fracture, shipwide audio bleeds into the lab, mass appears absent without a path, and her checklist becomes entangled with a sealed prayer track.  
-What changes is that her prayer is established not as explanation or rescue, but as a way to keep fear from ruling her hands, while the lab evidence shifts from controlled observation to unstable custody with containment unconfirmed.  
-The open question is whether tray four was truly secured, what caused the missing material and incompatible records, and how much later interpreters will distort Leila’s voice, faith, and evidence.
+**Summary:** Leila documents tray four’s unexplained biological collapse as Asterion’s records fracture, praying and checklisting while Amara tries to keep the lab evidence from becoming propaganda.
+The sample shifts from failed culture to disputed evidence: mass is absent without a path, containment becomes unconfirmed, and Leila’s prayer is preserved as context rather than explanation.
+The open question is whether the tray, the ship, and the records are failing separately, or whether one unresolved event is making matter, time, and testimony disagree.
 
 **Opening:** 15. Prayer and Checklist TRAY FOUR BIOLOGY FILE, ASTERION MD118 RECOVERY STATUS: PARTIAL AUDIO, PARTIAL ENVIRONMENTAL VIDEO, CORRUPTED LAB TELEMETRY SOURCE NOTE: Prayer track restricted by family request pending context hearing. Transcript below uses authorized linguistic rendering where content affects evidence classification. Raw devotional audio remains sealed. [03:10:41.882] LEILA HADDAD: Tray four, vascular analogue culture. External membrane rupture along quadrant B. No heat spike. No radiation count above cabin background. Feed pressure nominal until two samples before failure. A vial clicked once against its rail. Leila steadied it with two fingers and waited for the lab camera to regain focus. The lens had begun its small hunts, forward and back, as if the room had become a question of distance. Her glove showed a crescent of clear fluid near the thumb seal. The droplet held there without falling. She moved the droplet into an absorbent patch. Then she pulled the...
 
@@ -276,23 +267,23 @@ The open question is whether tray four was truly secured, what caused the missin
 
 ---
 
-### Chapter 16 (4812 words)
-**Summary:** At the Quito hearing, Claire demands Sofia’s corrupted command records stay sealed, Ríos demands full release of Mateo’s logs, Ruth asks for one private sentence from Elias, and Mara, Sera, Pavel, and Nadine argue over custody, harm, evidence, and release limits.  
-The debate shifts from one file to a broader classification crisis: Mara admits selection was compromised, Sera rejects “simulation” language, Pavel quantifies projected deaths, and Witness moves toward package release rather than fragments.  
-The open question is how the Assembly will handle the next dangerous record, especially Jun Park’s cockpit audio: “THATS_NOT_SKY_CONTEXT.”
+### Chapter 16 (4532 words)
+**Summary:** Claire argues to keep Sofia’s corrupted command record sealed, Tomás Ríos demands full logs for Mateo, Ruth asks for one private sentence from Elias, and Mara admits selection was compromised while supporting restricted, contextual release.
+The hearing shifts from legal classification into a public conflict over grief, custody, casualty risk, scientific uncertainty, and who has the right to speak for the dead.
+The open question is how the Assembly and Witness will classify the next linked cockpit file, Jun’s derivative audio: `THATS_NOT_SKY_CONTEXT`.
 
-**Opening:** The first delay marker failed before Claire Arendt spoke. On Mara’s screen the Quito Interplanetary Assembly Hall held its silence for three extra seconds, then gave it back with a click. The chamber was all glass and basalt, too clean for grief. A suspended Mars hung above the witness table, smaller than the one from the Asterion selection ceremony, or perhaps the camera angle made it smaller. Flags stood behind the council dais in mission-contribution order. Someone had placed water at each family seat in identical cups. Claire Arendt sat with both hands flat on the table. Lawyer hands, Mara thought, then corrected herself. Daughter hands. They were Sofia’s hands also, long-knuckled, exact, trained by another life to keep tremor below the visible threshold. The chair said, “Ms. Arendt, you have the floor.” Claire leaned toward the microphone. “Commander Sofia Arendt’s restricted command records remain sealed.” The translator track caught...
+**Opening:** ### Chapter 16 The first delay marker failed before Claire Arendt spoke. On Mara’s screen the Quito Interplanetary Assembly Hall held its silence for three extra seconds, then returned it with a click. The chamber's basalt had been polished until no handprint could stay on it. Glass rose behind the dais in hard panels. A suspended Mars hung above the witness table, smaller than the one from the Asterion selection ceremony. Flags stood behind the council in mission-contribution order. Identical cups waited at each family seat. Claire Arendt sat with both hands flat on the table. Lawyer hands, Mara thought, then corrected herself. Daughter hands. Sofia’s hands also: long-knuckled, exact. The chair said, “Ms. Arendt, you have the floor.” Claire leaned toward the microphone. “Commander Sofia Arendt’s restricted command records remain sealed.” The translator track caught up half a breath late in Mara’s headset. Witness comms laid fine static under...
 
-**Closing:** ...are not truth conditions.” Mara nodded. “Add it.” Nadine said, “Add: Witness concurs only with package release, not fragment release.” “Package,” Malik repeated. Mara turned toward Sera. “And add that no file is to use the word as diagnosis.” Sera knew which word. She nodded once. The IIA seal vanished. Quito returned. The suspended Mars swung almost imperceptibly above the dais, moved by air systems in a hall built to look still. Before the chair could speak, Ruth lifted her folded paper cup toward the witness wall. Not high. Not theatrical. A small, ruined cup raised like evidence. Mara’s throat closed around the answer she could not give her. At the bottom of the local monitor, Malik’s routing note opened the next restricted item in the queue by accident or by sequence. The file name appeared in plain text before he caught it: AST-MD118-COCKPIT-PARK-J / DUP TS / AUDIO: THATS_NOT_SKY_CONTEXT.
+**Closing:** ...with package release, not fragment release.” “Package,” Malik repeated. Mara turned toward Sera. “And add that no file is to use the word as diagnosis.” Sera knew which word. “Add: artificial-world hypotheses remain interpretations, not findings.” “Good.” The IIA seal vanished. Quito returned. The suspended Mars swung almost imperceptibly above the dais, moved by air systems in a hall built to look still. Before the chair could speak, Ruth lifted her folded paper cup toward the witness wall. Not high. A small ruined cup raised like evidence. Mara’s throat closed around the answer she could not give her. Malik’s classification note flashed amber. “Cross-reference required,” he said. “Boundary Delay Protocol 8. Post-failure laughter. Personal-address risk. Public misuse overlap with Kade stream and Mateo child-audience tags.” On Mara’s local monitor the note linked the family hearing to the next restricted item in the queue: AST-MD118-COCKPIT-PARK-J / DUP TS / AUDIO: THATS_NOT_SKY_CONTEXT.
 
 **Key dialogue:**
 
 ---
 
 ### Chapter 17 (4823 words)
-**Summary:** Asterion’s cockpit instruments begin replaying old star fields, returning impossible interior geometry on forward radar, and disagreeing about Mars, drift, attitude, and time as Jun and Sofia hold the burn and attempt passive control.  
-The situation changes from a navigational anomaly into a Boundary event where manual authority, structure, samples, and even the cockpit record become unreliable, ending with bay two marked nonsurvivable and Jun’s alleged laugh disputed by duplicate runs.  
-The open question is whether Asterion encountered an external physical anomaly, a corrupted record of the event, or some overlap of both that made control and sequence impossible to establish.
+**Summary:** Asterion’s cockpit instruments begin showing impossible repeats and contradictions: old star fields with current timestamps, forward radar returning the ship’s own interior, inertials disagreeing, manual controls heating and accepting commands Jun did not make, while Mars remains visibly present.
+Jun and Sofia shift from preparing a course-correction burn to holding, isolating manual authority, transmitting contaminated records, and finally admitting the ship can no longer be flown as bay two suffers a disputed nonsurvivable failure.
+The open question is what the “not sky” phenomenon is, whether Jun’s recorded laugh and final words occurred in the sequence the public later believes, and whether any human action could have changed the outcome.
 
 **Opening:** ### Chapter 17: That’s Not Sky AST-MD118-COCKPIT-PARK-J Recovered cockpit composite. Source chain disputed: Orpheus forensic bundle / Asterion internal voice recorder / later derivative copy seized under Boundary Delay Protocol 8. Timestamp group contains two non-identical runs occupying the same interval. Video confidence: intermittent. Audio confidence: variable. Do not treat ordering as sequence. [03:10:42.118 ship time / run A] Jun had his left foot hooked under the lower brace and his right hand resting open above the manual attitude pad. Resting, not gripping. Gripping lied to the wrist. A hand that gripped too early started hearing its own blood as data. “Star tracker A holding,” he said. “B within expected spread. C is being artistic.” Sofia stood behind and above him, strapped at the command rail. In the curved dark of the cockpit glass, her reflection had no face unless the panel lights caught it. Then it was only jaw...
 
@@ -303,9 +294,9 @@ The open question is whether Asterion encountered an external physical anomaly, 
 ---
 
 ### Chapter 18 (4725 words)
-**Summary:** Mara secretly plays a low-confidence archive fragment that may contain Elias saying, “Mara, leave the porch light on,” using Sera’s still-active reviewer token and then replacing a fuller conflict note with a vague one.  
-Sera discovers the breach, Nadine seals the file, Malik quarantines the chain, and Mara is removed from Elias-related release authority pending medical and custody review.  
-The open question is whether the voice is truly Elias, a contaminated reconstruction from Mara’s prior knowledge and family records, or evidence of some deeper Boundary-related failure.
+**Summary:** Mara secretly plays a low-confidence Elias-addressed audio fragment three times using Sera’s still-active reviewer token, hears “Mara, leave the porch light on,” deletes a fuller conflict note, and saves a weaker one.
+Sera discovers the breach, Nadine seals the file, Malik quarantines the derivatives, and Mara is removed from Elias-related release authority pending medical and custody review.
+The open question is whether the voice is truly Elias, a contaminated echo of prior family testimony, an archive repair artifact, or something the Boundary has made from Mara’s own history.
 
 **Opening:** ## Chapter 18: Porch Light The archive bay cut the lights when no motion crossed the floor for seven minutes. Mara sat still enough to fool it. Only the console stayed awake, three narrow panels in maintenance blue, each one asking for confirmation she had already given. Reviewer token: VENN-M. Session purpose: Elias-specific derivative exclusion audit. Second-reviewer field: IMANI-S, present. Sera was not present. Sera had left seventeen minutes earlier to answer a clock-array dispute in the forward lab after saying, “Do not advance material. Mark only cross-links.” Mara had nodded. She had even said, “Understood,” with the plainness people mistook for obedience. The bay smelled of warmed plastic and old sterilizing wipes. A ration bulb of mandarin syrup floated near the intake grille, trapped by a weak current, turning slowly as if it were choosing a direction. Mara watched it instead of the waveform. Her fingers rested against the...
 
@@ -316,9 +307,9 @@ The open question is whether the voice is truly Elias, a contaminated reconstruc
 ---
 
 ### Chapter 19 (4072 words)
-**Summary:** Ines Calder removes Thomas Keane’s family from his room after the restricted Elias fragment advisory turns breakfast into an argument about survival, then gets Thomas to drink, choose jam, eat toast, and let the ward remove the ceiling stars while keeping a hidden paper Mars in his drawer.  
-Thomas shifts from refusing to “perform real” toward small, local choices, while Ines sends Mara Venn a clinical recording urging her not to let Elias’s possible voice replace care for the living.  
-The open question is whether the restricted fragment contains Elias, damage that sounds like Elias, or something both true and dangerous.
+**Summary:** Ines Calder removes Thomas Keane’s family from his room after their arguments about the sealed Asterion fragment stop him eating, then coaxes him back into small choices: paper cup, jam, toast, and the removal of ceiling stars.
+Thomas shifts from refusing to “perform real” toward limited contact with the world, while Ines preserves a hidden paper Mars for him and sends Mara Venn a clinical warning not to let Elias’s possible voice replace care for the living.
+The open question is whether the restricted Elias-associated fragment contains a real surviving presence, a dangerous artifact, or something that cannot be cleanly separated from either.
 
 **Opening:** Chapter 19: The Ward Without Stars “Stop.” Ines Calder set the toast plate on the bedside table hard enough to rattle the knife. The room went quiet in the wrong order. First the daughter stopped talking. Then the son-in-law, who had one hand lifted toward the wall screen as if the paused image could be cross-examined. Last, Thomas Keane’s wife closed her mouth around a sentence she had already sharpened. Thomas sat upright against two pillows, shirt buttoned wrong at the throat, hands folded on the blanket. He had not eaten since the Witness advisory. A thin crescent of butter had softened on the saucer. The toast had gone cold once already. Ines had ordered it replaced. On the wall screen, the Continuity Office seal held over a gray notice: RESTRICTED ASTERION MATERIAL UNDER REVIEW. NO RAW AUDIO RELEASE. CLINICAL GUIDANCE FOLLOWS. The guidance had followed. So had every amateur...
 
@@ -329,9 +320,9 @@ The open question is whether the restricted fragment contains Elias, damage that
 ---
 
 ### Chapter 20 (3858 words)
-**Summary:** A contaminated comms watchdog loop carries a mysterious human breath, prompting Nadine to reveal a sealed order authorizing a human-occupied Candle approach and to expose Tomas’s hidden disabling of the couch’s life-support bridge.  
-The secret option is moved from sealed command knowledge into operational truth: Sera, Mara, Tomas, and Nadine confront the deception, document the disabled path, seal Locker H-12, and Nadine formally declares Candle will proceed unmanned or not at all.  
-The open question is what the breath was, and how ground command will respond now that Witness has locked away an authority Earth may still try to use.
+**Summary:** A contaminated comms watchdog loop carries a human breath, pushing Nadine to reveal a sealed order authorizing a crewed Candle approach under “interpretive necessity.”
+The crew learns Tomas secretly disabled the occupied life-support path, Nadine hid the order, and Sera forces both truths into the operational record while Nadine seals H-12 and declares Candle will go unmanned or not at all.
+The open question is whether the breath was connected to Elias, the Boundary, or something else, and how ground will respond now that the hidden human-option door has been locked.
 
 **Opening:** Chapter 20: Sealed Orders The command deck was running a harmless loop when the dead entered it. Not a message. Not even a word. The loop belonged to the comms watchdog, a two-second housekeeping file that played under the narrowband carrier every six minutes so Malik could confirm the channel had not frozen clean. It was ship-made, bland, checked too often to be interesting: a soft tone, then the neutral cabin voice saying, “Carrier live.” At 11:08 ship time, the tone bent. Nadine heard it first as a flaw in the deck’s ordinary breath. Witness had its own small noises, fans behind panels, velcro lifting from a sleeve, someone swallowing too close to a pickup. Commanders learned the ship’s throat. This was not Witness. The cabin voice began, “Car—” Static covered the second syllable. Under the static, a human inhaled. Malik’s hand stopped above the routing board. Sera looked up...
 
@@ -342,9 +333,9 @@ The open question is what the breath was, and how ground command will respond no
 ---
 
 ### Chapter 21 (4804 words)
-**Summary:** Mateo records a public basalt lesson for Red Nurseries, refuses the scripted line that “Mars is waiting for us,” argues with Sofia over whether to rerecord it, and then vents in a private log about how children have been used as political witnesses for Asterion.  
-What changes is that Mateo stops serving as a smooth educational symbol and rerecords the lesson with a sharper truth: Mars is simply there, people assign meaning to it, and children’s own rooms and lives still matter whether the mission succeeds or fails.  
-The open question is how much of Mateo’s unscripted honesty will survive public editing, command pressure, and the later fallout implied by the restricted log and Ríos family petition.
+**Summary:** Mateo records a public basalt lesson for children, refuses to say the approved line that “Mars is waiting,” argues with Sofia, and later makes a private angry log about how the mission has used children as witnesses and political cover.
+What changes is that his revised lesson becomes more honest: he says Mars is simply there, that rocks do not care about flags, and that children should ask who benefits from the stories adults give them.
+The open question is how much of Mateo’s defiance will survive public editing, and what consequences it will have for him, Sofia, and the mission’s public record.
 
 **Opening:** ### Chapter 21: Mateo’s Lesson AST-PUB-EDU-MD115-RIOS-BASALT-SEGMENT Public education feed, delay package for Red Nurseries. Video mostly intact. Audio repair confidence 0.94 until 00:08:31. Set: Asterion public lesson wall, removable Mars map, sample tray B. Analyst caution: child-question packet appended from Earth uplink queue. Timing may be editorial, not live exchange. Mateo clipped the basalt pouch to the lesson rail and missed the loop on the first try. “Good,” he said to the camera. “We will keep that. If you are watching from a classroom with the nice chairs, you should know astronauts also miss the loop.” The pouch floated, small and gray, the old Velcro rasp loud against the microphone when he caught it. Behind him the lesson wall held its approved Mars map: Tharsis shaded in copper, Valles Marineris cut long and dark, the planned Asterion landing ellipse marked with a white ring. Someone in public engagement had added...
 
@@ -355,7 +346,9 @@ The open question is how much of Mateo’s unscripted honesty will survive publi
 ---
 
 ### Chapter 22 (4538 words)
-**Summary:** Candle enters the Boundary unmanned, returns escalating contradictions in optics, mass, archive indexes, radar, timing, and contaminated Asterion-like audio before its abort partly fails and telemetry ends. The mission shifts from testing whether an occupied approach is necessary to proving that unmanned contact still produces dangerous, misuse-prone anomalies, forcing Mara and the crew to shape a public release around harm prevention. What remains open is what the Boundary is, whether Candle was lost, retreating, or somewhere else, and what the corrupted Asterion voices actually signify.
+**Summary:** Candle, an unmanned recognition craft, enters the Boundary, returns repeated star fields, contradictory mass and archive records, a current interior radar image of Witness, and a brief contaminated Asterion-like audio spill before abort partly fails and telemetry ends.
+The crew shifts from controlled experiment to damage containment: they reject public demands to broadcast primes, classify and quarantine the contradictions, and begin shaping a public release that stresses Candle was unmanned by command decision.
+The open question is what the Boundary is doing: instrument failure, unknown propagation, contamination, contact, artificiality, survival, or something else remain unproven.
 
 **Opening:** Chapter 22: Candle Burn “Candle couch empty,” Malik said. The phrase crossed the command deck in his flat routing voice, as if it were no stranger than carrier lock or packet health. Mara had heard it in launch checks, static tests, legal arguments, and Nadine’s sealed-order disclosure. Here, with the recognition craft already cold-started beyond Witness’s hull, the words landed with the weight of a body refused. Nadine kept one hand hooked near the forward rail. “Confirm occupied-mode invalid.” Tomas answered from the systems well. “Occupied Boundary approach invalid. Manual left-rail life-support bridge remains under command seal. H-12 closed. Automated isolation green for unmanned operation.” “Say the couch.” Tomas looked at his board. His shoulders had drawn in around his headset. “Candle couch empty.” Sera made a correction without looking away from the optical stream. “The craft is unmanned. The couch is a legacy assembly.” Nadine’s mouth moved once. Not...
 
@@ -366,9 +359,9 @@ The open question is how much of Mateo’s unscripted honesty will survive publi
 ---
 
 ### Chapter 23 (6034 words)
-**Summary:** Mara, Nadine, Sera, Malik, and Tomas finalize and transmit a public Candle release that says Candle was unmanned, names the empty couch, discloses contaminated Asterion overlays with restrictions, and withholds dangerous raw audio while explaining why.  
-Mara accepts her compromised role, records her chain-of-custody breach, and sends Ruth a restricted transcript rendering of the Elias-associated sentence: “Mara, leave the porch light on.”  
-The open question is what Candle’s final burst and lost object lock truly mean about the Boundary, Asterion, and whether the fragments are evidence, contamination, or something still beyond interpretation.
+**Summary:** Mara, Nadine, Sera, Malik, and Tomas finalize and transmit the Candle/Asterion release, naming the empty couch, contaminated overlays, restricted raw materials, and Mara’s chain breach.
+The record changes from controlled ambiguity into public custody: Candle’s data is released with limits, Ruth receives Elias’s private transcript rendering, and Mara accepts compromise as part of the evidence.
+Left open is what Candle’s final state truly is, what the Boundary means, and how Earth will use or distort the narrow truth they have sent.
 
 **Opening:** ### Chapter 23: What the Data Permits The second line refused to stay short. Mara had written it three times. Each version added a defense, then a condition, then a corridor for Pavel to walk down with his careful shoes. Candle was unmanned. No human being was placed aboard Candle to extract testimony. The archive bay hummed around the sentence. The screen light made Sera’s face look thinner than it was. Malik sat at the routing station with one knee braced under the console, fingertips resting above the transmit lock as if the packet had a pulse. Beyond the bulkhead, Witness kept its small noises: air moving through grilles, a latch ticking as the metal cooled, someone’s clipped breath over an open command channel. Mara deleted the third draft and left the two lines. Nadine read them from behind her shoulder. “Good.” “Insufficient,” Sera said. “Also good,” Nadine said. The...
 
@@ -379,9 +372,9 @@ The open question is what Candle’s final burst and lost object lock truly mean
 ---
 
 ### Chapter 24 (5225 words)
-**Summary:** The Witness release spreads through schools, wards, markets, families, and denial channels, where withheld raw material and edited fragments trigger panic, blame, care protocols, and new distortions.  
-Mara’s authority is limited but partly restored, and she shifts from defending the release to shaping practical harm-reduction guidance: eat first, name what is near, do not turn longing toward Mars into an exit symbol.  
-The open question is whether people can keep caring for what is visible and unreachable without letting it become proof, doctrine, or a door.
+**Summary:** The restricted Witness release spreads through classrooms, clinics, markets, families, and denial channels, triggering Exit edits, public accusations against Mara, ward intake spikes, market panic, and private grief around Elias’s low-confidence message.
+The response shifts from proving or concealing Mars toward survival routines: breakfast protocols, limited disclosures, family appeals, teaching restrictions, and new guidance that lets children draw Mars without turning longing into an exit symbol.
+What remains open is why Mars is visible and measured but unreachable, what the Boundary is doing to return and evidence, and whether Witness can come home without its incomplete truth causing more harm.
 
 **Opening:** CHAPTER 24: NEARER STARS The moderator in Glass Room 12B turned the volume down before the first child could repeat the phrase on the stream. On the main screen, the Witness package sat inside its gray public frame: WHAT THE DATA PERMITS. Delay stamp. Clinician note. The small blue line that meant raw audio had been withheld. On the left wall, where the old Red Nursery mural still showed a greenhouse half-painted over, a teacher named Ms. Alonzo held two bowls in her lap. Ready. Not ready. The tokens were cardboard circles with thumb dents along their edges. A boy in the second row said, “They’re hiding the voice.” “No,” Ms. Alonzo said. “They are saying what they have and what they are not playing.” “My uncle says that is the same.” “It can be,” she said. She had learned not to lie at child height. “Today we are using...
 
