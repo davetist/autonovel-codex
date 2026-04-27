@@ -1,0 +1,12 @@
+{
+  "NARRATOR": {
+    "voice_id": "REPLACE_WITH_VOICE_ID",
+    "description": "Primary narration voice selected after the current book's voice.md and book_profile.md are generated.",
+    "why": "Generated per book; do not reuse a previous novel's speaker map."
+  },
+  "MINOR": {
+    "voice_id": "REPLACE_WITH_VOICE_ID",
+    "description": "Utility voice for unnamed or one-line characters.",
+    "why": "Fallback only. Add current-book characters after the audiobook script pass identifies speakers."
+  }
+}
