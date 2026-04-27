@@ -254,6 +254,7 @@ A completed novel run can produce:
 
 ## Inspiration
 
+- Original project: [github.com/nousresearch/autonovel](https://github.com/nousresearch/autonovel) (sorry, I messed up cleaning the repo while trying to preserve my changes, but this project was originally a fork)
 - [karpathy/autoresearch](https://github.com/karpathy/autoresearch) — the autonomous research loop
 - Brandon Sanderson's writing lectures (Laws of Magic, character sliders)
 - K.M. Weiland's *Creating Character Arcs*
