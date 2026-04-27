@@ -1,75 +1,58 @@
 {
   "readers": {
     "editor": {
-      "momentum_loss": "The main drag comes in the late procedural cluster, especially Chapters 16, 20, 22, and 23, where the novel\u2019s moral intelligence is high but the actions rhyme too closely: classify, withhold raw fragment, contextualize release, name misuse risk, protect the living. Each instance is individually strong, but by Chapter 23 the reader can feel the argument arriving before the scene does. The line \u201cCandle was unmanned\u201d is powerful because repetition becomes ethics, but the surrounding release-language work risks procedural saturation. Chapter 13 is also a quieter momentum dip: Ivo and Mika\u2019s pump scene is thematically apt, and \u201cDo not let any adult make a planet so beautiful that it steals the room you are in\u201d later justifies it, but in whole-novel rhythm it delays the Candle/Asterion pressure more than it advances it.",
-      "earned_ending": "Yes, largely. Mara\u2019s final choice lands because it is not a grand answer to the Boundary but a disciplined change in practice: she stops trying to own closure and starts writing usable guidance for people who have to eat breakfast, teach children, keep patients alive, and handle dangerous evidence. The ending transforms the opening beautifully. Chapter 1 begins with children under a painted Mars, a black line across the mural, and Asterion \u201ccrushed against nothing\u201d; Chapter 24 ends with a child \u201cdrawing a house,\u201d Mara holding the chipped button, and the recognition that packets can be \u201cpoison\u201d or \u201cbread\u201d depending on care. That is a satisfying moral movement from cosmic spectacle to near obligation. What feels slightly unearned is the absence of a harder final consequence from Pavel or Continuity. The novel has built him as the embodiment of institutional fear and useful suppression, but the ending resolves around practice rather than confrontation. That is aesthetically coherent, but dramatically it leaves one pressure source under-discharged.",
-      "cut_candidate": "I would cut or radically compress Chapter 13 first, then trim repeated release-protocol debate from Chapters 20 and 23 to reach the full 10%. Chapter 13 has lovely material: the scraped red crater under civic gray, the failed pump, the rule against treating longing for Mars as betrayal. But its dramatic engine is smaller and more self-contained than the surrounding Asterion/Candle sequence. The essential yield could be preserved in a shorter Earth fragment or as material folded into Chapter 24\u2019s school guidance. What would be lost is one of the book\u2019s clearest articulations of \u201cnear things first,\u201d and a valuable non-elite, non-clinical example of the Boundary\u2019s civic consequences. But the novel already has strong Earth embodiments in the ward, the market, and Ruth\u2019s kitchen.",
-      "missing_scene": "The novel needs one more direct scene between Mara and Ruth after Ruth receives \u201cMara, leave the porch light on.\u201d Chapter 24 says Ruth confronts Mara, and the private sentence clearly matters, but the emotional architecture wants an actual delayed conversation where Mara cannot hide behind classification language and Ruth refuses to become either patient, symbol, or family representative. It should go early in Chapter 24, after Ruth opens the packet and before the public release cascade fully takes over. The scene does not need reconciliation. It needs Ruth asking one plain question Mara cannot answer cleanly, perhaps whether Mara wanted the sentence to be real more than she wanted it to be safe. That would complete the thread begun in Chapter 5 at the Pacific Gantry and sharpen Mara\u2019s final turn toward guidance rather than possession.",
-      "thinnest_character": "Malik is the thinnest recurring character by the end. He is useful as routing, custody, and release machinery, but he rarely becomes more than competent hands at a console. Yuna is even thinner, but less structurally present. Malik could potentially be merged into Sera or Nadine without the novel losing much emotional force, though it would lose some operational texture. The character I wanted more of is Sera: she is already vivid in restraint, especially when she tells Mara, \u201cTrust is procedural now,\u201d but her private cost remains mostly implied. Given how often she acts as the book\u2019s moral brake, one scene of her alone with the burden of that role would deepen the late chapters.",
-      "best_scene": "The strongest scene is Chapter 20, when Sera forces Mara to say exactly what she did and then the crew destroys the occupied Candle path. It works because the ethical argument becomes hardware. The best quoted moment is Sera\u2019s rebuke: \u201cUsefulness is going to come for you like weather and make what you did look inevitable. I am putting a wall in front of that.\u201d That is alive because it is not abstract forgiveness or punishment. It understands institutions, grief, talent, and self-excuse in one stroke. The scene then pays that same idea physically when Nadine says, \u201cTell ground, we found a way to put a person inside Candle, and we destroyed it.\u201d The novel\u2019s central ethic becomes irreversible action.",
-      "worst_scene": "The weakest scene is Chapter 13, not because it is bad, but because it feels most like an essay made scene. Ivo, Mika, the pump, the scraped Mars, the failed repair, and the policy uptake are all thematically correct, almost too correct. The fix would be to make the scene less immediately legible: let the pump repair have a more concrete local conflict with stakes that are not already speaking the book\u2019s thesis, and reduce the clean policy conversion at the end. Preserve the scraped red crater and the failed repair, but let the Witness takeaway arrive later, indirectly, so the scene breathes as lived civic life before it becomes release language.",
-      "would_recommend": "Yes. I would recommend it to readers of literary science fiction who like Stanislaw Lem\u2019s epistemic unease, Emily St. John Mandel\u2019s civic aftermaths, and procedural moral pressure more than spectacle. One sentence: It is a grave, intelligent novel about what humans owe each other after the universe stops flattering them.",
-      "haunts_you": "\u201cDo not ask a recording to do a meal\u2019s work.\u201d That line stays because it compresses the whole novel\u2019s ethic: evidence matters, the dead matter, truth matters, but none of them can replace care for the living.",
-      "next_book": "Yes. I would read the author\u2019s next book because this one shows rare control over moral ambiguity, documentary form, and embodied abstraction. The prose can sometimes over-trust its own procedural rhythms, but the best scenes are not merely competent; they are genuinely alive."
+      "momentum_loss": "The largest drag comes in Chapters 16, 18, 20, and 23, where the book returns repeatedly to custody, classification, release packages, reviewer authority, and Mara's conflict statements. The material is important, but the procedural vocabulary starts doing work the drama has already done. Chapter 23 in particular risks over-extension: it is morally right that the release be assembled carefully, but at 7,759 words it can feel like the novel proving its ethics one more time after Candle has already made them visible. The line \"Candle was unmanned\" is powerful; the surrounding apparatus sometimes dulls it by repetition.",
+      "earned_ending": "Yes, the ending is largely earned. The opening image is children under painted Mars, facing a paused wreck and asking whether computed pain hurts; the ending returns to children drawing Mars, not as collapse, proof, or betrayal, but as ordinary human continuation. That transformation lands. Mara's final choice is not a grand metaphysical answer but a discipline of care: classify carefully, feed people, refuse martyrdom, refuse raw fragments as doctrine, keep opening the next packet. The final image, \"Some were poison. Some were bread. Most were both until someone touched them with care,\" answers the opening mandarin/disinfectant/painted-Mars scene beautifully. What feels slightly unearned is not the moral destination, but the logistical composure of it: after Mara's breach and the Candle crisis, the crew's trust in her returns very fast because the plot still needs her as interpreter.",
+      "cut_candidate": "I would cut first from Chapter 23, not remove it entirely. It is the obvious compression target: the release assembly, Pavel objection, couch-invitation leak language, Ruth's private receipt, propagation debts, and care-language revision are all individually strong, but they overlap in emotional function. Lose 2,500-3,000 words there, then take another 1,500-2,000 from the Chapter 16 release hearing and another 1,000-1,500 from repeated classification language in Chapters 18-20. What would be lost is some convincing institutional texture. What would be gained is urgency: the reader would feel Witness acting under pressure rather than watching a very intelligent committee refine its conscience.",
+      "missing_scene": "The novel needs one more private scene between Mara and Sera after Chapter 20 and before the Chapter 23 public release. Sera becomes the clearest moral counterweight to Mara's usefulness, especially in Chapter 20: \"Usefulness is going to come for you like weather and make what you did look inevitable. I am putting a wall in front of that.\" That is one of the book's sharpest diagnoses, but the relationship then becomes mostly procedural. A short scene, maybe in the archive bay before transmission, where Mara asks what trust can mean after breach and Sera refuses absolution but gives her a bounded task, would make the final teamwork feel less operationally convenient and more emotionally paid for.",
+      "thinnest_character": "Malik is the thinnest recurring crew member by the end. He performs necessary routing, custody, queue, and transmission functions, but he rarely becomes more than competent pressure at a console. If space is needed, several of his functions could be folded into Sera or Nadine without much loss. I wanted slightly more of Sofia as a person outside command compression, but her thinness feels partly intentional and archive-shaped. Malik's thinness feels more like underdevelopment.",
+      "best_scene": "The best scene is Chapter 20, when the crew destroys Candle's occupied mode. The line \"Tell ground,\" she said, \"we found a way to put a person inside Candle, and we destroyed it\" is the book's moral architecture in one sentence. It works because it converts theme into hardware: sacrifice is not debated as abstraction; it is disabled, burned, bagged as evidence, and reported. Tomas's correction, \"Now it can only be a probe,\" gives the moment its final pressure. The empty couch stops being a symbol and becomes an engineered refusal.",
+      "worst_scene": "The weakest scene is the Chapter 23 release assembly, especially the long procedural middle. Nothing is conceptually wrong with it, but the scene often restates already-earned positions: no martyr, contaminated evidence, family custody, public harm, care warnings, package not fragment. The fix is to give the scene one dominant dramatic spine. Let Pavel or ground authority force one specific compromise, let one live Earth consequence arrive mid-draft, and make Mara choose under time pressure. Keep the strongest lines; cut the policy recapitulation around them.",
+      "would_recommend": "Yes. I would recommend it to readers of literary science fiction who like Stanislaw Lem's epistemic dread, Kim Stanley Robinson's civic seriousness, and novels where the central suspense is ethical rather than ballistic. One sentence: A rigorous, grieving near-future novel about humanity finding a wall in space and learning that obligation survives even when infinity does not.",
+      "haunts_you": "The line that stays with me is from Chapter 15: \"If all this is made in some way we do not understand, pain will still arrive without asking permission from our theories. That is not comfort. It is jurisdiction.\" It is exactly the book's answer to the false comforts of simulation, religion, denial, and spectacle.",
+      "next_book": "Yes. I would read the author's next book because this one has an unusually strong moral imagination: it understands that cosmic revelation matters less than what people do with partial evidence in rooms where someone still has to eat. I would hope the next book trusts its scenes a little more and its explanatory protocols a little less."
     },
     "genre_reader": {
-      "momentum_loss": "The novel mostly keeps momentum because every braided form has a consequence, but it sags in the middle around Chapters 13 and 16, and again in parts of Chapter 23. Chapter 13, \"Near Things First,\" is thematically right but dramatically softer: the pump, school wall, pipe order, and Mars curriculum all matter, yet the chapter feels like an illustrative civic parable after the high-pressure sequence of Chapters 10-12. Chapter 16's release hearing is necessary, but the density of release-classification language risks turning live grief into committee motion. Chapter 23 is powerful but at 7,759 words sounds overextended: the packet drafting, custody breach disclosure, care warnings, Ruth private sentence, market/ward monitoring, and propagation debts are all individually good, but they may blur into procedural righteousness unless the scene keeps sharp human friction on every page.",
-      "earned_ending": "Yes, the ending feels earned. The book has trained us from Chapter 1 onward that the answer to cosmic humiliation is not revelation but care under damaged knowledge. Mara's final choice lands because it is not a grand metaphysical solution; she keeps opening dangerous packets with discipline. The closing line, \"Some were poison. Some were bread. Most were both until someone touched them with care. Mara opened the next one,\" pays off St. Odran's, the release ethics, Candle, the ward routines, and her failure with Elias's fragment. The final image also transforms the opening image beautifully. Chapter 1 begins with children under painted Mars and an adult black line across the mural; Chapter 24 gives us a child drawing a house instead of a door or unreachable planet. That is the right scale shift. What feels slightly unearned is Ruth's emotional processing. The summary says she confronts Mara and chooses privacy, but because Ruth is such a loaded figure, I want more of that confrontation on the page, not only its ethical result.",
-      "cut_candidate": "If the book had to lose about 7,000 words, I would not cut one whole Asterion record; those are the engine. I would trim Chapter 13 heavily and compress parts of Chapter 23. Chapter 13's pump repair should stay, but it could likely be 2,000-2,500 words shorter while preserving the core: Mars longing must not excuse neglect of Earth, and civic repair footage changes Witness language. Then I would remove another 4,000-5,000 words from Chapter 23's release-packet machinery. What would be lost: some of the novel's admirable civic texture and its proof that Earth fragments have policy consequences. But the gain would be propulsion into the ending. The danger of the current shape is that the book proves its ethics a few times after the reader already believes them.",
-      "missing_scene": "The novel needs a sharper delayed confrontation with Pavel after Witness destroys the occupied Candle path in Chapter 20. Pavel is crucial early: he recruits Mara, manipulates access, understands casualties, and embodies institutional fear. But the decisive anti-martyr choice is made mostly aboard Witness. I want a scene in Chapter 23, during the Quito/Houston conference, where Pavel tries to reframe the destroyed human path as sabotage, cowardice, or unauthorized foreclosure of testimony, and Nadine/Mara/Tomas force the language back to: a person was never evidence. That would give the institutional antagonist one last meaningful test and make the public release feel less like consensus emerging and more like a hard-won boundary.",
-      "thinnest_character": "Malik feels thinnest by the end. He is useful and present, but mostly as routing hands, custody locks, transmit bars, and classification mechanics. That may be intentional, but compared with Sera, Tomas, Nadine, Ines, Kavir, and the Asterion crew, he does not yet have a private pressure that changes him. Yuna and Anika are also functional more than dimensional, but they are smaller roles. If someone had to be cut or merged, Malik's functions could partly merge into Sera or Nadine, though the ship would lose some procedural texture.",
-      "best_scene": "The best scene is Chapter 20, when Witness destroys the hidden occupied Candle path. It crystallizes the whole book's moral argument without solving the Boundary. The line that hits is Nadine's command: \"Tell ground,\" she said, \"we found a way to put a person inside Candle, and we destroyed it.\" It works because it refuses the genre's expected sacrificial witness. The empty couch has been accumulating moral weight since Chapter 5, Tomas's sabotage becomes a real ethical act rather than a secret quirk, and the crew chooses not to turn a human body into epistemology. It is procedural, political, and intimate all at once.",
-      "worst_scene": "The weakest scene is Chapter 13, not because it is bad, but because it risks being too cleanly exemplary. The failed pump repair, child scraping Mars back into the wall, and line \"Do not let any adult make a planet so beautiful that it steals the room you are in\" are good thematic material, but the summary makes the chapter sound like it arrives to demonstrate the novel's thesis rather than complicate it. I would fix it by making the repair footage create a nastier downstream cost: perhaps the honest failed package is misused by Finite Earth, or Mika gets punished before the guidance corrects course. Let the chapter's ethic survive damage instead of merely being recognized as wise.",
-      "would_recommend": "Yes. I would recommend it to readers who like Le Guin, Jemisin, Emily St. John Mandel, and the quieter parts of Arrival: a literary SF novel about first contact with a limit, where the real suspense is whether truth can be handled without turning people into instruments.",
-      "haunts_you": "The line that stays with me is Leila's in Chapter 15: \"If all this is made in some way we do not understand, pain will still arrive without asking permission from our theories. That is not comfort. It is jurisdiction.\" It is the novel's philosophy in bodily form: not sentimental, not nihilist, and not pretending uncertainty releases anyone from obligation.",
-      "next_book": "Yes. I would read the author's next book because this one has rare discipline: it lets the cosmic mystery remain unsolved while still delivering concrete choices, costs, and images. I would hope the next book trusts scene friction even more and trims some of the procedural echo, but the moral imagination here is strong."
+      "momentum_loss": "The book mostly moves, but it sags in the civic-policy middle, especially Chapters 13 and 16. Chapter 13 is humane and well-observed, but the pump repair feels like it restates the book's already-established ethic: near things matter, children must not be weaponized, Mars-longing is not pathology. Chapter 16 also drags because the release-classification argument is necessary but familiar by then: family custody, raw release, casualty projections, package release. The strongest chapters make procedure feel like danger; the weaker stretches make procedure feel like minutes.",
+      "earned_ending": "Yes. The ending feels earned because the whole novel has trained us to distrust revelation and value care under uncertainty. Mara's final choice lands: she keeps opening packets, not because she can solve the Boundary, but because people still need language, triage, breakfast, and limits. The final image transforms the opening beautifully. Chapter 1 opens with children under painted Mars and a paused wreck; Chapter 24 ends with a child permitted to draw a house while Mara opens the next packet. That answers the opening: the task is no longer to explain the wall to children, but to keep the room livable under the wall. What feels slightly unearned is Pavel's final pressure; he is strong early, but by the climax he becomes more of an institutional delay than a fully present antagonist.",
+      "cut_candidate": "First cut or compress Chapter 13. I like Ivo, Mika, and the line-level craft, but the chapter's function could be folded into Chapter 23 or 24 as an Earth packet Mara reviews. Its point, that continued desire for Mars must not be treated as collapse or betrayal, is important but not large enough to justify a full separate chapter this late in the braid. To reach roughly 7,000 words, I would compress Chapter 13 heavily, trim the trading mechanics in Chapter 8, and tighten the procedural repetitions in Chapter 16. What would be lost is the book's best mundane infrastructure texture: the pump, the floodwall, the scraped red crater, the failed pressure test.",
+      "missing_scene": "The novel needs one more scene between Mara and Nadine after Mara's breach but before the Candle crisis fully takes over, probably between Chapters 18 and 20. Sera gives the procedural wall, and it is excellent, but Nadine is the commander whose mission Mara has endangered. I want a colder, plainer conversation where Nadine says exactly what Mara's breach cost operationally, not emotionally. That would make the later trust-restoration in Chapters 22-24 land even harder. I would also welcome one brief pre-Asterion memory of Elias and Mara that is not an archive artifact, because Elias is vivid as a record but less vivid as a brother in ordinary time.",
+      "thinnest_character": "Malik is the thinnest recurring Witness crew member. He routes, locks, flags, builds shells, and performs useful operational functions, but I do not have a strong sense of his private pressure or moral vocabulary. He could almost be cut or merged into Sera/Tomas without the novel suffering much. Kavir from Chapter 8 is more vivid in one chapter than Malik is across many appearances. I wanted slightly more from Malik because he is physically present at key release decisions.",
+      "best_scene": "The best scene is Chapter 20, when the crew destroys Candle's occupied mode. It pays off the empty couch, the anti-martyr ethic, Tomas's hidden sabotage, Nadine's command authority, and Mara's release ethics all at once. The line that lands is Nadine's: \"Tell ground,\" she said, \"we found a way to put a person inside Candle, and we destroyed it.\" It works because it is not symbolic in the abstract. It is hardware, oxygen, command authority, legal risk, and moral refusal fused into one action.",
+      "worst_scene": "The weakest scene is Chapter 13, not because it is bad, but because it feels least necessary at full length. The pump repair is concrete, but the chapter arrives after St. Odran's, Mumbai, Solenne Kade, and the school Glass Rooms have already shown how public language damages bodies and children. I would fix it by making it shorter, sharper, and more causally loaded: let the pump clip directly force a specific rule in the Candle release packet, rather than mainly broadening the theme.",
+      "would_recommend": "Yes. I would recommend it to readers who like Le Guin's moral seriousness, Jemisin's civic imagination, and the procedural grief of hard SF, with the warning that it is more ethics chamber than adventure novel. One sentence: a near-future first-contact-with-a-limit novel where the real suspense is whether truth can be released without turning the dead into weapons.",
+      "haunts_you": "The line that stays with me is from Chapter 15: \"If all this is made in some way we do not understand, pain will still arrive without asking permission from our theories. That is not comfort. It is jurisdiction.\" That is the book's thesis without becoming a sermon.",
+      "next_book": "Yes. I would read the author's next book because this one has rare discipline: it preserves mystery without becoming vague, makes documents dramatic, and understands that cosmic horror is more frightening when it changes ward prompts, release rules, schoolrooms, markets, and breakfast."
     },
     "writer": {
-      "momentum_loss": "The novel\u2019s first real momentum dip is Chapter 13, \"Near Things First.\" The pump repair is thematically right and beautifully grounded, but after the high pressure of Chapters 10-12, it feels like the book pauses to restate an ethic it has already dramatized through St. Odran\u2019s: ordinary care, repair, food, rooms, children. The second, more serious drag comes in Chapter 21, \"Mateo\u2019s Lesson.\" Mateo\u2019s public education segment is moving, but late in the book it repeats the Mars/children/near-things argument from Chapters 1, 10, and 13. The strongest late momentum is Candle and release ethics; Chapter 21 pulls us sideways just when the novel wants to narrow toward launch, public package, Ruth, and consequence. Chapter 23 also risks drag because the release-language drafting is intellectually gripping but procedurally dense; the book has taught us the release ethic by then, so some of the package debate feels over-prosecuted.",
-      "earned_ending": "Yes, the ending is earned. Mara\u2019s final choice lands because it is not a grand revelation but a disciplined practice: she keeps opening damaged public consequences and translating them into care. The final image transforms the opening image very satisfyingly. The book begins with children under painted Mars, a paused wreck, and the question, \"Whether pain hurts if it is computed.\" It ends with Mara facing incoming packets where \"Some were poison. Some were bread. Most were both until someone touched them with care.\" That is the novel\u2019s answer: not proof, not comfort, but obligation. The coat button also pays off beautifully from Chapter 4 into Chapter 24: \"A button was a small machine. It held two edges near each other until stress tore the thread or someone repaired it.\" The only thing that feels slightly unearned is the emotional handling of Ruth\u2019s final confrontation. It is essential, and the summary says it happens, but the ending would land harder if we experienced more of that conversation directly rather than mostly seeing the moral result of it.",
-      "cut_candidate": "I would cut or heavily compress Chapter 21 first. It is not bad; Mateo is humane and his line, \"Do not let any adult make a planet so beautiful that it steals the room you are in,\" is one of the book\u2019s clearest statements. But that is also the problem: by Chapter 21, the book has already earned that idea more powerfully through Avram, St. Odran\u2019s, Ivo and Mika, Solenne Kade, and the release hearings. If the novel needed to lose about 7,000 words, I would compress Chapter 21 into a shorter recovered record or fold its strongest Mateo material into an earlier Asterion archive. Then I would trim Chapter 23\u2019s release-package drafting. What would be lost: Mateo\u2019s anger, the children-as-political-witness critique, and a softer side of Sofia. The main arc would survive.",
-      "missing_scene": "The novel needs one fuller Mara/Ruth scene in Chapter 24 after Ruth receives \"Mara, leave the porch light on.\" The book has spent hundreds of pages protecting private sentences from public use; it therefore owes us the intimate cost of that protection. Ruth should not merely receive the sentence and choose silence. She and Mara need a real conversation, with delay, interruption, anger, and love. Ruth should ask why Mara heard it first, why she withheld it, and whether she believes it. Mara should not be allowed to answer cleanly. This scene would go early in Chapter 24, after the clinician-guided opening and before the public release detonates outward. It would make the final turn from evidence-control to care-guidance more bodily and less procedural.",
-      "thinnest_character": "Malik feels thinnest by the end. He performs necessary routing, custody, and release-lock functions, but he remains mostly an instrument of procedure rather than a person under pressure. Yuna is also largely functional, but that is less damaging because her role is narrower. Malik is present at too many pivotal moments to stay this faint. I would want one small private beat: what does it cost him to be the hand on the transmit lock? Among named recurring characters, he is the one who could most easily be cut or merged into Sera/Nadine without the novel suffering structurally. I would not cut Pavel, Ines, Sera, Tomas, Ruth, Nadine, or Kavir; each carries a distinct pressure the novel needs.",
-      "best_scene": "The best scene is Chapter 20, when the crew destroys the occupied path for Candle. It gathers the whole book into hardware: secrecy, martyrdom, public hunger, grief, evidence, and refusal. The line that hits is Nadine\u2019s: \"Tell ground,\" she said, \"we found a way to put a person inside Candle, and we destroyed it.\" It works because it is a moral argument made as an operational report. Nobody gives a speech about human dignity. They burn the path. Candle\u2019s empty couch has been prepared for half the book, and here it becomes the book\u2019s cleanest act of love: refusing to feed the Boundary a body so Earth can have a story.",
-      "worst_scene": "The weakest scene is Chapter 21, not because the prose or idea is weak, but because the machinery is visible. Mateo\u2019s lesson arrives late and states the book\u2019s ethic too directly. \"Your breakfast will still count. Your homework will still count. The person beside you will still count\" is true to the novel, but it comes close to sounding like the novel explaining itself. The fix is compression and obliqueness: keep Mateo\u2019s anger, keep the failed public script, keep Sofia allowing him to continue, but make the segment shorter and less perfectly quotable. Let the basalt, the missed Velcro loop, and the children\u2019s questions carry more of the burden.",
-      "would_recommend": "Yes. I would recommend it to readers who like Stanislaw Lem, Kim Stanley Robinson\u2019s civic seriousness, Emily St. John Mandel\u2019s social aftermath, and literary science fiction where the true climax is an ethical classification decision. One sentence: A grave, intelligent near-future novel about what remains binding when the universe stops promising scale.",
-      "haunts_you": "The line that stays with me is from Chapter 22: \"Candle was unmanned.\" Its repetition is devastating because it is plain, almost bureaucratic, and yet it holds the whole moral victory of the book. I also keep returning to Chapter 15: \"If all this is made in some way we do not understand, pain will still arrive without asking permission from our theories.\"",
-      "next_book": "Yes. I would read the author\u2019s next book because this one has rare control over moral pressure. It understands that awe is cheap unless it changes who gets water, who gets breakfast, who gets protected from a sentence, and who is refused as a sacrifice. The book sometimes overexplains its ethic, but at its best I forgot I was reading policy and felt procedure become grief."
+      "momentum_loss": "The main drag comes in Chapters 16 through 18, not because the material is weak, but because the book temporarily repeats its best argument in similar rooms: evidence custody, family claim, clinical risk, release classification, Mara's Elias conflict. Chapter 16's hearing is dramatically necessary, and Chapter 18's breach is essential, but together they slow the forward pressure after the terrific run from Chapter 14's Candle reveal through Chapter 15's Leila record. Chapter 13 is also a deliberate deceleration; it works thematically, but as an interlude it is easier to admire than to need in the moment.",
+      "earned_ending": "Yes. The ending feels earned because Mara's final choice is not to solve the Boundary or redeem the dead, but to keep doing the morally dirty work of care: sorting poison from bread, refusing raw fragments, letting children draw Mars, eating when ordered, opening the next packet. The final image transforms the opening beautifully. Chapter 1 begins with children under a painted Mars and a paused wreck frame; Chapter 24 ends with children drawing houses and Mars, while Mara handles incoming packets: \"Some were poison. Some were bread. Most were both until someone touched them with care.\" That is the novel's answer. The only slightly unearned element is the speed with which the public-release aftermath is compressed in Chapter 24; the civic blast radius is convincing, but the emotional fallout between Mara, Ruth, and Sera could use one more quiet beat.",
+      "cut_candidate": "If forced to cut roughly 7,000 words, I would cut or heavily compress Chapter 8 and part of Chapter 16. Chapter 8 gives the crisis a market body through Kavir, and the pediatric ward bond choice is smart, but the novel already has stronger Earth embodiments in St. Odran's, the school pump, Ruth's kitchen, and the Glass Rooms. Its essential function could be folded into later release-consequence dashboards. Chapter 16 should stay, but the hearing could be shorter; by then the reader understands family custody, raw-release danger, and Mara's conflict. What would be lost is scale: the sense that the Boundary changes money, insurance, futures, and professional incentives, not just clinics and mission rooms.",
+      "missing_scene": "The novel needs a short Sera-Mara scene after the Chapter 23 release and before, or early within, Chapter 24. Sera becomes the book's moral procedure made human: she catches Mara's breach, refuses to let usefulness excuse it, and later sits beside her in the final work. But the relationship moves from rupture to functional proximity without quite delivering the earned reckoning. I do not want forgiveness, exactly. I want a hard, small conversation where Sera names what trust now costs and Mara accepts it without defending herself. It would sharpen the final image of them working together.",
+      "thinnest_character": "Malik is the thinnest recurring crew member. He is useful, competent, and present at key routing/classification moments, but by the end I know his hands better than his mind. Yuna and Anika are also functional, but they are small enough not to feel like missing people. Malik is close enough to the core action that his thinness shows. If someone could be cut without much structural damage, it is probably Kavir from Chapter 8, though that would narrow the book's civic range.",
+      "best_scene": "The best scene is Chapter 20, when the crew destroys the occupied Candle option. It fuses hardware, ethics, command betrayal, and character choice. The line that lands is Nadine's: \"Tell ground,\" she said, \"we found a way to put a person inside Candle, and we destroyed it.\" That works because it is not a speech about sacrifice. It is an operational report with a soul inside it. Tomas's earlier secret becomes public responsibility; Nadine's anti-martyr ethic becomes action; Mara's release philosophy becomes physically true.",
+      "worst_scene": "The weakest scene is Chapter 8, the Mumbai futures pit. It is not bad; it is just the place where the novel most visibly explains its world-system consequences. Kavir is plausible, but he feels built to demonstrate that leaked metaphysics moves markets. The fix would be to cut the chapter by half and tie Kavir's decision more directly to a later consequence Mara must handle: a specific ward capacity shortage, a public language rule, or a release delay caused by market panic.",
+      "would_recommend": "Yes. I would recommend it to readers of literary science fiction who like procedural moral pressure more than revelation, and I would say: it is a grave, intelligent novel about what remains obligatory when the universe stops flattering us.",
+      "haunts_you": "The line that stays with me is from Chapter 21: \"Do not let any adult make a planet so beautiful that it steals the room you are in.\" It distills the whole book without flattening it: Mars still matters, but the room matters first.",
+      "next_book": "Yes. I would read the author's next book because this one repeatedly chooses the harder dramatic answer: not mystery-box solution, not cosmic consolation, but bodies, records, food, procedure, family, and language under stress. At its best, I forgot I was reading summaries and felt the book's rooms."
     },
     "first_reader": {
-      "momentum_loss": "The story loses some momentum in Chapter 13. I understood why the pump, school, and Mars drawing mattered, but coming right after Chapter 12's first final cluster, it felt like the book stepped sideways when I wanted to stay with Mara and the awful evidence. The chapter does pay off later in the care-language ending, but while reading I felt the drag most there. Chapter 16 also gets heavy because many people are arguing over release rules at once, and I started to feel the machinery more than the people, even though Ruth lifting the paper cup brought me back.",
-      "earned_ending": "Yes, the ending feels earned. Mara's final choice is not to solve the Boundary or heal everyone, but to keep touching dangerous things carefully: \"Some were poison. Some were bread. Most were both until someone touched them with care.\" That landed because the whole book has been teaching her, painfully, that truth without care can hurt people, but secrecy also hurts them. The final image transforms the opening beautifully. Chapter 1 starts with children under painted Mars and a question about whether pain counts if it is computed. Chapter 24 ends with children drawing houses instead of doors and Mara opening the next packet. It does not answer the universe. It answers the responsibility. The only thing that feels slightly unearned is how quickly the public care routines seem to spread in the last chapter; I believed the gestures, but the scale of them felt a little fast.",
-      "cut_candidate": "I would cut or sharply compress Chapter 13 first, then trim related public-guidance material around it if the book needed to lose about 7,000 words. I would not remove the idea of it, because the scraped Mars, the failed pump, and \"Do not let any adult make a planet so beautiful that it steals the room you are in\" are important to the ending. But the pump scene feels like it could be half as long and still do its work. What would be lost is one of the clearest Earth-side examples of repair not being symbolic. The book would become a little less grounded in ordinary civic life.",
-      "missing_scene": "I wanted one more scene between Mara and Sera after Chapter 20 or Chapter 23, not just procedural repair after the custody breach. Sera is the person most directly hurt by Mara's choice in Chapter 18, and she also becomes one of the people who keeps Mara useful without letting her off the hook. I needed a quiet, uncomfortable moment where Mara has to sit with Sera as a person, not as a reviewer. It could go after the public package is released in Chapter 23, before Ruth opens the private sentence in Chapter 24.",
-      "thinnest_character": "Malik feels thinnest by the end. He is present at many crucial locks, queues, custody flags, and transmissions, but I don't feel his private fear or need the way I feel Nadine's, Sera's, Tomas's, Ines's, or Ruth's. Kavir is more vivid in one chapter than Malik is across the ship chapters. If someone had to be cut or merged, Malik could probably be folded into another operations role without the novel suffering much emotionally.",
-      "best_scene": "The best scene for me is Chapter 4 at St. Odran's, especially the ending with the coat button: \"Ines took one, a flat brown button with chipped edges, and placed it in Mara's palm. 'For the Pacific,' she said. 'I have a coat.' 'Then for when someone asks what St. Odran's taught you.'\" That scene made the whole book's question physical. It is not about winning an argument. It is about a man trying to button a coat, bread cooling on a plate, and care continuing when the sky has become frightening.",
-      "worst_scene": "The weakest scene is Chapter 13. It is not bad, but it feels the most like the book pausing to prove a point I already believed: near things matter, repair matters, Mars longing should not be punished. I would fix it by making the scene shorter and more personally costly for Ivo or Mika, so it feels less like an example and more like a day someone barely gets through.",
-      "would_recommend": "Yes. I would recommend it to readers who like sad, intelligent science fiction where the real crisis is what people do with partial truth. One sentence: It is a novel about finding the edge of the universe and discovering that breakfast, custody, grief, and children still have to be handled carefully.",
-      "haunts_you": "\"Do not ask a recording to do a meal's work.\" That stayed with me because it says almost everything the book believes, and it says it without trying to sound grand.",
-      "next_book": "Yes. I would read the author's next book because this one made huge ideas feel like rooms, food, machines, and tired people trying not to harm each other. I do think I would hope the next book trusted silence a little more and repeated its moral language a little less, but I would absolutely follow this mind again."
+      "momentum_loss": "The story loses some momentum in Chapters 16 and 20-23, not because nothing is happening, but because so many decisions arrive as hearings, classifications, packets, and official language. I cared about the choices, but sometimes I felt trapped in the paperwork around the feeling. Chapter 16 especially felt like it repeated a question I already understood: who owns the dead, and how dangerous raw grief can be. By Chapter 23, the release process is important, but it gets heavy before Ruth brings it back to a kitchen table.",
+      "earned_ending": "Yes, the ending feels earned. Mara's final choice lands because it is not a grand answer. She does not solve the Boundary or heal everyone. She keeps opening the next packet carefully. That felt right for this book. The final image transforms the opening beautifully: Chapter 1 begins with children under a painted Mars and a paused wreck frame; Chapter 24 ends with children being allowed to draw Mars, and Mara handling packets that are 'Some were poison. Some were bread. Most were both until someone touched them with care.' That felt like the book's answer: not certainty, but care under pressure. The only slightly unearned part is how much weight the final public-care language has to carry. I believed Mara's private ending more than I believed the system could respond that well that quickly.",
+      "cut_candidate": "I would cut or sharply compress Chapter 13 first. I liked Ivo, Mika, the pump, and the line about not letting Mars steal the room you are in, but it is the easiest chapter to fold into another Earth fragment. The public-language rule about desire for Mars could be carried into Chapter 24 with the children drawing Mars. What would be lost is one of the gentlest ground-level examples of the book's heart: repair the pipe, do the near thing, let the child still want Mars. But if the novel had to lose about 7,000 words, I would rather lose some of that than weaken St. Odran's, Candle, Ruth, or the Asterion records.",
+      "missing_scene": "I wanted one more human scene between Mara and Sera after the breach in Chapter 18 and after the sealed-order crisis in Chapter 20. Sera becomes the person who keeps Mara honest, and her line, 'Trust is procedural now,' hurt in a good way. But I wanted a quieter moment where Mara has to face Sera not as a rule, not as a reviewer, but as someone she damaged. I would put it between Chapters 20 and 22, before Candle burns. It does not need to be warm. It could be two tired people eating badly while Sera says exactly what Mara cost her.",
+      "thinnest_character": "Malik feels thinnest by the end. I always understood what he did, and I believed his hands on the transmit lock, but I did not feel much private life behind him. Yuna is even thinner, but she barely asks to be a full character. Malik is present enough that I wanted one small moment that belonged to him. If someone had to be cut, Yuna could probably disappear into 'medical' without much damage. Malik should stay, but he needs one human detail that is not just routing, packets, or locks.",
+      "best_scene": "The best scene is Chapter 4 at St. Odran's. It made the whole book physical for me. 'Bread first,' Ines says, and suddenly the Boundary is not only space and data. It is a man who may or may not eat. The moment that stayed with me is Ines giving Mara the button: 'For when someone asks what St. Odran's taught you.' It works because it is not trying to be huge. A button, bread, weather, consent, rain. That scene taught me how to read the rest of the novel.",
+      "worst_scene": "The weakest scene for me is Chapter 16, the release hearing. It has important material, especially Ruth and the families, but it feels overcrowded and delayed. I wanted the emotional wound, and I kept getting categories. The fix would be to center Ruth earlier and let one family argument stand for the whole room. Keep the ruined paper cup. Cut some of the procedural cross-reference language, or move it into the next chapter's opening so the hearing can hurt more plainly.",
+      "would_recommend": "Yes. I would recommend it to readers who like serious, sad, thoughtful science fiction about grief, public panic, and what people owe each other when the universe gets smaller. I would say: it is a novel about finding the edge of space and discovering that breakfast, buttons, children, and truth still matter.",
+      "haunts_you": "The line that stays with me is from Chapter 15: 'If all this is made in some way we do not understand, pain will still arrive without asking permission from our theories.' I also keep thinking about Chapter 23: 'Candle was unmanned.' The repetition made the empty couch feel heavier than a death scene.",
+      "next_book": "Yes, I would read the author's next book. This one made me trust the author with sadness. It is demanding and sometimes too dense, but it believes ordinary care is as serious as cosmic terror, and that is rare."
     }
   },
   "disagreements": [
     {
       "question": "momentum_loss",
-      "chapter": 23,
-      "flagged_by": [
-        "editor",
-        "genre_reader",
-        "writer"
-      ],
-      "not_flagged": [
-        "first_reader"
-      ],
-      "details": {
-        "editor": "The main drag comes in the late procedural cluster, especially Chapters 16, 20, 22, and 23, where the novel\u2019s moral intelligence is high but the actions rhyme too closely: classify, withhold raw fragm",
-        "genre_reader": "The novel mostly keeps momentum because every braided form has a consequence, but it sags in the middle around Chapters 13 and 16, and again in parts of Chapter 23. Chapter 13, \"Near Things First,\" is",
-        "writer": "The novel\u2019s first real momentum dip is Chapter 13, \"Near Things First.\" The pump repair is thematically right and beautifully grounded, but after the high pressure of Chapters 10-12, it feels like the"
-      }
-    },
-    {
-      "question": "momentum_loss",
-      "chapter": 21,
+      "chapter": 14,
       "flagged_by": [
         "writer"
       ],
@@ -79,22 +62,7 @@
         "first_reader"
       ],
       "details": {
-        "writer": "The novel\u2019s first real momentum dip is Chapter 13, \"Near Things First.\" The pump repair is thematically right and beautifully grounded, but after the high pressure of Chapters 10-12, it feels like the"
-      }
-    },
-    {
-      "question": "momentum_loss",
-      "chapter": 12,
-      "flagged_by": [
-        "first_reader"
-      ],
-      "not_flagged": [
-        "editor",
-        "genre_reader",
-        "writer"
-      ],
-      "details": {
-        "first_reader": "The story loses some momentum in Chapter 13. I understood why the pump, school, and Mars drawing mattered, but coming right after Chapter 12's first final cluster, it felt like the book stepped sidewa"
+        "writer": "The main drag comes in Chapters 16 through 18, not because the material is weak, but because the book temporarily repeats its best argument in similar rooms: evidence custody, family claim, clinical r"
       }
     },
     {
@@ -102,6 +70,100 @@
       "chapter": 16,
       "flagged_by": [
         "genre_reader",
+        "writer",
+        "first_reader"
+      ],
+      "not_flagged": [
+        "editor"
+      ],
+      "details": {
+        "genre_reader": "The book mostly moves, but it sags in the civic-policy middle, especially Chapters 13 and 16. Chapter 13 is humane and well-observed, but the pump repair feels like it restates the book's already-esta",
+        "writer": "The main drag comes in Chapters 16 through 18, not because the material is weak, but because the book temporarily repeats its best argument in similar rooms: evidence custody, family claim, clinical r",
+        "first_reader": "The story loses some momentum in Chapters 16 and 20-23, not because nothing is happening, but because so many decisions arrive as hearings, classifications, packets, and official language. I cared abo"
+      }
+    },
+    {
+      "question": "momentum_loss",
+      "chapter": 13,
+      "flagged_by": [
+        "genre_reader",
+        "writer"
+      ],
+      "not_flagged": [
+        "editor",
+        "first_reader"
+      ],
+      "details": {
+        "genre_reader": "The book mostly moves, but it sags in the civic-policy middle, especially Chapters 13 and 16. Chapter 13 is humane and well-observed, but the pump repair feels like it restates the book's already-esta",
+        "writer": "The main drag comes in Chapters 16 through 18, not because the material is weak, but because the book temporarily repeats its best argument in similar rooms: evidence custody, family claim, clinical r"
+      }
+    },
+    {
+      "question": "momentum_loss",
+      "chapter": 15,
+      "flagged_by": [
+        "writer"
+      ],
+      "not_flagged": [
+        "editor",
+        "genre_reader",
+        "first_reader"
+      ],
+      "details": {
+        "writer": "The main drag comes in Chapters 16 through 18, not because the material is weak, but because the book temporarily repeats its best argument in similar rooms: evidence custody, family claim, clinical r"
+      }
+    },
+    {
+      "question": "momentum_loss",
+      "chapter": 18,
+      "flagged_by": [
+        "writer"
+      ],
+      "not_flagged": [
+        "editor",
+        "genre_reader",
+        "first_reader"
+      ],
+      "details": {
+        "writer": "The main drag comes in Chapters 16 through 18, not because the material is weak, but because the book temporarily repeats its best argument in similar rooms: evidence custody, family claim, clinical r"
+      }
+    },
+    {
+      "question": "momentum_loss",
+      "chapter": 23,
+      "flagged_by": [
+        "editor",
+        "first_reader"
+      ],
+      "not_flagged": [
+        "genre_reader",
+        "writer"
+      ],
+      "details": {
+        "editor": "The largest drag comes in Chapters 16, 18, 20, and 23, where the book returns repeatedly to custody, classification, release packages, reviewer authority, and Mara's conflict statements. The material ",
+        "first_reader": "The story loses some momentum in Chapters 16 and 20-23, not because nothing is happening, but because so many decisions arrive as hearings, classifications, packets, and official language. I cared abo"
+      }
+    },
+    {
+      "question": "cut_candidate",
+      "chapter": 24,
+      "flagged_by": [
+        "first_reader"
+      ],
+      "not_flagged": [
+        "editor",
+        "genre_reader",
+        "writer"
+      ],
+      "details": {
+        "first_reader": "I would cut or sharply compress Chapter 13 first. I liked Ivo, Mika, the pump, and the line about not letting Mars steal the room you are in, but it is the easiest chapter to fold into another Earth f"
+      }
+    },
+    {
+      "question": "cut_candidate",
+      "chapter": 13,
+      "flagged_by": [
+        "genre_reader",
         "first_reader"
       ],
       "not_flagged": [
@@ -109,13 +171,108 @@
         "writer"
       ],
       "details": {
-        "genre_reader": "The novel mostly keeps momentum because every braided form has a consequence, but it sags in the middle around Chapters 13 and 16, and again in parts of Chapter 23. Chapter 13, \"Near Things First,\" is",
-        "first_reader": "The story loses some momentum in Chapter 13. I understood why the pump, school, and Mars drawing mattered, but coming right after Chapter 12's first final cluster, it felt like the book stepped sidewa"
+        "genre_reader": "First cut or compress Chapter 13. I like Ivo, Mika, and the line-level craft, but the chapter's function could be folded into Chapter 23 or 24 as an Earth packet Mara reviews. Its point, that continue",
+        "first_reader": "I would cut or sharply compress Chapter 13 first. I liked Ivo, Mika, the pump, and the line about not letting Mars steal the room you are in, but it is the easiest chapter to fold into another Earth f"
       }
     },
     {
       "question": "cut_candidate",
-      "chapter": 24,
+      "chapter": 16,
+      "flagged_by": [
+        "editor",
+        "genre_reader",
+        "writer"
+      ],
+      "not_flagged": [
+        "first_reader"
+      ],
+      "details": {
+        "editor": "I would cut first from Chapter 23, not remove it entirely. It is the obvious compression target: the release assembly, Pavel objection, couch-invitation leak language, Ruth's private receipt, propagat",
+        "genre_reader": "First cut or compress Chapter 13. I like Ivo, Mika, and the line-level craft, but the chapter's function could be folded into Chapter 23 or 24 as an Earth packet Mara reviews. Its point, that continue",
+        "writer": "If forced to cut roughly 7,000 words, I would cut or heavily compress Chapter 8 and part of Chapter 16. Chapter 8 gives the crisis a market body through Kavir, and the pediatric ward bond choice is sm"
+      }
+    },
+    {
+      "question": "cut_candidate",
+      "chapter": 23,
+      "flagged_by": [
+        "editor",
+        "genre_reader"
+      ],
+      "not_flagged": [
+        "writer",
+        "first_reader"
+      ],
+      "details": {
+        "editor": "I would cut first from Chapter 23, not remove it entirely. It is the obvious compression target: the release assembly, Pavel objection, couch-invitation leak language, Ruth's private receipt, propagat",
+        "genre_reader": "First cut or compress Chapter 13. I like Ivo, Mika, and the line-level craft, but the chapter's function could be folded into Chapter 23 or 24 as an Earth packet Mara reviews. Its point, that continue"
+      }
+    },
+    {
+      "question": "cut_candidate",
+      "chapter": 8,
+      "flagged_by": [
+        "genre_reader",
+        "writer"
+      ],
+      "not_flagged": [
+        "editor",
+        "first_reader"
+      ],
+      "details": {
+        "genre_reader": "First cut or compress Chapter 13. I like Ivo, Mika, and the line-level craft, but the chapter's function could be folded into Chapter 23 or 24 as an Earth packet Mara reviews. Its point, that continue",
+        "writer": "If forced to cut roughly 7,000 words, I would cut or heavily compress Chapter 8 and part of Chapter 16. Chapter 8 gives the crisis a market body through Kavir, and the pediatric ward bond choice is sm"
+      }
+    },
+    {
+      "question": "thinnest_character",
+      "chapter": 8,
+      "flagged_by": [
+        "genre_reader",
+        "writer"
+      ],
+      "not_flagged": [
+        "editor",
+        "first_reader"
+      ],
+      "details": {
+        "genre_reader": "Malik is the thinnest recurring Witness crew member. He routes, locks, flags, builds shells, and performs useful operational functions, but I do not have a strong sense of his private pressure or mora",
+        "writer": "Malik is the thinnest recurring crew member. He is useful, competent, and present at key routing/classification moments, but by the end I know his hands better than his mind. Yuna and Anika are also f"
+      }
+    },
+    {
+      "question": "worst_scene",
+      "chapter": 16,
+      "flagged_by": [
+        "first_reader"
+      ],
+      "not_flagged": [
+        "editor",
+        "genre_reader",
+        "writer"
+      ],
+      "details": {
+        "first_reader": "The weakest scene for me is Chapter 16, the release hearing. It has important material, especially Ruth and the families, but it feels overcrowded and delayed. I wanted the emotional wound, and I kept"
+      }
+    },
+    {
+      "question": "worst_scene",
+      "chapter": 13,
+      "flagged_by": [
+        "genre_reader"
+      ],
+      "not_flagged": [
+        "editor",
+        "writer",
+        "first_reader"
+      ],
+      "details": {
+        "genre_reader": "The weakest scene is Chapter 13, not because it is bad, but because it feels least necessary at full length. The pump repair is concrete, but the chapter arrives after St. Odran's, Mumbai, Solenne Kad"
+      }
+    },
+    {
+      "question": "worst_scene",
+      "chapter": 23,
       "flagged_by": [
         "editor"
       ],
@@ -125,77 +282,12 @@
         "first_reader"
       ],
       "details": {
-        "editor": "I would cut or radically compress Chapter 13 first, then trim repeated release-protocol debate from Chapters 20 and 23 to reach the full 10%. Chapter 13 has lovely material: the scraped red crater und"
-      }
-    },
-    {
-      "question": "cut_candidate",
-      "chapter": 23,
-      "flagged_by": [
-        "genre_reader",
-        "writer"
-      ],
-      "not_flagged": [
-        "editor",
-        "first_reader"
-      ],
-      "details": {
-        "genre_reader": "If the book had to lose about 7,000 words, I would not cut one whole Asterion record; those are the engine. I would trim Chapter 13 heavily and compress parts of Chapter 23. Chapter 13's pump repair s",
-        "writer": "I would cut or heavily compress Chapter 21 first. It is not bad; Mateo is humane and his line, \"Do not let any adult make a planet so beautiful that it steals the room you are in,\" is one of the book\u2019"
-      }
-    },
-    {
-      "question": "cut_candidate",
-      "chapter": 21,
-      "flagged_by": [
-        "writer"
-      ],
-      "not_flagged": [
-        "editor",
-        "genre_reader",
-        "first_reader"
-      ],
-      "details": {
-        "writer": "I would cut or heavily compress Chapter 21 first. It is not bad; Mateo is humane and his line, \"Do not let any adult make a planet so beautiful that it steals the room you are in,\" is one of the book\u2019"
-      }
-    },
-    {
-      "question": "cut_candidate",
-      "chapter": 13,
-      "flagged_by": [
-        "editor",
-        "genre_reader",
-        "first_reader"
-      ],
-      "not_flagged": [
-        "writer"
-      ],
-      "details": {
-        "editor": "I would cut or radically compress Chapter 13 first, then trim repeated release-protocol debate from Chapters 20 and 23 to reach the full 10%. Chapter 13 has lovely material: the scraped red crater und",
-        "genre_reader": "If the book had to lose about 7,000 words, I would not cut one whole Asterion record; those are the engine. I would trim Chapter 13 heavily and compress parts of Chapter 23. Chapter 13's pump repair s",
-        "first_reader": "I would cut or sharply compress Chapter 13 first, then trim related public-guidance material around it if the book needed to lose about 7,000 words. I would not remove the idea of it, because the scra"
+        "editor": "The weakest scene is the Chapter 23 release assembly, especially the long procedural middle. Nothing is conceptually wrong with it, but the scene often restates already-earned positions: no martyr, co"
       }
     },
     {
       "question": "worst_scene",
-      "chapter": 13,
-      "flagged_by": [
-        "editor",
-        "genre_reader",
-        "first_reader"
-      ],
-      "not_flagged": [
-        "writer"
-      ],
-      "details": {
-        "editor": "The weakest scene is Chapter 13, not because it is bad, but because it feels most like an essay made scene. Ivo, Mika, the pump, the scraped Mars, the failed repair, and the policy uptake are all them",
-        "genre_reader": "The weakest scene is Chapter 13, not because it is bad, but because it risks being too cleanly exemplary. The failed pump repair, child scraping Mars back into the wall, and line \"Do not let any adult",
-        "first_reader": "The weakest scene is Chapter 13. It is not bad, but it feels the most like the book pausing to prove a point I already believed: near things matter, repair matters, Mars longing should not be punished"
-      }
-    },
-    {
-      "question": "worst_scene",
-      "chapter": 21,
+      "chapter": 8,
       "flagged_by": [
         "writer"
       ],
@@ -205,9 +297,9 @@
         "first_reader"
       ],
       "details": {
-        "writer": "The weakest scene is Chapter 21, not because the prose or idea is weak, but because the machinery is visible. Mateo\u2019s lesson arrives late and states the book\u2019s ethic too directly. \"Your breakfast will"
+        "writer": "The weakest scene is Chapter 8, the Mumbai futures pit. It is not bad; it is just the place where the novel most visibly explains its world-system consequences. Kavir is plausible, but he feels built "
       }
     }
   ],
-  "timestamp": "2026-04-27T13:04:31.369435"
+  "timestamp": "2026-04-27T14:12:17.267620"
 }
